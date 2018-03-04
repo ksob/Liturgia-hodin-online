@@ -234,3 +234,7 @@
 #define		UNDERSCORE	'_'
 
 #endif // __MYSYSDEF_H_
+
+//#define DEBUG
+#define LOG_TO_FILE
+#define LOGGING

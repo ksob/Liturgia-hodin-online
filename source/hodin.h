@@ -53,43 +53,43 @@ STR_MODL_VESPERY, STR_MODL_KOMPLETORIUM, STR_MODL_DETAILY, STR_MODL_VSETKY };
 // the names of the prayers, lowercase (sample text)
 const char *nazov_modlitby_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "invitatórium", "uvedení do první modlitby dne", "Invitatory", "invitatorium", "", "Pozvání k modlitbě", "imádságra hívás", "ru_text", "заклік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "posvätné čítanie", "modlitba se čtením", "Office of Readings", "officium lectionis", "", "Modlitba se čtením", "olvasmányos imaóra", "ru_text", "гадзіна чытанняў", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "ranné chvály", "ranní chvály", "Laudes", "laudes matutinæ", "", "Ranní chvály", "reggeli dicséret", "ru_text", "ютрань", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "modlitba predpoludním", "modlitba dopoledne", "Terce", "tertia", "", "Tercie", "délelőtt", "ru_text", "малітва перад поўднем", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "modlitba napoludnie", "modlitba v poledne", "Sext", "sexta", "", "Sexta", "délben", "ru_text", "малітва апоўдні", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "modlitba popoludní", "modlitba odpoledne", "None", "nona", "", "Nona", "délután", "ru_text", "малітва пасля поўдня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "vešpery", "nešpory", "Vesperae", "vesperæ", "", "Večerní chvály", "esti dicséret", "вечерня", "нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "kompletórium", "kompletář", "Completary", "completorium", "", "Kompletář", "befejező imaóra", "ru_text", "камплета", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neurčená", "neurčena", "not-defined", "no data", "", "neurčena", "nem azonosított", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "prvé vešpery", "první nešpory", "1st Vesperae", "I vesperæ", "", "První večerní chvály", "I. esti dicséret", "ru_text", "I нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "kompletórium po prvých vešperách", "kompletář po prvních nešporách", "1st Completary", "I completorium", "", "Kompletář po prvních večerních chválách", "befejező imaóra I. e. d. után", "ru_text", "камплета пасля I нешпараў", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "prvé kompletórium"
-	, { "druhé vešpery", "druhé nešpory", "2nd Vesperae", "II vesperæ", "", "Druhé večerní chvály", "II. esti dicséret", "ru_text", "II нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "kompletórium po druhých vešperách", "kompletář po druhých nešporách", "2nd Completary", "II completorium", "", "Kompletář po druhých večerních chválách", "befejező imaóra II. e. d. után", "ru_text", "камплета пасля II нешпараў", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "druhé kompletórium"
-	, { "detaily", "detaily", "Details", "details", "", "detaily", "részletek", "ru_text", "дэталі", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 { "invitatórium", "uvedení do první modlitby dne", "Invitatory", "invitatorium", "", "Pozvání k modlitbě", "imádságra hívás", "ru_text", "заклік", "Wezwanie" /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "posvätné čítanie", "modlitba se čtením", "Office of Readings", "officium lectionis", "", "Modlitba se čtením", "olvasmányos imaóra", "ru_text", "гадзіна чытанняў", "Godzina Czytań", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "ranné chvály", "ranní chvály", "Laudes", "laudes matutinæ", "", "Ranní chvály", "reggeli dicséret", "ru_text", "ютрань", "Jutrznia", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "modlitba predpoludním", "modlitba dopoledne", "Terce", "tertia", "", "Tercie", "délelőtt", "ru_text", "малітва перад поўднем", "Modlitwa przedpołudniowa", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "modlitba napoludnie", "modlitba v poledne", "Sext", "sexta", "", "Sexta", "délben", "ru_text", "малітва апоўдні", "Modlitwa południowa", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "modlitba popoludní", "modlitba odpoledne", "None", "nona", "", "Nona", "délután", "ru_text", "малітва пасля поўдня", "Modlitwa popołudniowa", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "vešpery", "nešpory", "Vesperae", "vesperæ", "", "Večerní chvály", "esti dicséret", "вечерня", "нешпары", "Nieszpory", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "kompletórium", "kompletář", "Completary", "completorium", "", "Kompletář", "befejező imaóra", "ru_text", "камплета", "Kompleta", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "neurčená", "neurčena", "not-defined", "no data", "", "neurčena", "nem azonosított", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "prvé vešpery", "první nešpory", "1st Vesperae", "I vesperæ", "", "První večerní chvály", "I. esti dicséret", "ru_text", "I нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "kompletórium po prvých vešperách", "kompletář po prvních nešporách", "1st Completary", "I completorium", "", "Kompletář po prvních večerních chválách", "befejező imaóra I. e. d. után", "ru_text", "камплета пасля I нешпараў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "prvé kompletórium"
+	 , { "druhé vešpery", "druhé nešpory", "2nd Vesperae", "II vesperæ", "", "Druhé večerní chvály", "II. esti dicséret", "ru_text", "II нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "kompletórium po druhých vešperách", "kompletář po druhých nešporách", "2nd Completary", "II completorium", "", "Kompletář po druhých večerních chválách", "befejező imaóra II. e. d. után", "ru_text", "камплета пасля II нешпараў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "druhé kompletórium"
+	 , { "detaily", "detaily", "Details", "details", "", "detaily", "részletek", "ru_text", "дэталі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
-#define		nazov_modlitby(a)	nazov_modlitby_jazyk[a][_global_jazyk]
+#define   nazov_modlitby(a) nazov_modlitby_jazyk[a][_global_jazyk]
 
 // the names of the prayers, lowercase (sample text)
 const char *nazov_modlitby_short_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "invitatórium", "uvedení do 1. modl. dne", "Invitatory", "invitatorium", "", "Pozvání k modl.", "imádságra hívás", "предначинание", "заклік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "posvätné čítanie", "modl. se čtením", "Office of Readings", "officium lectionis", "", "modl. se čtením", "olvasmányos imaóra", "час чтений", "гадзіна чытанняў", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "ranné chvály", "ranní chvály", "Laudes", "laudes matutinæ", "", "Ranní chvály", "reggeli dicséret", "утреня", "ютрань", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "modl. predpoludním", "modl. dopoledne", "Terce", "tertia", "", "Tercie", "délelőtt", "ru_text", "м. перад поўднем", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "modl. napoludnie", "modl. v poledne", "Sext", "sexta", "", "Sexta", "délben", "ru_text", "м. апоўдні", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "modl. popoludní", "modl. odpoledne", "None", "nona", "", "Nona", "délután", "ru_text", "м. пасля поўдня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "vešpery", "nešpory", "Vesperae", "vesperæ", "", "Večerní chvály", "esti dicséret", "вечерня", "нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "kompletórium", "kompletář", "Compline", "completorium", "", "Kompletář", "befejező imaóra", "повечерие", "камплета", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neurčená", "neurčena", "not-defined", "no data", "", "neurčena", "nem azonosított", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "prvé vešpery", "první nešpory", "1st Vesperae", "I vesperæ", "", "První večerní chvály", "I. esti dicséret", "ru_text", "I нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "kompletórium po 1. vešp.", "kompletář po 1. nešp.", "1st Completary", "I completorium", "", "Kompletář po 1. v. chv.", "befejező imaóra I. e. d. ut.", "ru_text", "кампл. пасля І нешп.", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "prvé kompletórium"
-	, { "(druhé) vešpery", "druhé nešpory", "2nd Vesperae", "II vesperæ", "", "Druhé večerní chvály", "II. esti dicséret", "ru_text", "II нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "kompletórium (po 2. vešp.)", "kompletář po 2. nešp.", "2nd Completary", "II completorium", "", "Kompletář po 2. v. chv.", "befejező imaóra II. e. d. ut.", "ru_text", "кампл. пасля IІ нешп.", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "druhé kompletórium"
-	, { "detaily", "detaily", "Details", "details", "", "detaily", "részletek", "ru_text", "дэталі", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 { "invitatórium", "uvedení do 1. modl. dne", "Invitatory", "invitatorium", "", "Pozvání k modl.", "imádságra hívás", "предначинание", "заклік", "Wezwanie", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "posvätné čítanie", "modl. se čtením", "Office of Readings", "officium lectionis", "", "modl. se čtením", "olvasmányos imaóra", "час чтений", "гадзіна чытанняў", "Godzina Czytań", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "ranné chvály", "ranní chvály", "Laudes", "laudes matutinæ", "", "Ranní chvály", "reggeli dicséret", "утреня", "ютрань", "Jutrznia", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "modl. predpoludním", "modl. dopoledne", "Terce", "tertia", "", "Tercie", "délelőtt", "ru_text", "м. перад поўднем", "Modlitwa przedp.", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "modl. napoludnie", "modl. v poledne", "Sext", "sexta", "", "Sexta", "délben", "ru_text", "м. апоўдні", "Modlitwa połud.", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "modl. popoludní", "modl. odpoledne", "None", "nona", "", "Nona", "délután", "ru_text", "м. пасля поўдня", "Modlitwa popołud.", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "vešpery", "nešpory", "Vesperae", "vesperæ", "", "Večerní chvály", "esti dicséret", "вечерня", "нешпары", "Nieszpory", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "kompletórium", "kompletář", "Compline", "completorium", "", "Kompletář", "befejező imaóra", "повечерие", "камплета", "Kompleta", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "neurčená", "neurčena", "not-defined", "no data", "", "neurčena", "nem azonosított", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "prvé vešpery", "první nešpory", "1st Vesperae", "I vesperæ", "", "První večerní chvály", "I. esti dicséret", "ru_text", "I нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "kompletórium po 1. vešp.", "kompletář po 1. nešp.", "1st Completary", "I completorium", "", "Kompletář po 1. v. chv.", "befejező imaóra I. e. d. ut.", "ru_text", "кампл. пасля І нешп.", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "prvé kompletórium"
+	 , { "(druhé) vešpery", "druhé nešpory", "2nd Vesperae", "II vesperæ", "", "Druhé večerní chvály", "II. esti dicséret", "ru_text", "II нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "kompletórium (po 2. vešp.)", "kompletář po 2. nešp.", "2nd Completary", "II completorium", "", "Kompletář po 2. v. chv.", "befejező imaóra II. e. d. ut.", "ru_text", "кампл. пасля IІ нешп.", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ } // 2007-12-05: zmenené, kedysi bolo: "druhé kompletórium"
+	 , { "detaily", "detaily", "Details", "details", "", "detaily", "részletek", "ru_text", "дэталі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	 , { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_modlitby_short(a)	nazov_modlitby_short_jazyk[a][_global_jazyk]
@@ -97,21 +97,21 @@ const char *nazov_modlitby_short_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] =
 // the names of the prayers, sentence case (Sample text)
 const char *nazov_Modlitby_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "Invitatórium", "Uvedení do první modlitby dne", "Invitatory", "Invitatorium", "", "Pozvání k modlitbě", "Imádságra hívás", "Предначинание", "Заклік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Posvätné čítanie", "Modlitba se čtením", "Office of Readings", "Officium lectionis", "", "Modlitba se čtením", "Olvasmányos imaóra", "Час чтений", "Гадзіна чытанняў", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Ranné chvály", "Ranní chvály", "Laudes", "Laudes matutinæ", "", "Ranní chvály", "Reggeli dicséret", "Утреня", "Ютрань", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Modlitba predpoludním", "Modlitba dopoledne", "Terce", "Tertia", "", "Tercie", "Délelőtt", "ru_text", "Малітва перад поўднем", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Modlitba napoludnie", "Modlitba v poledne", "Sext", "Sexta", "", "Sexta", "Délben", "ru_text", "Малітва апоўдні", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Modlitba popoludní", "Modlitba odpoledne", "None", "Nona", "", "Nona", "Délután", "ru_text", "Малітва пасля поўдня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Vešpery", "Nešpory", "Vesperae", "Vesperæ", "", "Večerní chvály", "Esti dicséret", "Вечерня", "Нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Kompletórium", "Kompletář", "Completary", "Completorium", "", "Kompletář", "Befejező imaóra", "Повечерие", "Камплета", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Neurčená", "Neurčena", "not-defined", "No data", "", "Neurčená", "Nem azonosított", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Prvé vešpery", "První nešpory", "1st Vesperae", "I Vesperæ", "", "První večerní chvály", "I. Esti dicséret", "ru_text", "I Нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Kompletórium po prvých vešperách", "Kompletář po prvních nešporách", "1st Completary", "I Completorium", "", "Kompletář po prvních večerních chválách", "Befejező imaóra I. e. d. után", "ru_text", "Камплета пасля І Нешпараў", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Druhé vešpery", "Druhé nešpory", "2nd Vesperae", "II Vesperæ", "", "Druhé večerní chvály", "II. Esti dicséret", "ru_text", "II Нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Kompletórium po druhých vešperách", "Kompletář po druhých nešporách", "2nd Completary", "II Completorium", "", "Kompletář po druhých večerních chválách", "Befejező imaóra II. e. d. után", "ru_text", "Камплета пасля IІ Нешпараў", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Detaily", "Detaily", "Details", "Details", "", "Detaily", "Részletek", "ru_text", "Дэталі", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "Invitatórium", "Uvedení do první modlitby dne", "Invitatory", "Invitatorium", "", "Pozvání k modlitbě", "Imádságra hívás", "Предначинание", "Заклік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Posvätné čítanie", "Modlitba se čtením", "Office of Readings", "Officium lectionis", "", "Modlitba se čtením", "Olvasmányos imaóra", "Час чтений", "Гадзіна чытанняў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Ranné chvály", "Ranní chvály", "Laudes", "Laudes matutinæ", "", "Ranní chvály", "Reggeli dicséret", "Утреня", "Ютрань", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Modlitba predpoludním", "Modlitba dopoledne", "Terce", "Tertia", "", "Tercie", "Délelőtt", "ru_text", "Малітва перад поўднем", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Modlitba napoludnie", "Modlitba v poledne", "Sext", "Sexta", "", "Sexta", "Délben", "ru_text", "Малітва апоўдні", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Modlitba popoludní", "Modlitba odpoledne", "None", "Nona", "", "Nona", "Délután", "ru_text", "Малітва пасля поўдня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Vešpery", "Nešpory", "Vesperae", "Vesperæ", "", "Večerní chvály", "Esti dicséret", "Вечерня", "Нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Kompletórium", "Kompletář", "Completary", "Completorium", "", "Kompletář", "Befejező imaóra", "Повечерие", "Камплета", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Neurčená", "Neurčena", "not-defined", "No data", "", "Neurčená", "Nem azonosított", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Prvé vešpery", "První nešpory", "1st Vesperae", "I Vesperæ", "", "První večerní chvály", "I. Esti dicséret", "ru_text", "I Нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Kompletórium po prvých vešperách", "Kompletář po prvních nešporách", "1st Completary", "I Completorium", "", "Kompletář po prvních večerních chválách", "Befejező imaóra I. e. d. után", "ru_text", "Камплета пасля І Нешпараў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Druhé vešpery", "Druhé nešpory", "2nd Vesperae", "II Vesperæ", "", "Druhé večerní chvály", "II. Esti dicséret", "ru_text", "II Нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Kompletórium po druhých vešperách", "Kompletář po druhých nešporách", "2nd Completary", "II Completorium", "", "Kompletář po druhých večerních chválách", "Befejező imaóra II. e. d. után", "ru_text", "Камплета пасля IІ Нешпараў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Detaily", "Detaily", "Details", "Details", "", "Detaily", "Részletek", "ru_text", "Дэталі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_Modlitby(a)	nazov_Modlitby_jazyk[a][_global_jazyk]
@@ -119,21 +119,21 @@ const char *nazov_Modlitby_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] =
 // the names of the prayers, all caps case (SAMPLE TEXT)
 const char *nazov_MODLITBY_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "INVITATÓRIUM", "UVEDENÍ DO PRVNÍ MODLITBY DNE", "INVITATORY", "INVITATORIUM", "", "POZVÁNÍ K MODLITBĚ", "IMÁDSÁGRA HÍVÁS", "ПРЕДНАЧИНАНИЕ", "ЗАКЛІК", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "POSVÄTNÉ ČÍTANIE", "MODLITBA SE ČTENÍM", "OFFICE OF READINGS", "OFFICIUM LECTIONIS", "", "MODLITBA SE ČTENÍM", "OLVASMÁNYOS IMAÓRA", "ЧАС ЧТЕНИЙ", "ГАДЗІНА ЧЫТАННЯЎ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "RANNÉ CHVÁLY", "RANNÍ CHVÁLY", "LAUDES", "LAUDES MATUTIN&#198;", "", "RANNÍ CHVÁLY", "REGGELI DICSÉRET", "УТРЕНЯ", "ЮТРАНЬ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "MODLITBA PREDPOLUDNÍM", "MODLITBA DOPOLEDNE", "TERCE", "TERTIA", "", "TERCIE", "DÉLELŐTT", "ru_text", "МАЛІТВА ПЕРАД ПОЎДНЕМ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "MODLITBA NAPOLUDNIE", "MODLITBA V POLEDNE", "SEXT", "SEXTA", "", "SEXTA", "DÉLBEN", "ru_text", "МАЛІТВА АПОЎДНІ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "MODLITBA POPOLUDNÍ", "MODLITBA ODPOLEDNE", "NONE", "NONA", "", "NONA", "DÉLUTÁN", "ru_text", "МАЛІТВА ПАСЛЯ ПОЎДНЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "VEŠPERY", "NEŠPORY", "VESPERAE", "VESPER&#198;", "", "VEČERNÍ CHVÁLY", "ESTI DICSÉRET", "ВЕЧЕРНЯ", "НЕШПАРЫ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "KOMPLETÓRIUM", "KOMPLETÁŘ", "COMPLETARY", "COMPLETORIUM", "", "KOMPLETÁŘ", "BEFEJEZŐ IMAÓRA", "ПОВЕЧЕРИЕ", "КАМПЛЕТА", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "NEURČENÁ", "NEURČENA", "NOT-DEFINED", "NO DATA", "", "NEURČENÁ", "NEM AZONOSÍTOTT", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "PRVÉ VEŠPERY", "PRVNÍ NEŠPORY", "1ST VESPERAE", "I VESPER&#198;", "", "PRVNÍ VEČERNÍ CHVÁLY", "I. ESTI DICSÉRET", "ru_text", "I НЕШПАРЫ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "KOMPLETÓRIUM PO PRVÝCH VEŠPERÁCH", "KOMPLETÁŘ PO PRVNÍCH NEŠPORÁCH", "1ST COMPLETARY", "I COMPLETORIUM", "", "KOMPLETÁŘ PO PRVNÍCH VEČERNÍCH CHVÁLÁCH", "BEFEJEZŐ IMAÓRA I. E. D. UTÁN", "ru_text", "КАМПЛЕТА ПАСЛЯ І НЕШПАРАЎ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "DRUHÉ VEŠPERY", "DRUHÉ NEŠPORY", "2ND VESPERAE", "II VESPER&#198;", "", "DRUHÉ VEČERNÍ CHVÁLY", "II. ESTI DICSÉRET", "ru_text", "II НЕШПАРЫ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "KOMPLETÓRIUM PO DRUHÝCH VEŠPERÁCH", "KOMPLETÁŘ PO DRUHÝCH NEŠPORÁCH", "2ND COMPLETARY", "II COMPLETORIUM", "", "KOMPLETÁŘ PO DRUHÝCH VEČERNÍCH CHVÁLÁCH", "BEFEJEZŐ IMAÓRA II. E. D. UTÁN", "ru_text", "КАМПЛЕТА ПАСЛЯ IІ НЕШПАРАЎ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "DETAILY", "DETAILY", "DETAILS", "DETAILS", "", "DETAILY", "RÉSZLETEK", "ru_text", "ДЭТАЛІ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "VŠETKY", "VŠECHNY", "ALL", "OMNIA", "", "VŠECHNY", "ÖSSZES", "ru_text", "УСЕ", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "INVITATÓRIUM", "UVEDENÍ DO PRVNÍ MODLITBY DNE", "INVITATORY", "INVITATORIUM", "", "POZVÁNÍ K MODLITBĚ", "IMÁDSÁGRA HÍVÁS", "ПРЕДНАЧИНАНИЕ", "ЗАКЛІК", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "POSVÄTNÉ ČÍTANIE", "MODLITBA SE ČTENÍM", "OFFICE OF READINGS", "OFFICIUM LECTIONIS", "", "MODLITBA SE ČTENÍM", "OLVASMÁNYOS IMAÓRA", "ЧАС ЧТЕНИЙ", "ГАДЗІНА ЧЫТАННЯЎ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "RANNÉ CHVÁLY", "RANNÍ CHVÁLY", "LAUDES", "LAUDES MATUTIN&#198;", "", "RANNÍ CHVÁLY", "REGGELI DICSÉRET", "УТРЕНЯ", "ЮТРАНЬ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "MODLITBA PREDPOLUDNÍM", "MODLITBA DOPOLEDNE", "TERCE", "TERTIA", "", "TERCIE", "DÉLELŐTT", "ru_text", "МАЛІТВА ПЕРАД ПОЎДНЕМ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "MODLITBA NAPOLUDNIE", "MODLITBA V POLEDNE", "SEXT", "SEXTA", "", "SEXTA", "DÉLBEN", "ru_text", "МАЛІТВА АПОЎДНІ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "MODLITBA POPOLUDNÍ", "MODLITBA ODPOLEDNE", "NONE", "NONA", "", "NONA", "DÉLUTÁN", "ru_text", "МАЛІТВА ПАСЛЯ ПОЎДНЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "VEŠPERY", "NEŠPORY", "VESPERAE", "VESPER&#198;", "", "VEČERNÍ CHVÁLY", "ESTI DICSÉRET", "ВЕЧЕРНЯ", "НЕШПАРЫ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "KOMPLETÓRIUM", "KOMPLETÁŘ", "COMPLETARY", "COMPLETORIUM", "", "KOMPLETÁŘ", "BEFEJEZŐ IMAÓRA", "ПОВЕЧЕРИЕ", "КАМПЛЕТА", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "NEURČENÁ", "NEURČENA", "NOT-DEFINED", "NO DATA", "", "NEURČENÁ", "NEM AZONOSÍTOTT", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "PRVÉ VEŠPERY", "PRVNÍ NEŠPORY", "1ST VESPERAE", "I VESPER&#198;", "", "PRVNÍ VEČERNÍ CHVÁLY", "I. ESTI DICSÉRET", "ru_text", "I НЕШПАРЫ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "KOMPLETÓRIUM PO PRVÝCH VEŠPERÁCH", "KOMPLETÁŘ PO PRVNÍCH NEŠPORÁCH", "1ST COMPLETARY", "I COMPLETORIUM", "", "KOMPLETÁŘ PO PRVNÍCH VEČERNÍCH CHVÁLÁCH", "BEFEJEZŐ IMAÓRA I. E. D. UTÁN", "ru_text", "КАМПЛЕТА ПАСЛЯ І НЕШПАРАЎ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "DRUHÉ VEŠPERY", "DRUHÉ NEŠPORY", "2ND VESPERAE", "II VESPER&#198;", "", "DRUHÉ VEČERNÍ CHVÁLY", "II. ESTI DICSÉRET", "ru_text", "II НЕШПАРЫ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "KOMPLETÓRIUM PO DRUHÝCH VEŠPERÁCH", "KOMPLETÁŘ PO DRUHÝCH NEŠPORÁCH", "2ND COMPLETARY", "II COMPLETORIUM", "", "KOMPLETÁŘ PO DRUHÝCH VEČERNÍCH CHVÁLÁCH", "BEFEJEZŐ IMAÓRA II. E. D. UTÁN", "ru_text", "КАМПЛЕТА ПАСЛЯ IІ НЕШПАРАЎ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "DETAILY", "DETAILY", "DETAILS", "DETAILS", "", "DETAILY", "RÉSZLETEK", "ru_text", "ДЭТАЛІ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "VŠETKY", "VŠECHNY", "ALL", "OMNIA", "", "VŠECHNY", "ÖSSZES", "ru_text", "УСЕ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_MODLITBY(a)	nazov_MODLITBY_jazyk[a][_global_jazyk]
@@ -141,76 +141,76 @@ const char *nazov_MODLITBY_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] =
 // strings of buttons - abbreviations of prayer names // shortened because of usage on mobile devices (Android)
 const char *html_button_nazov_modlitby_jazyk[POCET_MODLITIEB + 1][POCET_JAZYKOV + 1] =
 {
-	{ "Inv.", "Inv.", "Inv.", "Inv.", "", "Inv.", "Imád.", "Пред.", "Заклік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Posv. čít.", "Čtení", "Reading", "Off. lect.", "", "Čtení", "Olvasm. i.", "Ч. чт.", "Гадз. чыт.", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Ranné chv.", "Ranní chv.", "Morning pr.", "Laudes", "", "Ranní chv.", "Reggeli dics.", "Утреня", "Ютрань", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "9h", "9h", "9h", "Tertia", "", "Tercie", "Délelőtt", "ru_text", "9 г.", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "12h", "12h", "12h", "Sexta", "", "Sexta", "Délben", "ru_text", "12 г.", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "15h", "15h", "15h", "Nona", "", "Nona", "Délután", "ru_text", "15 г.", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Vešpery", "Nešpory", "Vesperae", "Vesperæ", "", "Večerní chv.", "Esti dics.", "Вечерня", "Нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Kompl.", "Kompl.", "Compl.", "Compl.", "", "Kompl.", "Befejező i.", "Повеч.", "Кампл.", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neurčená", "neurčena", "not-defined", "no data", "", "neurčena", "nem azonosított", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ } // táto sa pre HTML buttony nepoužíva
-	, { "Prvé vešp.", "První nešp.", "1st Vesperae", "I vesperæ", "", "První v. chv.", "I. esti dics.", "ru_text", "I Нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Prvé kompl.", "První kompl.", "Compl.", "Compl.", "", "První kompl.", "Bef. i. I. e. d. után", "ru_text", "Кампл. пас. І Нешп.", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Druhé vešp.", "Druhé nešpory", "2nd Vesperae", "II vesperæ", "", "Druhé večerní chv.", "II. esti dics.", "ru_text", "II Нешпары", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Druhé kompl.", "Druhý kompl.", "2nd Completary", "II completorium", "", "Druhý kompl.", "Bef. i. II. e. d. után", "ru_text", "Кампл. пас. IІ Нешп.", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	// JUV: temporarily disabled due to lack of colspan functionality in display: table etc. elements | , { "výber spoločnej časti...", "výběr společné části...", "common texts...", "optiónes...", "", "výběr společné části...", "közös rész kiválasztása...", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "výber...", "výběr...", "common texts...", "optiónes...", "", "výběr...", "közös...", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "Inv.", "Inv.", "Inv.", "Inv.", "", "Inv.", "Imád.", "Пред.", "Заклік", "Wezwanie", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Posv. čít.", "Čtení", "Reading", "Off. lect.", "", "Čtení", "Olvasm. i.", "Ч. чт.", "Гадз. чыт.", "Godz. Czyt.", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Ranné chv.", "Ranní chv.", "Morning pr.", "Laudes", "", "Ranní chv.", "Reggeli dics.", "Утреня", "Ютрань", "Jutrznia", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "9h", "9h", "9h", "Tertia", "", "Tercie", "Délelőtt", "ru_text", "9 г.", "Przedp.", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "12h", "12h", "12h", "Sexta", "", "Sexta", "Délben", "ru_text", "12 г.", "Połud.", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "15h", "15h", "15h", "Nona", "", "Nona", "Délután", "ru_text", "15 г.", "Popołud.", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Vešpery", "Nešpory", "Vesperae", "Vesperæ", "", "Večerní chv.", "Esti dics.", "Вечерня", "Нешпары", "Nieszpory", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Kompl.", "Kompl.", "Compl.", "Compl.", "", "Kompl.", "Befejező i.", "Повеч.", "Кампл.", "Kompleta", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "neurčená", "neurčena", "not-defined", "no data", "", "neurčena", "nem azonosított", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ } // táto sa pre HTML buttony nepoužíva
+	, { "Prvé vešp.", "První nešp.", "1st Vesperae", "I vesperæ", "", "První v. chv.", "I. esti dics.", "ru_text", "I Нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Prvé kompl.", "První kompl.", "Compl.", "Compl.", "", "První kompl.", "Bef. i. I. e. d. után", "ru_text", "Кампл. пас. І Нешп.", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Druhé vešp.", "Druhé nešpory", "2nd Vesperae", "II vesperæ", "", "Druhé večerní chv.", "II. esti dics.", "ru_text", "II Нешпары", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Druhé kompl.", "Druhý kompl.", "2nd Completary", "II completorium", "", "Druhý kompl.", "Bef. i. II. e. d. után", "ru_text", "Кампл. пас. IІ Нешп.", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	// JUV: temporarily disabled due to lack of colspan functionality in display: table etc. elements | , { "výber spoločnej časti...", "výběr společné části...", "common texts...", "optiónes...", "", "výběr společné části...", "közös rész kiválasztása...", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "výber...", "výběr...", "common texts...", "optiónes...", "", "výběr...", "közös...", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "všetky", "všechny", "all", "omnia", "", "všechny", "összes", "ru_text", "усе", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		html_button_nazov_modlitby(a)	html_button_nazov_modlitby_jazyk[a][_global_jazyk]
 
 // the prefix for common parts of celebration
 const char *nazov_spolc_zospolc_jazyk[POCET_JAZYKOV + 1] =
-{ "Zo spoločnej časti", "Společné texty", "Common texts", "Communia", "", "Společné texty", "közös zsolozsmája", "ru_text", "Агульныя тэксты", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Zo spoločnej časti", "Společné texty", "Common texts", "Communia", "", "Společné texty", "közös zsolozsmája", "ru_text", "Агульныя тэксты", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const char *nazov_spolc_oficiumza_jazyk[POCET_JAZYKOV + 1] =
-{ "Ofícium za", "Společné texty", "Common texts", "Communia", "", "Společné texty", "közös zsolozsmája", "ru_text", "Агульныя тэксты", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Ofícium za", "Společné texty", "Common texts", "Communia", "", "Společné texty", "közös zsolozsmája", "ru_text", "Агульныя тэксты", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // the --CELEBRATION-- for common parts of celebration
 const char *nazov_spolc_sviatky_jazyk[POCET_JAZYKOV + 1] =
-{ "na sviatky", "na svátky", "", "", "", "na svátky", "", "ru_text", "пра", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "na sviatky", "na svátky", "", "", "", "na svátky", "", "ru_text", "пра", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // the --ANNIVERSARY-- for common parts of celebration
 const char *nazov_spolc_vyrocie_jazyk[POCET_JAZYKOV + 1] =
-{ "na výročie", "na výročí", "", "", "", "na výročí", "", "ru_text", "на", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "na výročie", "na výročí", "", "", "", "na výročí", "", "ru_text", "на", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // the --OR-- (alternative) for common parts of celebration
 const char *nazov_spolc_alebo_jazyk[POCET_JAZYKOV + 1] =
-{ "alebo", "nebo", "or", "", "", "nebo", "vagy", "или", "або", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "alebo", "nebo", "or", "", "", "nebo", "vagy", "или", "або", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // the names of the common texts (e.g.: for bishops, for saint men, for apostles...)
 const char *nazov_spolc_jazyk[POCET_SPOL_CASTI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "neurčená", "neurčena", "not decided", "", "", "", "", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "duchovných pastierov: pre kňazov", "o duchovních pastýřích (o kněžích)", "", "", "", "O duchovních pastýřích – o kněžích", "lelkipásztorok – papok", "ru_text", "пастыраў: пра прэзбітэраў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "duchovných pastierov: pre biskupov", "o duchovních pastýřích (o biskupech)", "", "", "", "O duchovních pastýřích – o biskupech", "lelkipásztorok – püspökök", "ru_text", "пастыраў: пра біскупаў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "duchovných pastierov: pre pápežov", "o duchovních pastýřích (o papeži)", "", "", "", "O duchovních pastýřích – o papeži", "pásztorok – pápa", "ru_text", "пастыраў: пра папу", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "učiteľov Cirkvi", "o učitelích církve", "", "", "", "O učitelích církve", "egyháztanítók", "ru_text", "доктараў Касцёла", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "apoštolov", "o apoštolech", "", "", "", "O apoštolech", "apostolok", "ru_text", "Апосталаў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "jedného mučeníka", "o jednom mučedníkovi", "", "", "", "O mučedníkovi", "vértanú", "ru_text", /* аднаго */ "мучаніка", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "viacerých mučeníkov", "o více mučednících", "", "", "", "O více mučednících", "vértanúk", "ru_text", "некалькіх мучанікаў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Panny Márie", "o Panně Marii", "", "", "", "O Panně Marii", "Szűz Mária", "ru_text", "Найсвяцейшую Панну Марыю", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých mužov: pre rehoľníkov", "o svatých mužích (o řeholnících)", "", "", "", "O řeholnících", "szerzetes", "ru_text", "святых мужчын: пра законнікаў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých mužov", "o svatých mužích", "", "", "", "O svatých mužích", "szent férfiak", "ru_text", "святых мужчын", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "panien", "o pannách", "", "", "", "O pannách", "szűz", "ru_text", "паннаў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých žien: pre rehoľnice", "o svatých ženách (o řeholnicích)", "", "", "", "O svatých ženách – o řeholnicích", "apáca", "ru_text", "святых жанчын: пра законніц", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých žien", "o svatých ženách", "", "", "", "O svatých ženách", "szent asszonyok", "ru_text", "святых жанчын", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "duchovných pastierov: pre viacerých", "o více duchovních pastýřích", "", "", "", "O více duchovních pastýřích", "több lelkipásztor", "ru_text", "некалькіх пастыраў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "jednej mučenice", "o jedné mučednici", "", "", "", "O mučednici", "vértanú", "ru_text", "мyчаніцy", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých žien: pre vychovávateľky", "o svatých ženách (o vychovatelkách)", "", "", "", "O svatých ženách – o vychovatelkách", "egyháztanító férfiak", "ru_text", "святых жанчын: пра выхавацеляў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých mužov: pre vychovávateľov", "o svatých mužích (o vychovatelích)", "", "", "", "O svatých mužích – o vychovatelích", "egyháztanító asszonyok", "ru_text", "святых мужчын: пра выхавацеляў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých žien: pre tie, čo konali skutky milosrdenstva", "o svatých ženách (které vynikaly milosrdnými skutky)", "", "", "", "O svatých ženách – o ženě, která vynikala milosrdnými skutky", "jótékonykodó asszonyok", "ru_text", "святых жанчын, якія здзяйснялі ўчынкі міласэрнасці", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých mužov: pre tých, čo konali skutky milosrdenstva", "o svatých mužích (kteří vynikali milosrdnými skutky)", "", "", "", "O svatých mužích – o muži, který vynikal milosrdnými skutky", "jótékonykodó férfiak", "ru_text", "святых мужчын, якія здзяйснялі ўчынкі міласэрнасці", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých žien: pre viaceré", "o svatých ženách (o více ženách)", "", "", "", "O svatých ženách", "több szent asszony", "ru_text", "некалькіх святых жанчын", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých mužov: pre viacerých", "o svatých mužích – o více mužích", "", "", "", "O svatých mužích", "több szent férfi", "ru_text", "некалькіх святых мужчын", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "viacerých panien", "o pannách – o více pannách", "", "", "", "O pannách – o více pannách", "szüzek", "ru_text", "некалькіх паннаў", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "posviacky chrámu", "o posvěcení kostela", "", "", "", "Posvěcení kostela", "templomszentelés", "ru_text", "пасвячэнне касцёла", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "zosnulých", "za zemřelé", "", "", "", "Za zemřelé", "halottakért", "ru_text", "за памерлых", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých žien: pre tie, čo žili v manželstve", "o svatých ženách (které žily v manželství)", "", "", "", "O svatých ženách – o ženě, která žila v manželství", "házas szent asszonyok", "ru_text", "святых жанчын: ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "svätých mužov: pre tých, čo žili v manželstve", "o svatých mužích (kterí žili v manželství)", "", "", "", "O svatých mužích – o muži, který žil v manželství", "házas szent férfiak", "ru_text", "святых мужчын: ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "nebrať", "nepoužít", "do not use", "", "", "nepoužít", "mindent sajátból", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "neurčená", "neurčena", "not decided", "", "", "", "", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "duchovných pastierov: pre kňazov", "o duchovních pastýřích (o kněžích)", "", "", "", "O duchovních pastýřích – o kněžích", "lelkipásztorok – papok", "ru_text", "пастыраў: пра прэзбітэраў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "duchovných pastierov: pre biskupov", "o duchovních pastýřích (o biskupech)", "", "", "", "O duchovních pastýřích – o biskupech", "lelkipásztorok – püspökök", "ru_text", "пастыраў: пра біскупаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "duchovných pastierov: pre pápežov", "o duchovních pastýřích (o papeži)", "", "", "", "O duchovních pastýřích – o papeži", "pásztorok – pápa", "ru_text", "пастыраў: пра папу", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "učiteľov Cirkvi", "o učitelích církve", "", "", "", "O učitelích církve", "egyháztanítók", "ru_text", "доктараў Касцёла", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "apoštolov", "o apoštolech", "", "", "", "O apoštolech", "apostolok", "ru_text", "Апосталаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "jedného mučeníka", "o jednom mučedníkovi", "", "", "", "O mučedníkovi", "vértanú", "ru_text", /* аднаго */ "мучаніка", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "viacerých mučeníkov", "o více mučednících", "", "", "", "O více mučednících", "vértanúk", "ru_text", "некалькіх мучанікаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Panny Márie", "o Panně Marii", "", "", "", "O Panně Marii", "Szűz Mária", "ru_text", "Найсвяцейшую Панну Марыю", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých mužov: pre rehoľníkov", "o svatých mužích (o řeholnících)", "", "", "", "O řeholnících", "szerzetes", "ru_text", "святых мужчын: пра законнікаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých mužov", "o svatých mužích", "", "", "", "O svatých mužích", "szent férfiak", "ru_text", "святых мужчын", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "panien", "o pannách", "", "", "", "O pannách", "szűz", "ru_text", "паннаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých žien: pre rehoľnice", "o svatých ženách (o řeholnicích)", "", "", "", "O svatých ženách – o řeholnicích", "apáca", "ru_text", "святых жанчын: пра законніц", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých žien", "o svatých ženách", "", "", "", "O svatých ženách", "szent asszonyok", "ru_text", "святых жанчын", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "duchovných pastierov: pre viacerých", "o více duchovních pastýřích", "", "", "", "O více duchovních pastýřích", "több lelkipásztor", "ru_text", "некалькіх пастыраў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "jednej mučenice", "o jedné mučednici", "", "", "", "O mučednici", "vértanú", "ru_text", "мyчаніцy", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých žien: pre vychovávateľky", "o svatých ženách (o vychovatelkách)", "", "", "", "O svatých ženách – o vychovatelkách", "egyháztanító férfiak", "ru_text", "святых жанчын: пра выхавацеляў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých mužov: pre vychovávateľov", "o svatých mužích (o vychovatelích)", "", "", "", "O svatých mužích – o vychovatelích", "egyháztanító asszonyok", "ru_text", "святых мужчын: пра выхавацеляў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých žien: pre tie, čo konali skutky milosrdenstva", "o svatých ženách (které vynikaly milosrdnými skutky)", "", "", "", "O svatých ženách – o ženě, která vynikala milosrdnými skutky", "jótékonykodó asszonyok", "ru_text", "святых жанчын, якія здзяйснялі ўчынкі міласэрнасці", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých mužov: pre tých, čo konali skutky milosrdenstva", "o svatých mužích (kteří vynikali milosrdnými skutky)", "", "", "", "O svatých mužích – o muži, který vynikal milosrdnými skutky", "jótékonykodó férfiak", "ru_text", "святых мужчын, якія здзяйснялі ўчынкі міласэрнасці", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých žien: pre viaceré", "o svatých ženách (o více ženách)", "", "", "", "O svatých ženách", "több szent asszony", "ru_text", "некалькіх святых жанчын", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých mužov: pre viacerých", "o svatých mužích – o více mužích", "", "", "", "O svatých mužích", "több szent férfi", "ru_text", "некалькіх святых мужчын", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "viacerých panien", "o pannách – o více pannách", "", "", "", "O pannách – o více pannách", "szüzek", "ru_text", "некалькіх паннаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "posviacky chrámu", "o posvěcení kostela", "", "", "", "Posvěcení kostela", "templomszentelés", "ru_text", "пасвячэнне касцёла", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "zosnulých", "za zemřelé", "", "", "", "Za zemřelé", "halottakért", "ru_text", "за памерлых", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých žien: pre tie, čo žili v manželstve", "o svatých ženách (které žily v manželství)", "", "", "", "O svatých ženách – o ženě, která žila v manželství", "házas szent asszonyok", "ru_text", "святых жанчын: ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "svätých mužov: pre tých, čo žili v manželstve", "o svatých mužích (kterí žili v manželství)", "", "", "", "O svatých mužích – o muži, který žil v manželství", "házas szent férfiak", "ru_text", "святых мужчын: ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "nebrať", "nepoužít", "do not use", "", "", "nepoužít", "mindent sajátból", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_spolc(a)	nazov_spolc_jazyk[a][_global_jazyk]
@@ -226,6 +226,7 @@ const char *nazov_bit_opt_1_spomienka_spol_cast_jazyk[POCET_JAZYKOV + 1] =
 	"az a lehetőség volt választva, hogy az emléknapoknál bizonyos részek vehetők a soros köznapról; Általános Rendelkezések az Imaórák Liturgiájáról, 235 b",
 	"ru_text",
 	"ён быў абраны, некаторыя часткі ў святкаванні успамінаў ўзяць з агульнымі кіруючымі прынцыпамі, няма. 235 пункт. б",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -298,18 +299,18 @@ const char *nazov_spolc_ANCHOR[POCET_SPOL_CASTI + 1] =
 // the names of liturgical periods (usually lowecase) / nazov_obdobia: string pre nazov liturgickeho obdobia
 const char *nazov_obdobia_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "Adventné obdobie", "doba adventní", "", "tempus adventus", "", "doba adventní", "adventi idő", "ru_text", "перыяд Адвэнту", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Adventné obdobie", "doba adventní", "", "tempus adventus", "", "doba adventní", "adventi idő", "ru_text", "перыяд Адвэнту", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Oktáva Narodenia Pána", "oktáv Narození Páně", "", "octava nativitatis", "", "oktáv Narození Páně", "karácsony nyolcada", "ru_text", "актава Божага Нараджэння", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Vianočné obdobie", "doba vánoční", "", "tempus nativitatis", "", "doba vánoční", "karácsonyi idő", "ru_text", "перыяд Божага Нараджэння", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Vianočné obdobie", "doba vánoční", "", "tempus nativitatis", "", "doba vánoční", "karácsonyi idő", "ru_text", "перыяд Божага Нараджэння", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Cezročné obdobie", "mezidobí", "", "tempus per annum", "", "mezidobí", "évközi idő", "ru_text", "звычайны перыяд", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Pôstne obdobie", "doba postní", "", "tempus quadragesimæ", "", "doba postní", "nagyböjti idő", "ru_text", "перыяд Вялікага посту", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľký týždeň", "Svatý týden", "", "hebdomada sancta", "", "Svatý týden", "nagyhét", "ru_text", "Вялікі тыдзень", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné trojdnie", "Velikonoční triduum", "", "sacrum triduum paschale", "", "Velikonoční triduum", "szent három nap", "ru_text", "Святы Пасхальны Трыдуум", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočná oktáva", "velikonoční oktáv", "", "octava paschæ", "", "velikonoční oktáv", "húsvét nyolcada", "ru_text", "актава Пасхі", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné obdobie", "doba velikonoční", "", "tempus paschale", "", "doba velikonoční", "húsvéti idő", "ru_text", "Велікодны перыяд", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné obdobie", "doba velikonoční", "", "tempus paschale", "", "doba velikonoční", "húsvéti idő", "ru_text", "Велікодны перыяд", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Adventné obdobie", "doba adventní", "", "tempus adventus", "", "doba adventní", "adventi idő", "ru_text", "перыяд Адвэнту", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Adventné obdobie", "doba adventní", "", "tempus adventus", "", "doba adventní", "adventi idő", "ru_text", "перыяд Адвэнту", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Oktáva Narodenia Pána", "oktáv Narození Páně", "", "octava nativitatis", "", "oktáv Narození Páně", "karácsony nyolcada", "ru_text", "актава Божага Нараджэння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Vianočné obdobie", "doba vánoční", "", "tempus nativitatis", "", "doba vánoční", "karácsonyi idő", "ru_text", "перыяд Божага Нараджэння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Vianočné obdobie", "doba vánoční", "", "tempus nativitatis", "", "doba vánoční", "karácsonyi idő", "ru_text", "перыяд Божага Нараджэння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Cezročné obdobie", "mezidobí", "", "tempus per annum", "", "mezidobí", "évközi idő", "ru_text", "звычайны перыяд", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Pôstne obdobie", "doba postní", "", "tempus quadragesimæ", "", "doba postní", "nagyböjti idő", "ru_text", "перыяд Вялікага посту", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľký týždeň", "Svatý týden", "", "hebdomada sancta", "", "Svatý týden", "nagyhét", "ru_text", "Вялікі тыдзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné trojdnie", "Velikonoční triduum", "", "sacrum triduum paschale", "", "Velikonoční triduum", "szent három nap", "ru_text", "Святы Пасхальны Трыдуум", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočná oktáva", "velikonoční oktáv", "", "octava paschæ", "", "velikonoční oktáv", "húsvét nyolcada", "ru_text", "актава Пасхі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné obdobie", "doba velikonoční", "", "tempus paschale", "", "doba velikonoční", "húsvéti idő", "ru_text", "Велікодны перыяд", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné obdobie", "doba velikonoční", "", "tempus paschale", "", "doba velikonoční", "húsvéti idő", "ru_text", "Велікодны перыяд", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 
 #define		nazov_obdobia(a)	nazov_obdobia_jazyk[a][_global_jazyk]
@@ -317,18 +318,18 @@ const char *nazov_obdobia_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 // the names of liturgical periods (usually lowecase) / nazov_obdobia: string pre názov liturgického obdobia, rozšírený
 const char *nazov_obdobia_ext_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "Adventné obdobie I (do 16. decembra)", "doba adventní I", "", "tempus adventus I", "", "doba adventní I", "adventi idő I (dec. 16-ig)", "ru_text", "перыяд Адвэнту I", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Adventné obdobie II (po 16. decembri)", "doba adventní II", "", "tempus adventus II", "", "doba adventní II", "adventi idő II (dec. 16 után)", "ru_text", "перыяд Адвэнту II", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Oktáva Narodenia Pána", "oktáv Narození Páně", "", "octava nativitatis", "", "oktáv Narození Páně", "karácsony nyolcada", "ru_text", "актава Божага Нараджэння", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Vianočné obdobie I (do Zjavenia Pána)", "doba vánoční I", "", "tempus nativitatis I", "", "doba vánoční II", "karácsonyi idő I (Urunk megjelenéséig)", "ru_text", "перыяд Божага Нараджэння I", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Vianočné obdobie II (po Zjavení Pána)", "doba vánoční II", "", "tempus nativitatis II", "", "doba vánoční II", "karácsonyi idő II (Urunk megjelenése után)", "ru_text", "перыяд Божага Нараджэння II", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Cezročné obdobie", "mezidobí", "", "tempus per annum", "", "mezidobí", "évközi idő", "ru_text", "звычайны перыяд", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Pôstne obdobie I (do Kvetnej nedele)", "doba postní I", "", "tempus quadragesimæ I", "", "doba postní I", "nagyböjti idő I (Virágvasárnapig)", "ru_text", "перыяд Вялікага посту", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Pôstne obdobie II (veľký týždeň)", "Svatý týden", "", "hebdomada sancta", "", "Svatý týden", "nagyböjti idő II (Nagyhét)", "ru_text", "Вялікі тыдзень", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné trojdnie", "Velikonoční triduum", "", "sacrum triduum paschale", "", "Velikonoční triduum", "szent három nap", "ru_text", "Святы Пасхальны Трыдуум", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočná oktáva", "velikonoční oktáv", "", "octava paschæ", "", "velikonoční oktáv", "húsvét nyolcada", "ru_text", "актава Пасхі", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné obdobie I (do Nanebovstúpenia Pána)", "doba velikonoční I", "", "tempus paschale I", "", "doba velikonoční I", "húsvéti idő I (Urunk mennybemeneteléig)", "ru_text", "Велікодны перыяд I", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné obdobie II (po Nanebovstúpení Pána)", "doba velikonoční II", "", "tempus paschale II", "", "doba velikonoční II", "húsvéti idő II (Urunk mennybemenetele után)", "ru_text", "Велікодны перыяд II", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Adventné obdobie I (do 16. decembra)", "doba adventní I", "", "tempus adventus I", "", "doba adventní I", "adventi idő I (dec. 16-ig)", "ru_text", "перыяд Адвэнту I", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Adventné obdobie II (po 16. decembri)", "doba adventní II", "", "tempus adventus II", "", "doba adventní II", "adventi idő II (dec. 16 után)", "ru_text", "перыяд Адвэнту II", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Oktáva Narodenia Pána", "oktáv Narození Páně", "", "octava nativitatis", "", "oktáv Narození Páně", "karácsony nyolcada", "ru_text", "актава Божага Нараджэння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Vianočné obdobie I (do Zjavenia Pána)", "doba vánoční I", "", "tempus nativitatis I", "", "doba vánoční II", "karácsonyi idő I (Urunk megjelenéséig)", "ru_text", "перыяд Божага Нараджэння I", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Vianočné obdobie II (po Zjavení Pána)", "doba vánoční II", "", "tempus nativitatis II", "", "doba vánoční II", "karácsonyi idő II (Urunk megjelenése után)", "ru_text", "перыяд Божага Нараджэння II", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Cezročné obdobie", "mezidobí", "", "tempus per annum", "", "mezidobí", "évközi idő", "ru_text", "звычайны перыяд", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Pôstne obdobie I (do Kvetnej nedele)", "doba postní I", "", "tempus quadragesimæ I", "", "doba postní I", "nagyböjti idő I (Virágvasárnapig)", "ru_text", "перыяд Вялікага посту", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Pôstne obdobie II (veľký týždeň)", "Svatý týden", "", "hebdomada sancta", "", "Svatý týden", "nagyböjti idő II (Nagyhét)", "ru_text", "Вялікі тыдзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné trojdnie", "Velikonoční triduum", "", "sacrum triduum paschale", "", "Velikonoční triduum", "szent három nap", "ru_text", "Святы Пасхальны Трыдуум", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočná oktáva", "velikonoční oktáv", "", "octava paschæ", "", "velikonoční oktáv", "húsvét nyolcada", "ru_text", "актава Пасхі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné obdobie I (do Nanebovstúpenia Pána)", "doba velikonoční I", "", "tempus paschale I", "", "doba velikonoční I", "húsvéti idő I (Urunk mennybemeneteléig)", "ru_text", "Велікодны перыяд I", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné obdobie II (po Nanebovstúpení Pána)", "doba velikonoční II", "", "tempus paschale II", "", "doba velikonoční II", "húsvéti idő II (Urunk mennybemenetele után)", "ru_text", "Велікодны перыяд II", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 
 #define		nazov_obdobia_ext(a)	nazov_obdobia_ext_jazyk[a][_global_jazyk]
@@ -336,18 +337,18 @@ const char *nazov_obdobia_ext_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 // the names of liturgical periods (usually lowecase) full-shortened / nazov_obdobia: string pre názov liturgického obdobia, stručný ale plný
 const char *nazov_obdobia_short_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "Adventné obd. I", "doba adventní I", "", "tempus adventus I", "", "doba adventní I", "adventi idő I", "ru_text", "перыяд Адвэнту I", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Adventné obd. II", "doba adventní II", "", "tempus adventus II", "", "doba adventní II", "adventi idő II", "ru_text", "перыяд Адвэнту II", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Oktáva Narodenia Pána", "oktáv Narození Páně", "", "octava nativitatis", "", "oktáv Narození Páně", "karácsony nyolcada", "ru_text", "актава Божага Нараджэння", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Vianočné obd. I", "doba vánoční I", "", "tempus nativitatis I", "", "doba vánoční II", "karácsonyi idő I", "ru_text", "перыяд Божага Нараджэння I", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Vianočné obd. II", "doba vánoční II", "", "tempus nativitatis II", "", "doba vánoční II", "karácsonyi idő II", "ru_text", "перыяд Божага Нараджэння II", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Cezročné obd.", "mezidobí", "", "tempus per annum", "", "mezidobí", "évközi idő", "ru_text", "звычайны перыяд", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Pôstne obd. I", "doba postní I", "", "tempus quadragesimæ I", "", "doba postní I", "nagyböjti idő I", "ru_text", "перыяд Вялікага посту", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľký týždeň", "Svatý týden", "", "hebdomada sancta", "", "Svatý týden", "Nagyhét", "ru_text", "Вялікі тыдзень", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné trojdnie", "Velikonoční triduum", "", "sacrum triduum paschale", "", "Velikonoční triduum", "szent három nap", "ru_text", "Святы Пасхальны Трыдуум", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočná oktáva", "velikonoční oktáv", "", "octava paschæ", "", "velikonoční oktáv", "húsvét nyolcada", "ru_text", "актава Пасхі", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné obd. I", "doba velikonoční I", "", "tempus paschale I", "", "doba velikonoční I", "húsvéti idő I", "ru_text", "Велікодны перыяд I", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "Veľkonočné obd. II", "doba velikonoční II", "", "tempus paschale II", "", "doba velikonoční II", "húsvéti idő II", "ru_text", "Велікодны перыяд II", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Adventné obd. I", "doba adventní I", "", "tempus adventus I", "", "doba adventní I", "adventi idő I", "ru_text", "перыяд Адвэнту I", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Adventné obd. II", "doba adventní II", "", "tempus adventus II", "", "doba adventní II", "adventi idő II", "ru_text", "перыяд Адвэнту II", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Oktáva Narodenia Pána", "oktáv Narození Páně", "", "octava nativitatis", "", "oktáv Narození Páně", "karácsony nyolcada", "ru_text", "актава Божага Нараджэння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Vianočné obd. I", "doba vánoční I", "", "tempus nativitatis I", "", "doba vánoční II", "karácsonyi idő I", "ru_text", "перыяд Божага Нараджэння I", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Vianočné obd. II", "doba vánoční II", "", "tempus nativitatis II", "", "doba vánoční II", "karácsonyi idő II", "ru_text", "перыяд Божага Нараджэння II", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Cezročné obd.", "mezidobí", "", "tempus per annum", "", "mezidobí", "évközi idő", "ru_text", "звычайны перыяд", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Pôstne obd. I", "doba postní I", "", "tempus quadragesimæ I", "", "doba postní I", "nagyböjti idő I", "ru_text", "перыяд Вялікага посту", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľký týždeň", "Svatý týden", "", "hebdomada sancta", "", "Svatý týden", "Nagyhét", "ru_text", "Вялікі тыдзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné trojdnie", "Velikonoční triduum", "", "sacrum triduum paschale", "", "Velikonoční triduum", "szent három nap", "ru_text", "Святы Пасхальны Трыдуум", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočná oktáva", "velikonoční oktáv", "", "octava paschæ", "", "velikonoční oktáv", "húsvét nyolcada", "ru_text", "актава Пасхі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné obd. I", "doba velikonoční I", "", "tempus paschale I", "", "doba velikonoční I", "húsvéti idő I", "ru_text", "Велікодны перыяд I", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "Veľkonočné obd. II", "doba velikonoční II", "", "tempus paschale II", "", "doba velikonoční II", "húsvéti idő II", "ru_text", "Велікодны перыяд II", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 
 #define		nazov_obdobia_short(a)	nazov_obdobia_short_jazyk[a][_global_jazyk]
@@ -364,18 +365,18 @@ const char *nazov_obdobia_[POCET_OBDOBI + 1] = // debuggovacie - preto netreba p
 // the names of liturgical periods in local grammatically 6.th declination? (usually lowecase); in English: "IN liturgical period" or "OF liturgical period" / lokal == 6. pad, v kom/com
 const char *nazov_obdobia_v_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "v adventnom období", "v době adventní", "", "", "", "v době adventní", "adventben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "v adventnom období", "v době adventní", "", "", "", "v době adventní", "adventben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "v oktáve Narodenia Pána", "v oktávu Narození Páně", "", "", "", "v oktávu Narození Páně", "Karácsony nyolcadában", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vo vianočnom období", "v době vánoční", "", "", "", "v době vánoční", "a karácsonyi időben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vo vianočnom období", "v době vánoční", "", "", "", "v době vánoční", "a karácsonyi időben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "v cezročnom období", "v mezidobí", "", "per annum", "", "v mezidobí", "az évközi időben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "v pôstnom období", "v době postní", "", "", "", "v době postní", "a nagyböjti időben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vo Veľkom týždni", "ve Svatém týdnu", "", "", "", "ve Svatém týdnu", "a nagyhéten", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vo veľkonočnom trojdní", "ve velikonočním triduu", "", "", "", "ve velikonočním triduu", "a szent három napban", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vo veľkonočnej oktáve", "ve velikonočním oktávu", "", "", "", "ve velikonočním oktávu", "húsvét nyolcadában", "ru_text", "у актаве Пасхі", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vo veľkonočnom období", "v době velikonoční", "", "", "", "v době velikonoční", "a húsvéti időben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vo veľkonočnom období", "v době velikonoční", "", "", "", "v době velikonoční", "a húsvéti időben", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "v adventnom období", "v době adventní", "", "", "", "v době adventní", "adventben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "v adventnom období", "v době adventní", "", "", "", "v době adventní", "adventben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "v oktáve Narodenia Pána", "v oktávu Narození Páně", "", "", "", "v oktávu Narození Páně", "Karácsony nyolcadában", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vo vianočnom období", "v době vánoční", "", "", "", "v době vánoční", "a karácsonyi időben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vo vianočnom období", "v době vánoční", "", "", "", "v době vánoční", "a karácsonyi időben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "v cezročnom období", "v mezidobí", "", "per annum", "", "v mezidobí", "az évközi időben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "v pôstnom období", "v době postní", "", "", "", "v době postní", "a nagyböjti időben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vo Veľkom týždni", "ve Svatém týdnu", "", "", "", "ve Svatém týdnu", "a nagyhéten", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vo veľkonočnom trojdní", "ve velikonočním triduu", "", "", "", "ve velikonočním triduu", "a szent három napban", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vo veľkonočnej oktáve", "ve velikonočním oktávu", "", "", "", "ve velikonočním oktávu", "húsvét nyolcadában", "ru_text", "у актаве Пасхі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vo veľkonočnom období", "v době velikonoční", "", "", "", "v době velikonoční", "a húsvéti időben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vo veľkonočnom období", "v době velikonoční", "", "", "", "v době velikonoční", "a húsvéti időben", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 
 #define		nazov_obdobia_v(a)	nazov_obdobia_v_jazyk[a][_global_jazyk]
@@ -383,18 +384,18 @@ const char *nazov_obdobia_v_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 // the names of liturgical periods in local grammatically 6.th declination? (uppercase) / nazov_obdobia: string pre nazov liturgickeho obdobia
 const char *nazov_OBDOBIA_V_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "V ADVENTNOM OBDOBÍ", "V DOBĚ ADVENTNÍ", "", "", "", "V DOBĚ ADVENTNÍ", "ADVENTBEN", "ru_text", "АДВЭНТУ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "V ADVENTNOM OBDOBÍ", "V DOBĚ ADVENTNÍ", "", "", "", "V DOBĚ ADVENTNÍ", "ADVENTBEN", "ru_text", "АДВЭНТУ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "V OKTÁVE NARODENIA PÁNA", "V OKTÁVU NAROZENÍ PÁNĚ", "", "", "", "V OKTÁVU NAROZENÍ PÁNĚ", "A KARÁCSONY NYOLCADÁBAN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VIANOČNOM OBDOBÍ", "V DOBĚ VÁNOČNÍ", "", "", "", "V DOBĚ VÁNOČNÍ", "A KARÁCSONYI IDŐBEN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VIANOČNOM OBDOBÍ", "V DOBĚ VÁNOČNÍ", "", "", "", "V DOBĚ VÁNOČNÍ", "A KARÁCSONYI IDŐBEN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "V CEZROČNOM OBDOBÍ", "V MEZIDOBÍ", "", "", "", "BĚHEM ROKU", "AZ ÉVKÖZI IDŐBEN", "ru_text", "ЗВЫЧАЙНАГА ПЕРЫЯДУ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "V PÔSTNOM OBDOBÍ", "V DOBĚ POSTNÍ", "", "", "", "V DOBĚ POSTNÍ", "A NAGYBÖJTI IDŐBEN", "ru_text", "ВЯЛІКАГА ПОСТУ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VEĽKOM TÝŽDNI", "VE SVATÉM TÝDNU", "", "", "", "VE SVATÉM TÝDNU", "A NAGYHÉTEN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VEĽKONOČNOM TROJDNÍ", "VE VELIKONOČNÍM TRIDUU", "", "", "", "VE VELIKONOČNÍM TRIDUU", "A SZENT HÁROM NAPBAN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VEĽKONOČNEJ OKTÁVE", "VE VELIKONOČNÍM OKTÁVU", "", "", "", "V OKTÁVU VELIKONOČNÍM", "HÚSVÉT NYOLCACADÁBAN", "ru_text", "У АКТАВЕ ПАСХІ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VEĽKONOČNOM OBDOBÍ", "V DOBĚ VELIKONOČNÍ", "", "", "", "V DOBĚ VELIKONOČNÍ", "A HÚSVÉTI IDŐBEN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VEĽKONOČNOM OBDOBÍ", "V DOBĚ VELIKONOČNÍ", "", "", "", "V DOBĚ VELIKONOČNÍ", "A HÚSVÉTI IDŐBEN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "V ADVENTNOM OBDOBÍ", "V DOBĚ ADVENTNÍ", "", "", "", "V DOBĚ ADVENTNÍ", "ADVENTBEN", "ru_text", "АДВЭНТУ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "V ADVENTNOM OBDOBÍ", "V DOBĚ ADVENTNÍ", "", "", "", "V DOBĚ ADVENTNÍ", "ADVENTBEN", "ru_text", "АДВЭНТУ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "V OKTÁVE NARODENIA PÁNA", "V OKTÁVU NAROZENÍ PÁNĚ", "", "", "", "V OKTÁVU NAROZENÍ PÁNĚ", "A KARÁCSONY NYOLCADÁBAN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VIANOČNOM OBDOBÍ", "V DOBĚ VÁNOČNÍ", "", "", "", "V DOBĚ VÁNOČNÍ", "A KARÁCSONYI IDŐBEN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VIANOČNOM OBDOBÍ", "V DOBĚ VÁNOČNÍ", "", "", "", "V DOBĚ VÁNOČNÍ", "A KARÁCSONYI IDŐBEN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "V CEZROČNOM OBDOBÍ", "V MEZIDOBÍ", "", "", "", "BĚHEM ROKU", "AZ ÉVKÖZI IDŐBEN", "ru_text", "ЗВЫЧАЙНАГА ПЕРЫЯДУ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "V PÔSTNOM OBDOBÍ", "V DOBĚ POSTNÍ", "", "", "", "V DOBĚ POSTNÍ", "A NAGYBÖJTI IDŐBEN", "ru_text", "ВЯЛІКАГА ПОСТУ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VEĽKOM TÝŽDNI", "VE SVATÉM TÝDNU", "", "", "", "VE SVATÉM TÝDNU", "A NAGYHÉTEN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VEĽKONOČNOM TROJDNÍ", "VE VELIKONOČNÍM TRIDUU", "", "", "", "VE VELIKONOČNÍM TRIDUU", "A SZENT HÁROM NAPBAN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VEĽKONOČNEJ OKTÁVE", "VE VELIKONOČNÍM OKTÁVU", "", "", "", "V OKTÁVU VELIKONOČNÍM", "HÚSVÉT NYOLCACADÁBAN", "ru_text", "У АКТАВЕ ПАСХІ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VEĽKONOČNOM OBDOBÍ", "V DOBĚ VELIKONOČNÍ", "", "", "", "V DOBĚ VELIKONOČNÍ", "A HÚSVÉTI IDŐBEN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VEĽKONOČNOM OBDOBÍ", "V DOBĚ VELIKONOČNÍ", "", "", "", "V DOBĚ VELIKONOČNÍ", "A HÚSVÉTI IDŐBEN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 
 #define		nazov_OBDOBIA_V(a)	nazov_OBDOBIA_V_jazyk[a][_global_jazyk]
@@ -403,18 +404,18 @@ const char *nazov_OBDOBIA_V_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 // 2008-12-20: doplnené - používa sa v init_global_string() pre nedele niektorých období [zatiaľ iba v slovenčine]
 const char *nazov_OBDOBIA_AKA_jazyk[POCET_OBDOBI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "ADVENTNÁ", "ADVENTNÍ", "", "", "", "ADVENTNÍ", "ADVENT", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "ADVENTNÁ", "ADVENTNÍ", "", "", "", "ADVENTNÍ", "ADVENT", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "V OKTÁVE NARODENIA PÁNA", "V OKTÁVU NAROZENÍ PÁNĚ", "", "", "", "V OKTÁVU NAROZENÍ PÁNĚ", "A KARÁCSONY NYOLCADÁBAN", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sa
-	{ "VIANOČNÁ", "VÁNOČNÍ", "", "", "", "VÁNOČNÍ", "KARÁCSONY", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VIANOČNÁ", "VÁNOČNÍ", "", "", "", "VÁNOČNÍ", "KARÁCSONY", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "CEZROČNÁ", "V MEZIDOBÍ", "", "", "", "BĚHEM ROKU", "ÉVKÖZI", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "PÔSTNA", "POSTNÍ", "", "", "", "POSTNÍ", "NAGYBÖJT", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VO VEĽKOM TÝŽDNI", "VE SVATÉM TÝDNU", "", "", "", "VE SVATÉM TÝDNU", "hu_", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sas
-	{ "VO VEĽKONOČNOM TROJDNÍ", "VE VELIKONOČNÍM TRIDUU", "", "", "", "VE VELIKONOČNÍM TRIDUU", "hu_", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sa
-	{ "VO VEĽKONOČNEJ OKTÁVE", "VE VELIKONOČNÍM OKTÁVU", "", "", "", "V OKTÁVU VELIKONOČNÍM", "HÚSVÉT NYOLCACADÁBAN", "ru_text", "У АКТАВЕ ПАСХІ", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sa
-	{ "VEĽKONOČNÁ", "VELIKONOČNÍ", "", "", "", "VELIKONOČNÍ", "HÚSVÉT", "ru_text", "ВЕЛІКОДНАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "VEĽKONOČNÁ", "VELIKONOČNÍ", "", "", "", "VELIKONOČNÍ", "HÚSVÉT", "ru_text", "ВЕЛІКОДНАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "ADVENTNÁ", "ADVENTNÍ", "", "", "", "ADVENTNÍ", "ADVENT", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "ADVENTNÁ", "ADVENTNÍ", "", "", "", "ADVENTNÍ", "ADVENT", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "V OKTÁVE NARODENIA PÁNA", "V OKTÁVU NAROZENÍ PÁNĚ", "", "", "", "V OKTÁVU NAROZENÍ PÁNĚ", "A KARÁCSONY NYOLCADÁBAN", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sa
+	{ "VIANOČNÁ", "VÁNOČNÍ", "", "", "", "VÁNOČNÍ", "KARÁCSONY", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VIANOČNÁ", "VÁNOČNÍ", "", "", "", "VÁNOČNÍ", "KARÁCSONY", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "CEZROČNÁ", "V MEZIDOBÍ", "", "", "", "BĚHEM ROKU", "ÉVKÖZI", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "PÔSTNA", "POSTNÍ", "", "", "", "POSTNÍ", "NAGYBÖJT", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VO VEĽKOM TÝŽDNI", "VE SVATÉM TÝDNU", "", "", "", "VE SVATÉM TÝDNU", "hu_", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sas
+	{ "VO VEĽKONOČNOM TROJDNÍ", "VE VELIKONOČNÍM TRIDUU", "", "", "", "VE VELIKONOČNÍM TRIDUU", "hu_", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sa
+	{ "VO VEĽKONOČNEJ OKTÁVE", "VE VELIKONOČNÍM OKTÁVU", "", "", "", "V OKTÁVU VELIKONOČNÍM", "HÚSVÉT NYOLCACADÁBAN", "ru_text", "У АКТАВЕ ПАСХІ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }, // not used / nepoužíva sa
+	{ "VEĽKONOČNÁ", "VELIKONOČNÍ", "", "", "", "VELIKONOČNÍ", "HÚSVÉT", "ru_text", "ВЕЛІКОДНАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "VEĽKONOČNÁ", "VELIKONOČNÍ", "", "", "", "VELIKONOČNÍ", "HÚSVÉT", "ru_text", "ВЕЛІКОДНАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 #define		nazov_OBDOBIA_AKA(a)	nazov_OBDOBIA_AKA_jazyk[a][_global_jazyk]
 
@@ -461,19 +462,19 @@ const char *zvazok_OBD[POCET_OBDOBI + 1] =
 // the name of celebration
 const char *nazov_slavenia_jazyk[POCET_SLAVENI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "féria", "férie", "feria", "feria", "férie", "féria", "féria", "ru_text", "будзень", /* STRING_1_FOR_NEW_LANGUAGE */ }, // zmenené z "___", 2012-10-12
-	{ "slávnosť", "slavnost", "celebration", "sollemnitas", "", "Slavnost", "főünnep", "ru_text", "урачыстасць", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "sviatok", "svátek", "", "festum", "", "Svátek", "ünnep", "ru_text", "свята", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "spomienka", "památka", "", "memoria", "", "Památka", "emléknap", "ru_text", "успамін", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "ľubovoľná spomienka", "nezávazná památka", "", "memoria ad libitum", "", "nezávazná památka", "tetszés szerinti emléknap", "ru_text", "неабавязковы ўспамін", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "vlastné slávenie", "z vlastních textů", "", "textus proprius", "", "z vlastních textů", "saját szöveg", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "féria", "férie", "feria", "feria", "férie", "féria", "féria", "ru_text", "будзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }, // zmenené z "___", 2012-10-12
+	{ "slávnosť", "slavnost", "celebration", "sollemnitas", "", "Slavnost", "főünnep", "ru_text", "урачыстасць", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "sviatok", "svátek", "", "festum", "", "Svátek", "ünnep", "ru_text", "свята", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "spomienka", "památka", "", "memoria", "", "Památka", "emléknap", "ru_text", "успамін", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "ľubovoľná spomienka", "nezávazná památka", "", "memoria ad libitum", "", "nezávazná památka", "tetszés szerinti emléknap", "ru_text", "неабавязковы ўспамін", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "vlastné slávenie", "z vlastních textů", "", "textus proprius", "", "z vlastních textů", "saját szöveg", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 
 #define		nazov_slavenia(a)	nazov_slavenia_jazyk[a][_global_jazyk]
 
 // the name of celebration -- for memoria (in privileged days)
 const char *nazov_slavenia_na_spomienku_jazyk[POCET_JAZYKOV + 1] =
-{ "na spomienku" /* Adam: lepšie by bolo: pripomienka */, "pro připomínku", "", "pro commemoratione", "", "pro připomínku", "megemlékezésül", "ru_text", "на ўспамін", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "na spomienku" /* Adam: lepšie by bolo: pripomienka */, "pro připomínku", "", "pro commemoratione", "", "pro připomínku", "megemlékezésül", "ru_text", "на ўспамін", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // calendar codes; internal usage for HTTP requests
 const char *skratka_kalendara[POCET_KALENDAROV + 1] =
@@ -733,27 +734,27 @@ const char *nazov_slavenia_lokal[] =
 , "v královéhradecké diecézi: slavnost"                                                                         // LOKAL_SLAV_HRADEC_KRALOVE_SLAVNOST
 , "v českobudějovické diecézi: slavnost"                                                                        // LOKAL_SLAV_CESKE_BUDEJOV_SLAVNOST
 , "у Гродзенскай дыяцэзіі"                                                                                      // LOKAL_SLAV_GRODZENSK
-, "у Мінска-Магілёўскай архідыяцэзіі: урачыстасць; " HTML_LINE_BREAK "у Віцебскай дыяцэзіі: свята"              // LOKAL_SLAV_MINSK_MAG_VICEB
+, "у Мінска-Магілёўскай архідыяцэзіі: урачыстасць; " HTML_LINE_BREAK "у Віцебскай дыяцэзіі: свята"              // LOKAL_SLAV_MINSK_MAG_VICEB
 , "у Мінска-Магілёўскай архідыяцэзіі: успамін"                                                                  // LOKAL_SLAV_MINSK_SPOMIENKA
 , "у Гродзенскай дыяцэзіі: свята"                                                                               // LOKAL_SLAV_GRODZENSK_SVIATOK
 , "У Мінска-Магілёўскай архідыяцэзіі, Пінскай дыяцэзіі і Гродзенскай дыяцэзіі"                                  // LOKAL_SLAV_MINSK_PINSK_GRODZENSK
 , "у Віцебскай дыяцэзіі"                                                                                        // LOKAL_SLAV_VICEB
 , "у Мінска-Магілёўскай архідыяцэзіі і Пінскай дыяцэзіі: успамін"                                               // LOKAL_SLAV_MINSK_PINSK_SPOMIENKA
-, "у Віцебскай дыяцэзіі: урачыстасць, " HTML_LINE_BREAK "у Мінска-Магілёўскай архідыяцэзіі і Пінскай дыяцэзіі: свята" // LOKAL_SLAV_VICEB_SL_MINSK_PINSK_SV
-, "у Гродзенскай дыяцэзіі: урачыстасць; " HTML_LINE_BREAK "у Мінска-Магілёўскай архідыяцэзіі і Пінскай дыяцэзіі: успамін" // LOKAL_SLAV_GRODZ_SL_PINSK_MINSK_SP
+, "у Віцебскай дыяцэзіі: урачыстасць, " HTML_LINE_BREAK "у Мінска-Магілёўскай архідыяцэзіі і Пінскай дыяцэзіі: свята" // LOKAL_SLAV_VICEB_SL_MINSK_PINSK_SV
+, "у Гродзенскай дыяцэзіі: урачыстасць; " HTML_LINE_BREAK "у Мінска-Магілёўскай архідыяцэзіі і Пінскай дыяцэзіі: успамін" // LOKAL_SLAV_GRODZ_SL_PINSK_MINSK_SP
 , "v pražském klášteře u Panny Marie Sněžné: slavnost"                                                          // LOKAL_SLAV_PRAHA_OFM
 };
 
 // names of liturgical colors
 const char *nazov_farby_jazyk[POCET_FARIEB_REALNYCH + 1][POCET_JAZYKOV + 1] =
 {
-	{ "___", "___", "___", "___", "___", "___", "___", "___", "___", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "červená", "červená", "red", "ruber", "", "červená", "piros", "ru_text", "чырвоны", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "biela", "bílá", "white", "albus", "", "bílá", "fehér", "ru_text", "белы", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "zelená", "zelená", "green", "viridis", "", "zelená", "zöld", "ru_text", "зялёны", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "fialová", "fialová", "purple", "violaceus", "", "fialová", "lila", "ru_text", "фіялетавы", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "ružová", "růžová", "rose", "rosaceus", "", "růžová", "rózsaszín", "ru_text", "ружовы", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "čierna", "černá", "black", "niger", "", "černá", "fekete", "ru_text", "чорны", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "___", "___", "___", "___", "___", "___", "___", "___", "___", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "červená", "červená", "red", "ruber", "", "červená", "piros", "ru_text", "чырвоны", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "biela", "bílá", "white", "albus", "", "bílá", "fehér", "ru_text", "белы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "zelená", "zelená", "green", "viridis", "", "zelená", "zöld", "ru_text", "зялёны", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "fialová", "fialová", "purple", "violaceus", "", "fialová", "lila", "ru_text", "фіялетавы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "ružová", "růžová", "rose", "rosaceus", "", "růžová", "rózsaszín", "ru_text", "ружовы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "čierna", "černá", "black", "niger", "", "černá", "fekete", "ru_text", "чорны", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
 };
 
 #define		nazov_farby(a)	nazov_farby_jazyk[a][_global_jazyk]
@@ -786,7 +787,7 @@ short int pocet_dni[12] =
 
 // type of alhpabet for language
 const short int alphabet_jayzka[POCET_JAZYKOV + 1] =
-{ ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_CYRILLIC, ALPHABET_CYRILLIC, /* ADD_VALUE_FOR_NEW_LANGUAGE */ };
+{ ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_LATIN, ALPHABET_CYRILLIC, ALPHABET_CYRILLIC, ALPHABET_LATIN, /* ADD_VALUE_FOR_NEW_LANGUAGE */ };
 
 // const: "the Sunday's letter" A--g
 const char char_nedelne_pismeno[POCET_DNI] =
@@ -812,14 +813,14 @@ const char *string_nedelny_cyklus[POCET_ALPHABET + 1][POCET_NEDELNY_CYKLUS] =
 // Weekday (0--6; Sunday/nedela = 0)
 const char *nazov_dna_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "nedeľa", "neděle", "Sunday", "dominica", "", "neděle", "vasárnap", "воскресенье", "нядзеля", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "pondelok", "pondělí", "Monday", "feria secunda", "", "pondělí", "hétfő", "понедельник", "панядзелак", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "utorok", "úterý", "Tuesday", "feria tertia", "", "úterý", "kedd", "вторник", "аўторак", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "streda", "středa", "Wednesday", "feria quarta", "", "středa", "szerda", "среда", "серада", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "štvrtok", "čtvrtek", "Thursday", "feria quinta", "", "čtvrtek", "csütörtök", "четверг", "чацвер", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "piatok", "pátek", "Friday", "feria sexta", "", "pátek", "péntek", "пятница", "пятніца", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "sobota", "sobota", "Saturday", "sabbatum", "", "sobota", "szombat", "суббота", "субота", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neznámy", "neznámý", "unknown", "???", "", "neznámý", "ismeretlen", "неизвестный", "невядомы", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "nedeľa", "neděle", "Sunday", "dominica", "", "neděle", "vasárnap", "воскресенье", "нядзеля", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "pondelok", "pondělí", "Monday", "feria secunda", "", "pondělí", "hétfő", "понедельник", "панядзелак", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "utorok", "úterý", "Tuesday", "feria tertia", "", "úterý", "kedd", "вторник", "аўторак", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "streda", "středa", "Wednesday", "feria quarta", "", "středa", "szerda", "среда", "серада", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "štvrtok", "čtvrtek", "Thursday", "feria quinta", "", "čtvrtek", "csütörtök", "четверг", "чацвер", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "piatok", "pátek", "Friday", "feria sexta", "", "pátek", "péntek", "пятница", "пятніца", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "sobota", "sobota", "Saturday", "sabbatum", "", "sobota", "szombat", "суббота", "субота", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "neznámy", "neznámý", "unknown", "???", "", "neznámý", "ismeretlen", "неизвестный", "невядомы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_dna(a)	nazov_dna_jazyk[a][_global_jazyk]
@@ -827,14 +828,14 @@ const char *nazov_dna_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] =
 // names of the days in week, starting with Sunday (sentence case)
 const char *nazov_Dna_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "Nedeľa", "Neděle", "Sunday", "Dominica", "", "Neděle", "Vasárnap", "Воскресенье", "Нядзеля", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Pondelok", "Pondělí", "Monday", "Feria secunda", "", "Pondělí", "Hétfő", "Понедельник", "Панядзелак", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Utorok", "Úterý", "Tuesday", "Feria tertia", "", "Úterý", "Kedd", "Вторник", "Аўторак", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Streda", "Středa", "Wednesday", "Feria quarta", "", "Středa", "Szerda", "Среда", "Серада", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Štvrtok", "Čtvrtek", "Thursday", "Feria quinta", "", "Čtvrtek", "Csütörtök", "Четверг", "Чацвер", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Piatok", "Pátek", "Friday", "Feria sexta", "", "Pátek", "Péntek", "Пятница", "Пятніца", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Sobota", "Sobota", "Saturday", "Sabbatum", "", "Sobota", "Szombat", "Суббота", "Субота", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Neznámy", "Neznámý", "unknown", "???", "", "Neznámý", "Ismeretlen", "Неизвестный", "Невядомы", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "Nedeľa", "Neděle", "Sunday", "Dominica", "", "Neděle", "Vasárnap", "Воскресенье", "Нядзеля", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Pondelok", "Pondělí", "Monday", "Feria secunda", "", "Pondělí", "Hétfő", "Понедельник", "Панядзелак", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Utorok", "Úterý", "Tuesday", "Feria tertia", "", "Úterý", "Kedd", "Вторник", "Аўторак", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Streda", "Středa", "Wednesday", "Feria quarta", "", "Středa", "Szerda", "Среда", "Серада", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Štvrtok", "Čtvrtek", "Thursday", "Feria quinta", "", "Čtvrtek", "Csütörtök", "Четверг", "Чацвер", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Piatok", "Pátek", "Friday", "Feria sexta", "", "Pátek", "Péntek", "Пятница", "Пятніца", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Sobota", "Sobota", "Saturday", "Sabbatum", "", "Sobota", "Szombat", "Суббота", "Субота", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Neznámy", "Neznámý", "unknown", "???", "", "Neznámý", "Ismeretlen", "Неизвестный", "Невядомы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_Dna(a)	nazov_Dna_jazyk[a][_global_jazyk]
@@ -842,14 +843,14 @@ const char *nazov_Dna_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] =
 // names of the days in week, starting with Sunday (uppercase)
 const char *nazov_DNA_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "NEDEĽA", "NEDĚLE", "SUNDAY", "DOMINICA", "", "NEDĚLE", "VASÁRNAP", "ВОСКРЕСЕНЬЕ", "НЯДЗЕЛЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "PONDELOK", "PONDĚLÍ", "MONDAY", "FERIA SECUNDA", "", "PONDĚLÍ", "HÉTFŐ", "ПОНЕДЕЛЬНИК", "ПАНЯДЗЕЛАК", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "UTOROK", "ÚTERÝ", "TUESDAY", "FERIA TERTIA", "", "ÚTERÝ", "KEDD", "вторник", "АЎТОРАК", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "STREDA", "STŘEDA", "WEDNESDAY", "FERIA QUARTA", "", "STŘEDA", "SZERDA", "СРЕДА", "СЕРАДА", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "ŠTVRTOK", "ČTVRTEK", "THURSDAY", "FERIA QUINTA", "", "ČTVRTEK", "CSÜTÖRTÖK", "ЧЕТВЕРГ", "ЧАЦВЕР", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "PIATOK", "PÁTEK", "FRIDAY", "FERIA SEXTA", "", "PÁTEK", "PÉNTEK", "ПЯТНИЦА", "ПЯТНІЦА", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "SOBOTA", "SOBOTA", "SATURDAY", "SABBATUM", "", "SOBOTA", "SZOMBAT", "СУББОТА", "СУБОТА", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "NEZNÁMY", "NEZNÁMÝ", "UNKNOWN", "???", "", "NEZNÁMÝ", "ISMERETLEN", "НЕИЗВЕСТНЫЙ", "НЕВЯДОМЫ", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "NEDEĽA", "NEDĚLE", "SUNDAY", "DOMINICA", "", "NEDĚLE", "VASÁRNAP", "ВОСКРЕСЕНЬЕ", "НЯДЗЕЛЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "PONDELOK", "PONDĚLÍ", "MONDAY", "FERIA SECUNDA", "", "PONDĚLÍ", "HÉTFŐ", "ПОНЕДЕЛЬНИК", "ПАНЯДЗЕЛАК", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "UTOROK", "ÚTERÝ", "TUESDAY", "FERIA TERTIA", "", "ÚTERÝ", "KEDD", "вторник", "АЎТОРАК", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "STREDA", "STŘEDA", "WEDNESDAY", "FERIA QUARTA", "", "STŘEDA", "SZERDA", "СРЕДА", "СЕРАДА", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "ŠTVRTOK", "ČTVRTEK", "THURSDAY", "FERIA QUINTA", "", "ČTVRTEK", "CSÜTÖRTÖK", "ЧЕТВЕРГ", "ЧАЦВЕР", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "PIATOK", "PÁTEK", "FRIDAY", "FERIA SEXTA", "", "PÁTEK", "PÉNTEK", "ПЯТНИЦА", "ПЯТНІЦА", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "SOBOTA", "SOBOTA", "SATURDAY", "SABBATUM", "", "SOBOTA", "SZOMBAT", "СУББОТА", "СУБОТА", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "NEZNÁMY", "NEZNÁMÝ", "UNKNOWN", "???", "", "NEZNÁMÝ", "ISMERETLEN", "НЕИЗВЕСТНЫЙ", "НЕВЯДОМЫ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_DNA(a)	nazov_DNA_jazyk[a][_global_jazyk]
@@ -857,14 +858,14 @@ const char *nazov_DNA_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] =
 // names of the days in week, starting with Sunday (lowercase without special characters - plain ASCII (0--128) only)
 const char *nazov_dna_asci_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] =
 {
-	{ "nedela", "nedele", "Sunday", "Dominica", "", "nedele", "vasarnap", "Sunday", "нядзеля", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "pondelok", "pondeli", "Monday", "Feria secunda", "", "pondeli", "hetfo", "Monday", "панядзелак", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "utorok", "utery", "Tuesday", "Feria tertia", "", "utery", "kedd", "Tuesday", "аўторак", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "streda", "streda", "Wednesday", "Feria quarta", "", "streda", "szerda", "Wednesday", "серада", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "stvrtok", "ctvrtek", "Thursday", "Feria quinta", "", "ctvrtek", "csutortok", "Thursday", "чацвер", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "piatok", "patek", "Friday", "Feria sexta", "", "patek", "pentek", "Friday", "пятніца", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "sobota", "sobota", "Saturday", "Sabbatum", "", "sobota", "szombat", "Saturday", "субота", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neznamy", "neznamy", "unknown", "???", "", "neznamy", "ismeretlen", "unknown", "невядомы", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "nedela", "nedele", "Sunday", "Dominica", "", "nedele", "vasarnap", "Sunday", "нядзеля", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "pondelok", "pondeli", "Monday", "Feria secunda", "", "pondeli", "hetfo", "Monday", "панядзелак", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "utorok", "utery", "Tuesday", "Feria tertia", "", "utery", "kedd", "Tuesday", "аўторак", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "streda", "streda", "Wednesday", "Feria quarta", "", "streda", "szerda", "Wednesday", "серада", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "stvrtok", "ctvrtek", "Thursday", "Feria quinta", "", "ctvrtek", "csutortok", "Thursday", "чацвер", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "piatok", "patek", "Friday", "Feria sexta", "", "patek", "pentek", "Friday", "пятніца", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "sobota", "sobota", "Saturday", "Sabbatum", "", "sobota", "szombat", "Saturday", "субота", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "neznamy", "neznamy", "unknown", "???", "", "neznamy", "ismeretlen", "unknown", "невядомы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_dna_asci(a)	nazov_dna_asci_jazyk[a][_global_jazyk]
@@ -876,14 +877,14 @@ const char *nazov_dna_asci_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] =
 // two/three-letter abbreviations of the names of the days in week, starting with Sunday (sentence case)
 const char *nazov_Dn_jazyk[POCET_DNI + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "Ne", "Ne", "Sun", "Do", "", "Ne", "V", "Вс", "Нд", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Po", "Po", "Mon", "F2", "", "Po", "H", "Пн", "Пн", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Ut", "Út", "Tue", "F3", "", "Út", "K", "Вт", "Ат", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "St", "St", "Wed", "F4", "", "St", "Sze", "Ср", "Ср", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Št", "Čt", "Thu", "F5", "", "Čt", "Cs", "Чт", "Чц", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Pi", "Pá", "Fri", "F6", "", "Pá", "P", "Пт", "Пт", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "So", "So", "Sat", "S&#225;", "", "So", "Szo", "Сб", "Сб", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "??", "??", "???", "", "", "??", "??", "??", "??", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "Ne", "Ne", "Sun", "Do", "", "Ne", "V", "Вс", "Нд", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Po", "Po", "Mon", "F2", "", "Po", "H", "Пн", "Пн", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Ut", "Út", "Tue", "F3", "", "Út", "K", "Вт", "Ат", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "St", "St", "Wed", "F4", "", "St", "Sze", "Ср", "Ср", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Št", "Čt", "Thu", "F5", "", "Čt", "Cs", "Чт", "Чц", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Pi", "Pá", "Fri", "F6", "", "Pá", "P", "Пт", "Пт", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "So", "So", "Sat", "S&#225;", "", "So", "Szo", "Сб", "Сб", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "??", "??", "???", "", "", "??", "??", "??", "??", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_Dn(a)	nazov_Dn_jazyk[a][_global_jazyk]
@@ -901,19 +902,19 @@ const char *nazov_dn_asci[POCET_DNI + 1] =
 // Month (0--11)
 const char *nazov_mesiaca_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "január", "leden", "January", "ianuarius", "", "leden", "január", "январь", "студзень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "február", "únor", "February", "februarius", "", "únor", "február", "февраль", "люты", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "marec", "březen", "March", "martius", "", "březen", "március", "март", "сакавік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "apríl", "duben", "April", "aprilis", "", "duben", "április", "апреля", "красавік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "máj", "květen", "May", "maius", "", "květen", "május", "мая", "май", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "jún", "červen", "June", "iunius", "", "červen", "június", "июнь", "чэрвень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "júl", "červenec", "July", "iulius", "", "červenec", "július", "июль", "ліпень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "august", "srpen", "August", "augustus", "", "srpen", "augusztus", "август", "жнівень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "september", "září", "September", "september", "", "září", "szeptember", "сентябрь", "верасень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "október", "říjen", "October", "october", "", "říjen", "október", "октября", "кастрычнік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "november", "listopad", "November", "november", "", "listopad", "november", "ноябрь", "лістапад", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "december", "prosinec", "December", "december", "", "prosinec", "december", "декабрь", "снежань", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neznámy", "neznámý", "unknown", "___", "", "neznámý", "ismeretlen", "неизвестный", "невядомы", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "január", "leden", "January", "ianuarius", "", "leden", "január", "январь", "студзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "február", "únor", "February", "februarius", "", "únor", "február", "февраль", "люты", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "marec", "březen", "March", "martius", "", "březen", "március", "март", "сакавік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "apríl", "duben", "April", "aprilis", "", "duben", "április", "апреля", "красавік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "máj", "květen", "May", "maius", "", "květen", "május", "мая", "май", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "jún", "červen", "June", "iunius", "", "červen", "június", "июнь", "чэрвень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "júl", "červenec", "July", "iulius", "", "červenec", "július", "июль", "ліпень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "august", "srpen", "August", "augustus", "", "srpen", "augusztus", "август", "жнівень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "september", "září", "September", "september", "", "září", "szeptember", "сентябрь", "верасень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "október", "říjen", "October", "october", "", "říjen", "október", "октября", "кастрычнік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "november", "listopad", "November", "november", "", "listopad", "november", "ноябрь", "лістапад", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "december", "prosinec", "December", "december", "", "prosinec", "december", "декабрь", "снежань", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "neznámy", "neznámý", "unknown", "___", "", "neznámý", "ismeretlen", "неизвестный", "невядомы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_mesiaca(a)	nazov_mesiaca_jazyk[a][_global_jazyk]
@@ -921,19 +922,19 @@ const char *nazov_mesiaca_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] =
 // the names of the months (sentence case)
 const char *nazov_Mesiaca_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "Január", "Leden", "January", "Ianuarius", "", "Leden", "Január", "Январь", "Студзень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Február", "Únor", "February", "Februarius", "", "Únor", "Február", "Февраль", "Люты", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Marec", "Březen", "March", "Martius", "", "Březen", "Március", "Март", "Сакавік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Apríl", "Duben", "April", "Aprilis", "", "Duben", "Április", "Апреля", "Красавік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Máj", "Květen", "May", "Maius", "", "Květen", "Május", "Мая", "Май", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Jún", "Červen", "June", "Iunius", "", "Červen", "Június", "Июнь", "Чэрвень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Júl", "Červenec", "July", "Iulius", "", "Červenec", "Július", "Июль", "Ліпень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "August", "Srpen", "August", "Augustus", "", "Srpen", "Augusztus", "Август", "Жнівень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "September", "Září", "September", "September", "", "Září", "Szeptember", "Сентябрь", "Верасень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Október", "Říjen", "October", "October", "", "Říjen", "Október", "Октября", "Кастрычнік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "November", "Listopad", "November", "November", "", "Listopad", "November", "Ноябрь", "Лістапад", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "December", "Prosinec", "December", "December", "", "Prosinec", "December", "Декабрь", "Снежань", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Neznámy", "Neznámý", "unknown", "???", "", "Neznámý", "Ismeretlen", "Неизвестный", "Невядомы", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "Január", "Leden", "January", "Ianuarius", "", "Leden", "Január", "Январь", "Студзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Február", "Únor", "February", "Februarius", "", "Únor", "Február", "Февраль", "Люты", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Marec", "Březen", "March", "Martius", "", "Březen", "Március", "Март", "Сакавік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Apríl", "Duben", "April", "Aprilis", "", "Duben", "Április", "Апреля", "Красавік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Máj", "Květen", "May", "Maius", "", "Květen", "Május", "Мая", "Май", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Jún", "Červen", "June", "Iunius", "", "Červen", "Június", "Июнь", "Чэрвень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Júl", "Červenec", "July", "Iulius", "", "Červenec", "Július", "Июль", "Ліпень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "August", "Srpen", "August", "Augustus", "", "Srpen", "Augusztus", "Август", "Жнівень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "September", "Září", "September", "September", "", "Září", "Szeptember", "Сентябрь", "Верасень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Október", "Říjen", "October", "October", "", "Říjen", "Október", "Октября", "Кастрычнік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "November", "Listopad", "November", "November", "", "Listopad", "November", "Ноябрь", "Лістапад", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "December", "Prosinec", "December", "December", "", "Prosinec", "December", "Декабрь", "Снежань", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Neznámy", "Neznámý", "unknown", "???", "", "Neznámý", "Ismeretlen", "Неизвестный", "Невядомы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_Mesiaca(a)	nazov_Mesiaca_jazyk[a][_global_jazyk]
@@ -941,19 +942,19 @@ const char *nazov_Mesiaca_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] =
 // the names of the months (uppercase)
 const char *nazov_MESIACA_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "JANUÁR", "LEDEN", "JANUARY", "IANUARIUS", "", "LEDEN", "JANUÁR", "ЯНВАРЬ", "СТУДЗЕНЬ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "FEBRUÁR", "ÚNOR", "FEBRUARY", "FEBRUARIUS", "", "ÚNOR", "FEBRUÁR", "ФЕВРАЛЬ", "ЛЮТЫ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "MAREC", "BŘEZEN", "MARCH", "MARTIUS", "", "BŘEZEN", "MÁRCIUS", "МАРТ", "САКАВІК", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "APRÍL", "DUBEN", "APRIL", "APRILIS", "", "DUBEN", "ÁPRILIS", "АПРЕЛЯ", "КРАСАВІК", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "MÁJ", "KVĚTEN", "MAY", "MAIUS", "", "KVĚTEN", "MÁJUS", "МАЯ", "МАЙ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "JÚN", "ČERVEN", "JUNE", "IUNIUS", "", "ČERVEN", "JÚNIUS", "ИЮНЬ", "ЧЭРВЕНЬ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "JÚL", "ČERVENEC", "JULY", "IULIUS", "", "ČERVENEC", "JÚLIUS", "ИЮЛЬ", "ЛІПЕНЬ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "AUGUST", "SRPEN", "AUGUST", "AUGUSTUS", "", "SRPEN", "AUGUSZTUS", "АВГУСТ", "ЖНІВЕНЬ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "SEPTEMBER", "ZÁŘÍ", "SEPTEMBER", "SEPTEMBER", "", "ZÁŘÍ", "SZEPTEMBER", "СЕНТЯБРЬ", "ВЕРАСЕНЬ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "OKTÓBER", "ŘÍJEN", "OCTOBER", "OCTOBER", "", "ŘÍJEN", "OKTÓBER", "ОКТЯБРЯ", "КАСТРЫЧНІК", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "NOVEMBER", "LISTOPAD", "NOVEMBER", "NOVEMBER", "", "LISTOPAD", "NOVEMBER", "НОЯБРЬ", "ЛІСТАПАД", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "DECEMBER", "PROSINEC", "DECEMBER", "DECEMBER", "", "PROSINEC", "DECEMBER", "ДЕКАБРЬ", "СНЕЖАНЬ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "NEZNÁMY", "NEZNÁMÝ", "UNKNOWN", "???", "", "NEZNÁMÝ", "ISMERETLEN", "НЕИЗВЕСТНЫЙ", "НЕВЯДОМЫ", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "JANUÁR", "LEDEN", "JANUARY", "IANUARIUS", "", "LEDEN", "JANUÁR", "ЯНВАРЬ", "СТУДЗЕНЬ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "FEBRUÁR", "ÚNOR", "FEBRUARY", "FEBRUARIUS", "", "ÚNOR", "FEBRUÁR", "ФЕВРАЛЬ", "ЛЮТЫ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "MAREC", "BŘEZEN", "MARCH", "MARTIUS", "", "BŘEZEN", "MÁRCIUS", "МАРТ", "САКАВІК", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "APRÍL", "DUBEN", "APRIL", "APRILIS", "", "DUBEN", "ÁPRILIS", "АПРЕЛЯ", "КРАСАВІК", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "MÁJ", "KVĚTEN", "MAY", "MAIUS", "", "KVĚTEN", "MÁJUS", "МАЯ", "МАЙ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "JÚN", "ČERVEN", "JUNE", "IUNIUS", "", "ČERVEN", "JÚNIUS", "ИЮНЬ", "ЧЭРВЕНЬ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "JÚL", "ČERVENEC", "JULY", "IULIUS", "", "ČERVENEC", "JÚLIUS", "ИЮЛЬ", "ЛІПЕНЬ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "AUGUST", "SRPEN", "AUGUST", "AUGUSTUS", "", "SRPEN", "AUGUSZTUS", "АВГУСТ", "ЖНІВЕНЬ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "SEPTEMBER", "ZÁŘÍ", "SEPTEMBER", "SEPTEMBER", "", "ZÁŘÍ", "SZEPTEMBER", "СЕНТЯБРЬ", "ВЕРАСЕНЬ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "OKTÓBER", "ŘÍJEN", "OCTOBER", "OCTOBER", "", "ŘÍJEN", "OKTÓBER", "ОКТЯБРЯ", "КАСТРЫЧНІК", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "NOVEMBER", "LISTOPAD", "NOVEMBER", "NOVEMBER", "", "LISTOPAD", "NOVEMBER", "НОЯБРЬ", "ЛІСТАПАД", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "DECEMBER", "PROSINEC", "DECEMBER", "DECEMBER", "", "PROSINEC", "DECEMBER", "ДЕКАБРЬ", "СНЕЖАНЬ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "NEZNÁMY", "NEZNÁMÝ", "UNKNOWN", "???", "", "NEZNÁMÝ", "ISMERETLEN", "НЕИЗВЕСТНЫЙ", "НЕВЯДОМЫ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_MESIACA(a)	nazov_MESIACA_jazyk[a][_global_jazyk]
@@ -961,19 +962,19 @@ const char *nazov_MESIACA_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] =
 // the names of the months (lowecase without special characters, plain ASCII 0--128)
 const char *nazov_mesiaca_asci_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] =
 {
-	{ "januar", "leden", "January", "Ianuarius", "", "leden", "januar", "January", "студзень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "februar", "unor", "February", "Februarius", "", "unor", "februar", "February", "люты", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "marec", "brezen", "March", "Martius", "", "brezen", "marcius", "March", "сакавік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "april", "duben", "April", "Aprilis", "", "duben", "aprilis", "April", "красавік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "maj", "kveten", "May", "Maius", "", "kveten", "majus", "May", "май", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "jun", "cerven", "June", "Iunius", "", "cerven", "junius", "June", "чэрвень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "jul", "cervenec", "July", "Iulius", "", "cervenec", "julius", "July", "ліпень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "august", "srpen", "August", "Augustus", "", "srpen", "augusztus", "August", "жнівень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "september", "zari", "September", "September", "", "zari", "szeptember", "September", "верасень", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "oktober", "rijen", "October", "October", "", "rijen", "oktober", "October", "кастрычнік", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "november", "listopad", "November", "November", "", "listopad", "november", "November", "лістапад", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "december", "prosinec", "December", "December", "", "prosinec", "december", "December", "снежань", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neznamy", "neznamy", "unknown", "___", "", "neznamy", "ismeretlen", "unknown", "невядомы", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "januar", "leden", "January", "Ianuarius", "", "leden", "januar", "January", "студзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "februar", "unor", "February", "Februarius", "", "unor", "februar", "February", "люты", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "marec", "brezen", "March", "Martius", "", "brezen", "marcius", "March", "сакавік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "april", "duben", "April", "Aprilis", "", "duben", "aprilis", "April", "красавік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "maj", "kveten", "May", "Maius", "", "kveten", "majus", "May", "май", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "jun", "cerven", "June", "Iunius", "", "cerven", "junius", "June", "чэрвень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "jul", "cervenec", "July", "Iulius", "", "cervenec", "julius", "July", "ліпень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "august", "srpen", "August", "Augustus", "", "srpen", "augusztus", "August", "жнівень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "september", "zari", "September", "September", "", "zari", "szeptember", "September", "верасень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "oktober", "rijen", "October", "October", "", "rijen", "oktober", "October", "кастрычнік", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "november", "listopad", "November", "November", "", "listopad", "november", "November", "лістапад", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "december", "prosinec", "December", "December", "", "prosinec", "december", "December", "снежань", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "neznamy", "neznamy", "unknown", "___", "", "neznamy", "ismeretlen", "unknown", "невядомы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_mesiaca_asci(a)	nazov_mesiaca_asci_jazyk[a][_global_jazyk]
@@ -983,19 +984,19 @@ const char *nazov_mesiaca_asci_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] =
 // genitív názvu mesiaca
 const char *nazov_mesiaca_gen_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "januára", "ledna", "January", "ianuarii", "", "ledna", "január", "ru_text", "студзеня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "februára", "února", "February", "februarii", "", "února", "február", "ru_text", "лютага", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "marca", "března", "March", "martii", "", "března", "március", "ru_text", "сакавіка", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "apríla", "dubna", "April", "aprilis", "", "dubna", "április", "ru_text", "красавіка", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "mája", "května", "May", "maii", "", "května", "május", "ru_text", "мая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "júna", "června", "June", "iunii", "", "června", "június", "ru_text", "чэрвеня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "júla", "července", "July", "iulii", "", "července", "július", "ru_text", "ліпеня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "augusta", "srpna", "August", "augusti", "", "srpna", "augusztus", "ru_text", "жніўня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "septembra", "září", "September", "septembris", "", "září", "szeptember", "ru_text", "верасня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "októbra", "října", "October", "octobris", "", "října", "október", "ru_text", "кастрычніка", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "novembra", "listopadu", "November", "novembris", "", "listopadu", "november", "ru_text", "лістапада", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "decembra", "prosince", "December", "decembris", "", "prosince", "december", "ru_text", "снежня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "neznámeho", "neznámého", "unknown", "___", "", "neznámého", "ismeretlen", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "januára", "ledna", "January", "ianuarii", "", "ledna", "január", "ru_text", "студзеня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "februára", "února", "February", "februarii", "", "února", "február", "ru_text", "лютага", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "marca", "března", "March", "martii", "", "března", "március", "ru_text", "сакавіка", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "apríla", "dubna", "April", "aprilis", "", "dubna", "április", "ru_text", "красавіка", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "mája", "května", "May", "maii", "", "května", "május", "ru_text", "мая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "júna", "června", "June", "iunii", "", "června", "június", "ru_text", "чэрвеня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "júla", "července", "July", "iulii", "", "července", "július", "ru_text", "ліпеня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "augusta", "srpna", "August", "augusti", "", "srpna", "augusztus", "ru_text", "жніўня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "septembra", "září", "September", "septembris", "", "září", "szeptember", "ru_text", "верасня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "októbra", "října", "October", "octobris", "", "října", "október", "ru_text", "кастрычніка", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "novembra", "listopadu", "November", "novembris", "", "listopadu", "november", "ru_text", "лістапада", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "decembra", "prosince", "December", "decembris", "", "prosince", "december", "ru_text", "снежня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "neznámeho", "neznámého", "unknown", "___", "", "neznámého", "ismeretlen", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_mesiaca_gen(a)	nazov_mesiaca_gen_jazyk[a][_global_jazyk]
@@ -1003,19 +1004,19 @@ const char *nazov_mesiaca_gen_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] =
 // 2007-03-20: pridaný genitív názvu mesiaca kvôli latinčine
 const char *nazov_Mesiaca_gen_jazyk[POCET_MESIACOV + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "Januára", "Ledna", "January", "Ianuarii", "", "Ledna", "Január", "ru_text", "Студзеня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Februára", "Února", "February", "Februarii", "", "Února", "Február", "ru_text", "Лютага", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Marca", "Března", "March", "Martii", "", "Března", "Március", "ru_text", "Сакавіка", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Apríla", "Dubna", "April", "Aprilis", "", "Dubna", "Április", "ru_text", "Красавіка", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Mája", "Května", "May", "Maii", "", "Května", "Május", "ru_text", "Мая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Júna", "Června", "June", "Iunii", "", "Června", "Június", "ru_text", "Чэрвеня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Júla", "Července", "July", "Iulii", "", "Července", "Július", "ru_text", "Ліпеня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Augusta", "Srpna", "August", "Augusti", "", "Srpna", "Augusztus", "ru_text", "Жніўня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Septembra", "Září", "September", "Septembris", "", "Září", "Szeptember", "ru_text", "Верасня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Októbra", "Října", "October", "Octobris", "", "Října", "Október", "ru_text", "Кастрычніка", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Novembra", "Listopadu", "November", "Novembris", "", "Listopadu", "November", "ru_text", "Лістапада", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Decembra", "Prosince", "December", "Decembris", "", "Prosince", "December", "ru_text", "Снежня", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	, { "Neznámeho", "Neznámého", "Unknown", "___", "", "Neznámého", "Ismeretlen", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "Januára", "Ledna", "January", "Ianuarii", "", "Ledna", "Január", "ru_text", "Студзеня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Februára", "Února", "February", "Februarii", "", "Února", "Február", "ru_text", "Лютага", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Marca", "Března", "March", "Martii", "", "Března", "Március", "ru_text", "Сакавіка", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Apríla", "Dubna", "April", "Aprilis", "", "Dubna", "Április", "ru_text", "Красавіка", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Mája", "Května", "May", "Maii", "", "Května", "Május", "ru_text", "Мая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Júna", "Června", "June", "Iunii", "", "Června", "Június", "ru_text", "Чэрвеня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Júla", "Července", "July", "Iulii", "", "Července", "Július", "ru_text", "Ліпеня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Augusta", "Srpna", "August", "Augusti", "", "Srpna", "Augusztus", "ru_text", "Жніўня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Septembra", "Září", "September", "Septembris", "", "Září", "Szeptember", "ru_text", "Верасня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Októbra", "Října", "October", "Octobris", "", "Října", "Október", "ru_text", "Кастрычніка", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Novembra", "Listopadu", "November", "Novembris", "", "Listopadu", "November", "ru_text", "Лістапада", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Decembra", "Prosince", "December", "Decembris", "", "Prosince", "December", "ru_text", "Снежня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	, { "Neznámeho", "Neznámého", "Unknown", "___", "", "Neznámého", "Ismeretlen", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define		nazov_Mesiaca_gen(a)	nazov_Mesiaca_gen_jazyk[a][_global_jazyk]
@@ -1032,79 +1033,79 @@ const char *nazov_mes[POCET_MESIACOV + 1] =
 // 2008-12-20: pridaný reťazec pre poradové číslo - používa sa v init_global_string() pre nedele niektorých období [zatiaľ iba v slovenčine]
 const char *poradie_Slovom_jazyk[POCET_TYZDNOV + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "Prvá", "První", "", "", "", "První", "1.", "ru_text", "Першая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Druhá", "Druhá", "", "", "", "Druhá", "2.", "ru_text", "Другая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Tretia", "Třetí", "", "", "", "Třetí", "3.", "ru_text", "Трэцяя", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Štvrtá", "Čtvrtá", "", "", "", "Čtvrtá", "4.", "ru_text", "Чацвёртая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Piata", "Pátá", "", "", "", "Pátá", "5.", "ru_text", "Пятая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Šiesta", "Šestá", "", "", "", "Šestá", "6.", "ru_text", "Шостая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Siedma", "Sedmá", "", "", "", "Sedmá", "7.", "ru_text", "Сёмая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Ôsma", "Osmá", "", "", "", "Osmá", "8.", "ru_text", "Восьмая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Deviata", "Devátá", "", "", "", "Devátá", "9.", "ru_text", "Дзевятая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "Desiata", "Desátá", "", "", "", "Desátá", "10.", "ru_text", "Дзясятая", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "11. ", "11", "11", "11", "11", "11", "11.", "11.", "11.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "12. ", "12", "12", "12", "12", "12", "12.", "12.", "12.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "13. ", "13", "13", "13", "13", "13", "13.", "13.", "13.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "14. ", "14", "14", "14", "14", "14", "14.", "14.", "14.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "15. ", "15", "15", "15", "15", "15", "15.", "15.", "15.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "16. ", "16", "16", "16", "16", "16", "16.", "16.", "16.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "17. ", "17", "17", "17", "17", "17", "17.", "17.", "17.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "18. ", "18", "18", "18", "18", "18", "18.", "18.", "18.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "19. ", "19", "19", "19", "19", "19", "19.", "19.", "19.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "20. ", "20", "20", "20", "20", "20", "20.", "20.", "20.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "21. ", "21", "21", "21", "21", "21", "21.", "21.", "21.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "22. ", "22", "22", "22", "22", "22", "22.", "22.", "22.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "23. ", "23", "23", "23", "23", "23", "23.", "23.", "23.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "24. ", "24", "24", "24", "24", "24", "24.", "24.", "24.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "25. ", "25", "25", "25", "25", "25", "25.", "25.", "25.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "26. ", "26", "26", "26", "26", "26", "26.", "26.", "26.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "27. ", "27", "27", "27", "27", "27", "27.", "27.", "27.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "28. ", "28", "28", "28", "28", "28", "28.", "28.", "28.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "29. ", "29", "29", "29", "29", "29", "29.", "29.", "29.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "30. ", "30", "30", "30", "30", "30", "30.", "30.", "30.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "31. ", "31", "31", "31", "31", "31", "31.", "31.", "31.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "32. ", "32", "32", "32", "32", "32", "32.", "32.", "32.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "33. ", "33", "33", "33", "33", "33", "33.", "33.", "33.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "34. ", "34", "34", "34", "34", "34", "34.", "34.", "34.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "Prvá", "První", "", "", "", "První", "1.", "ru_text", "Першая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Druhá", "Druhá", "", "", "", "Druhá", "2.", "ru_text", "Другая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Tretia", "Třetí", "", "", "", "Třetí", "3.", "ru_text", "Трэцяя", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Štvrtá", "Čtvrtá", "", "", "", "Čtvrtá", "4.", "ru_text", "Чацвёртая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Piata", "Pátá", "", "", "", "Pátá", "5.", "ru_text", "Пятая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Šiesta", "Šestá", "", "", "", "Šestá", "6.", "ru_text", "Шостая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Siedma", "Sedmá", "", "", "", "Sedmá", "7.", "ru_text", "Сёмая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Ôsma", "Osmá", "", "", "", "Osmá", "8.", "ru_text", "Восьмая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Deviata", "Devátá", "", "", "", "Devátá", "9.", "ru_text", "Дзевятая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "Desiata", "Desátá", "", "", "", "Desátá", "10.", "ru_text", "Дзясятая", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "11. ", "11", "11", "11", "11", "11", "11.", "11.", "11.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "12. ", "12", "12", "12", "12", "12", "12.", "12.", "12.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "13. ", "13", "13", "13", "13", "13", "13.", "13.", "13.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "14. ", "14", "14", "14", "14", "14", "14.", "14.", "14.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "15. ", "15", "15", "15", "15", "15", "15.", "15.", "15.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "16. ", "16", "16", "16", "16", "16", "16.", "16.", "16.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "17. ", "17", "17", "17", "17", "17", "17.", "17.", "17.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "18. ", "18", "18", "18", "18", "18", "18.", "18.", "18.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "19. ", "19", "19", "19", "19", "19", "19.", "19.", "19.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "20. ", "20", "20", "20", "20", "20", "20.", "20.", "20.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "21. ", "21", "21", "21", "21", "21", "21.", "21.", "21.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "22. ", "22", "22", "22", "22", "22", "22.", "22.", "22.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "23. ", "23", "23", "23", "23", "23", "23.", "23.", "23.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "24. ", "24", "24", "24", "24", "24", "24.", "24.", "24.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "25. ", "25", "25", "25", "25", "25", "25.", "25.", "25.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "26. ", "26", "26", "26", "26", "26", "26.", "26.", "26.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "27. ", "27", "27", "27", "27", "27", "27.", "27.", "27.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "28. ", "28", "28", "28", "28", "28", "28.", "28.", "28.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "29. ", "29", "29", "29", "29", "29", "29.", "29.", "29.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "30. ", "30", "30", "30", "30", "30", "30.", "30.", "30.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "31. ", "31", "31", "31", "31", "31", "31.", "31.", "31.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "32. ", "32", "32", "32", "32", "32", "32.", "32.", "32.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "33. ", "33", "33", "33", "33", "33", "33.", "33.", "33.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "34. ", "34", "34", "34", "34", "34", "34.", "34.", "34.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 // the same as "poradie_Slovom_jazyk" ordinal numbers for first few Sundays (uppercase) - used for special occasions currently only in Slovak; no need to change
 const char *poradie_SLOVOM_jazyk[POCET_TYZDNOV + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "PRVÁ", "PRVNÍ", "", "", "", "PRVNÍ", "1.", "ru_text", "ПЕРШАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "DRUHÁ", "DRUHÁ", "", "", "", "DRUHÁ", "2.", "ru_text", "ДРУГАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "TRETIA", "TŘETÍ", "", "", "", "TŘETÍ", "3.", "ru_text", "ТРЭЦЯЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "ŠTVRTÁ", "ČTVRTÁ", "", "", "", "ČTVRTÁ", "4.", "ru_text", "ЧАЦВЁРТАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "PIATA", "PÁTÁ", "", "", "", "PÁTÁ", "5.", "ru_text", "ПЯТАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "ŠIESTA", "ŠESTÁ", "", "", "", "ŠESTÁ", "6.", "ru_text", "ШОСТАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "SIEDMA", "SEDMÁ", "", "", "", "SEDMÁ", "7.", "ru_text", "СЁМАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "ÔSMA", "OSMÁ", "", "", "", "OSMÁ", "8.", "ru_text", "ВОСЬМАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "DEVIATA", "DEVÁTÁ", "", "", "", "DEVÁTÁ", "9.", "ru_text", "ДЗЕВЯТАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "DESIATA", "DESÁTÁ", "", "", "", "DESÁTÁ", "10.", "ru_text", "ДЗЯСЯТАЯ", /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "11. ", "11", "11", "11", "11", "11", "11.", "11.", "11.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "12. ", "12", "12", "12", "12", "12", "12.", "12.", "12.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "13. ", "13", "13", "13", "13", "13", "13.", "13.", "13.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "14. ", "14", "14", "14", "14", "14", "14.", "14.", "14.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "15. ", "15", "15", "15", "15", "15", "15.", "15.", "15.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "16. ", "16", "16", "16", "16", "16", "16.", "16.", "16.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "17. ", "17", "17", "17", "17", "17", "17.", "17.", "17.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "18. ", "18", "18", "18", "18", "18", "18.", "18.", "18.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "19. ", "19", "19", "19", "19", "19", "19.", "19.", "19.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "20. ", "20", "20", "20", "20", "20", "20.", "20.", "20.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "21. ", "21", "21", "21", "21", "21", "21.", "21.", "21.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "22. ", "22", "22", "22", "22", "22", "22.", "22.", "22.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "23. ", "23", "23", "23", "23", "23", "23.", "23.", "23.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "24. ", "24", "24", "24", "24", "24", "24.", "24.", "24.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "25. ", "25", "25", "25", "25", "25", "25.", "25.", "25.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "26. ", "26", "26", "26", "26", "26", "26.", "26.", "26.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "27. ", "27", "27", "27", "27", "27", "27.", "27.", "27.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "28. ", "28", "28", "28", "28", "28", "28.", "28.", "28.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "29. ", "29", "29", "29", "29", "29", "29.", "29.", "29.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "30. ", "30", "30", "30", "30", "30", "30.", "30.", "30.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "31. ", "31", "31", "31", "31", "31", "31.", "31.", "31.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "32. ", "32", "32", "32", "32", "32", "32.", "32.", "32.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "33. ", "33", "33", "33", "33", "33", "33.", "33.", "33.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
-	,{ "34. ", "34", "34", "34", "34", "34", "34.", "34.", "34.",  /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "PRVÁ", "PRVNÍ", "", "", "", "PRVNÍ", "1.", "ru_text", "ПЕРШАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "DRUHÁ", "DRUHÁ", "", "", "", "DRUHÁ", "2.", "ru_text", "ДРУГАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "TRETIA", "TŘETÍ", "", "", "", "TŘETÍ", "3.", "ru_text", "ТРЭЦЯЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "ŠTVRTÁ", "ČTVRTÁ", "", "", "", "ČTVRTÁ", "4.", "ru_text", "ЧАЦВЁРТАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "PIATA", "PÁTÁ", "", "", "", "PÁTÁ", "5.", "ru_text", "ПЯТАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "ŠIESTA", "ŠESTÁ", "", "", "", "ŠESTÁ", "6.", "ru_text", "ШОСТАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "SIEDMA", "SEDMÁ", "", "", "", "SEDMÁ", "7.", "ru_text", "СЁМАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "ÔSMA", "OSMÁ", "", "", "", "OSMÁ", "8.", "ru_text", "ВОСЬМАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "DEVIATA", "DEVÁTÁ", "", "", "", "DEVÁTÁ", "9.", "ru_text", "ДЗЕВЯТАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "DESIATA", "DESÁTÁ", "", "", "", "DESÁTÁ", "10.", "ru_text", "ДЗЯСЯТАЯ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "11. ", "11", "11", "11", "11", "11", "11.", "11.", "11.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "12. ", "12", "12", "12", "12", "12", "12.", "12.", "12.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "13. ", "13", "13", "13", "13", "13", "13.", "13.", "13.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "14. ", "14", "14", "14", "14", "14", "14.", "14.", "14.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "15. ", "15", "15", "15", "15", "15", "15.", "15.", "15.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "16. ", "16", "16", "16", "16", "16", "16.", "16.", "16.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "17. ", "17", "17", "17", "17", "17", "17.", "17.", "17.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "18. ", "18", "18", "18", "18", "18", "18.", "18.", "18.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "19. ", "19", "19", "19", "19", "19", "19.", "19.", "19.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "20. ", "20", "20", "20", "20", "20", "20.", "20.", "20.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "21. ", "21", "21", "21", "21", "21", "21.", "21.", "21.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "22. ", "22", "22", "22", "22", "22", "22.", "22.", "22.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "23. ", "23", "23", "23", "23", "23", "23.", "23.", "23.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "24. ", "24", "24", "24", "24", "24", "24.", "24.", "24.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "25. ", "25", "25", "25", "25", "25", "25.", "25.", "25.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "26. ", "26", "26", "26", "26", "26", "26.", "26.", "26.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "27. ", "27", "27", "27", "27", "27", "27.", "27.", "27.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "28. ", "28", "28", "28", "28", "28", "28.", "28.", "28.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "29. ", "29", "29", "29", "29", "29", "29.", "29.", "29.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "30. ", "30", "30", "30", "30", "30", "30.", "30.", "30.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "31. ", "31", "31", "31", "31", "31", "31.", "31.", "31.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "32. ", "32", "32", "32", "32", "32", "32.", "32.", "32.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "33. ", "33", "33", "33", "33", "33", "33.", "33.", "33.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	,{ "34. ", "34", "34", "34", "34", "34", "34.", "34.", "34.",  "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 // the names of rites
@@ -1120,7 +1121,8 @@ const char *nazov_ritu_jazyka[POCET_RITOV + 1][POCET_JAZYKOV + 1] =
 		"római",
 		"ru_text",
 		"by_text",
-	/* STRING_2_FOR_NEW_LANGUAGE */
+		"text_pl",
+		/* STRING_2_FOR_NEW_LANGUAGE */
 	},
 	{
 		"byzantský",
@@ -1132,7 +1134,8 @@ const char *nazov_ritu_jazyka[POCET_RITOV + 1][POCET_JAZYKOV + 1] =
 		"görög",
 		"ru_text",
 		"by_text",
-	/* STRING_2_FOR_NEW_LANGUAGE */
+		"text_pl",
+		/* STRING_2_FOR_NEW_LANGUAGE */
 	},
 };
 #define nazov_ritu(a) nazov_ritu_jazyka[a][_global_jazyk]
@@ -1140,21 +1143,21 @@ const char *nazov_ritu_jazyka[POCET_RITOV + 1][POCET_JAZYKOV + 1] =
 // the names of languages
 // 2006-07-11: Pridané kvôli jazykovým mutáciám
 const char *nazov_jazyka[POCET_JAZYKOV + 1] =
-{ "slovenčina", "čeština", "English", "lingua latina", "(neurčený)", "čeština/dominikánský", "magyar", "русский", "беларускі", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "slovenčina", "čeština", "English", "lingua latina", "(neurčený)", "čeština/dominikánský", "magyar", "русский", "беларускі", "polski", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // language codes; internal usage for HTTP requests
 const char *skratka_jazyka[POCET_JAZYKOV + 1] =
-{ "sk", "cz", "en", "la", "??", "c2", "hu", "ru", "by", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "sk", "cz", "en", "la", "??", "c2", "hu", "ru", "by", "pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // language codes; internal usage for include directories (postfix of directory/folder name); postfix MUST NOT contain slash/backslash
 // 2006-07-13 a 17: Pridané kvôli jazykovým mutáciám - postfix pre include adresár
 const char *postfix_jazyka[POCET_JAZYKOV + 1] =
-{ "", "cz", "en", "la", "", "czop", "hu", "ru", "by", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "", "cz", "en", "la", "", "czop", "hu", "ru", "by", "pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 // Poznámka: Postfix nesmie obsahovať na začiatku oddeľovač (slash resp. backslash); musí sa jednať o podadresár pod include
 
 // language codes; internal usage for HTML page title
 const char *skratka_jazyka_title[POCET_JAZYKOV + 1] =
-{ "SK", "CZ", "EN", "LA", "??", "CZOP", "HU", "RU", "BY", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "SK", "CZ", "EN", "LA", "??", "CZOP", "HU", "RU", "BY", "PL", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const short int format_datumu[POCET_JAZYKOV + 1] = {
 	/* sk */ FORMAT_DATUMU_DEN_MESIAC_ROK,
@@ -1166,6 +1169,7 @@ const short int format_datumu[POCET_JAZYKOV + 1] = {
 	/* hu */ FORMAT_DATUMU_ROK_MESIAC_DEN,
 	/* ru */ FORMAT_DATUMU_DEN_MESIAC_ROK,
 	/* by */ FORMAT_DATUMU_DEN_MESIAC_ROK,
+	/* pl */ FORMAT_DATUMU_DEN_MESIAC_ROK,
 	/* ADD_VALUE_FOR_NEW_LANGUAGE */
 };
 
@@ -1179,6 +1183,7 @@ const short int use_dot_for_ordinals[POCET_JAZYKOV + 1] = {
 	/* hu */ FORMAT_DATE_USE_DOT_FOR_ORDINALS,
 	/* ru */ FORMAT_DATE_USE_DOT_FOR_ORDINALS,
 	/* by */ FORMAT_DATE_DO_NOT_USE_DOT_FOR_ORDINALS,
+	/* pl */ FORMAT_DATE_USE_DOT_FOR_ORDINALS,
 	/* ADD_VALUE_FOR_NEW_LANGUAGE */
 };
 
@@ -1192,7 +1197,7 @@ const char *skratka_css[POCET_CSS + 1] =
 
 // Language mutations
 const short int default_css_jazyk[POCET_JAZYKOV + 1] =
-{ CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, /* ADD_VALUE_FOR_NEW_LANGUAGE */ };
+{ CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, CSS_breviar_sk, /* ADD_VALUE_FOR_NEW_LANGUAGE */ };
 
 // CSS obsahujuci invertovane farby | CSS for "night mode" (inverted colors) - includes ONLY ammendment to base css (breviar.css)
 const char *nazov_css_invert_colors = "breviar-invert-colors.css";
@@ -1209,7 +1214,7 @@ const char *nazov_css_background_ov_invert = "breviar-background-ov-invert.css";
 
 // language charset (encoding); used for HTML heading | use CHARSET_UTF_8
 const short int charset_jazyka[POCET_JAZYKOV + 1] =
-{ CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, /* ADD_VALUE_FOR_NEW_LANGUAGE */ };
+{ CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, CHARSET_UTF_8, /* ADD_VALUE_FOR_NEW_LANGUAGE */ };
 
 const char *nazov_charset[POCET_CHARSET + 1] =
 { "utf-8", "windows-1250" };
@@ -1221,22 +1226,22 @@ const char *nazov_fontu[POCET_FONTOV + 1] =
 { "", "podľa CSS", "podľa výberu", "Cambria", "Candara", "Georgia", "Tahoma", "Verdana", "Helvetica", "serif", "sans-serif" };
 
 const char *nazov_fontu_CHECKBOX[POCET_JAZYKOV + 1] =
-{ "podľa výberu", "podle výběru", "according to checkbox above", "checkbox", "", "podle výběru", "checkbox", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "podľa výberu", "podle výběru", "according to checkbox above", "checkbox", "", "podle výběru", "checkbox", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const char *nazov_fontu_CSS[POCET_JAZYKOV + 1] =
-{ "podľa CSS", "podle CSS", "according to CSS", "CSS", "CSS", "podle CSS", "CSS szerint", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "podľa CSS", "podle CSS", "according to CSS", "CSS", "CSS", "podle CSS", "CSS szerint", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const char *nazov_font_size_jazyk[POCET_FONT_SIZE + 1][POCET_JAZYKOV + 1] = 
 {
-	{ "", "", "", "", "", "", "", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "podľa CSS", "podle CSS", "according to CSS", "CSS", "", "podle CSS", "CSS szerint", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "malilinké", "malinkaté", "xx-small", "xx-small", "", "malinkaté", "apró", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "veľmi malé", "velmi malé", "extra small", "extra small", "", "velmi malé", "nagyon kicsi", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "malé", "malé", "small", "small", "", "malé", "kicsi", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "stredné", "střední", "medium", "medium", "", "střední", "közepes", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "veľké", "veliké", "large", "large", "", "veliké", "nagy", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "veľmi veľké", "velmi veliké", "extra large", "extra large", "", "velmi veliké", "nagyon nagy", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ },
-	{ "obrovské", "obrovské", "xx-large", "xx-large", "", "obrovské", "óriási", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }
+	{ "", "", "", "", "", "", "", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "podľa CSS", "podle CSS", "according to CSS", "CSS", "", "podle CSS", "CSS szerint", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "malilinké", "malinkaté", "xx-small", "xx-small", "", "malinkaté", "apró", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "veľmi malé", "velmi malé", "extra small", "extra small", "", "velmi malé", "nagyon kicsi", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "malé", "malé", "small", "small", "", "malé", "kicsi", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "stredné", "střední", "medium", "medium", "", "střední", "közepes", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "veľké", "veliké", "large", "large", "", "veliké", "nagy", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "veľmi veľké", "velmi veliké", "extra large", "extra large", "", "velmi veliké", "nagyon nagy", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ },
+	{ "obrovské", "obrovské", "xx-large", "xx-large", "", "obrovské", "óriási", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }
 };
 
 #define nazov_font_size(a) nazov_font_size_jazyk[a][_global_jazyk]
@@ -1251,89 +1256,89 @@ const char *nazov_font_size_css[POCET_FONT_SIZE + 1] =
 
 // special button: Show prayer
 const char *html_button_det_show[POCET_JAZYKOV + 1] = 
-{ "Zobraz modlitbu", "Ukaž modlitbu", "Show prayer", "Ostendo oratio", "", "Ukaž modlitbu", "Ima megjelenítése", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Zobraz modlitbu", "Ukaž modlitbu", "Show prayer", "Ostendo oratio", "", "Ukaž modlitbu", "Ima megjelenítése", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #ifndef HTML_BUTTON_DET_SHOW
 #define HTML_BUTTON_DET_SHOW	html_button_det_show[_global_jazyk]
 #endif
 
 // special button: Defaults
 const char *html_button_det_defaults[POCET_JAZYKOV + 1] = 
-{ "Pôvodné hodnoty", "Původní hodnoty", "Defaults", "___", "", "Původní hodnoty", "Alapértelmezett", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Pôvodné hodnoty", "Původní hodnoty", "Defaults", "___", "", "Původní hodnoty", "Alapértelmezett", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #ifndef HTML_BUTTON_DET_DEFAULTS
 #define HTML_BUTTON_DET_DEFAULTS	html_button_det_defaults[_global_jazyk]
 #endif
 
 // special button (today): Show
 const char *html_button_dnes_show[POCET_JAZYKOV + 1] = 
-{ "Zobraziť", "Ukaž", "Show", "Ostende", "", "Ukaž", "Megjelenítés", "Показ", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Zobraziť", "Ukaž", "Show", "Ostende", "", "Ukaž", "Megjelenítés", "Показ", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #ifndef HTML_BUTTON_DNES_SHOW
 #define HTML_BUTTON_DNES_SHOW	html_button_dnes_show[_global_jazyk]
 #endif
 
 // special button (today): Defaults (clear form)
 // const char *html_button_dnes_defaults[POCET_JAZYKOV + 1] = 
-// { "Vyčisti", "Vyčisti", "Clear", "???", "", "Vyčisti", "Töröl", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+// { "Vyčisti", "Vyčisti", "Clear", "???", "", "Vyčisti", "Töröl", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #ifndef HTML_BUTTON_DNES_DEFAULTS
 #define HTML_BUTTON_DNES_DEFAULTS	HTML_BUTTON_DET_DEFAULTS
 #endif
 
 // special button (today): Apply settings/options
 const char *html_button_dnes_apply[POCET_JAZYKOV + 1] = 
-{ "Potvrdiť", "Potvrdit", "Apply", "Confirmare", "", "Potvrdit", "Alkalmaz", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Potvrdiť", "Potvrdit", "Apply", "Confirmare", "", "Potvrdit", "Alkalmaz", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #ifndef HTML_BUTTON_DNES_APPLY_SETTINGS
 #define HTML_BUTTON_DNES_APPLY_SETTINGS	html_button_dnes_apply[_global_jazyk]
 #endif
 
 // special button (today): Apply options 2 (various choices)
 const char *html_button_dnes_apply2[POCET_JAZYKOV + 1] = 
-{ "Uložiť", "Uložit", "Save", "Condere", "", "Uložit", "Alkalmaz", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Uložiť", "Uložit", "Save", "Condere", "", "Uložit", "Alkalmaz", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #ifndef HTML_BUTTON_DNES_APPLY_CHOICES
 #define HTML_BUTTON_DNES_APPLY_CHOICES html_button_dnes_apply2[_global_jazyk]
 #endif
 
 // html <title> element for generated pages
 const char *html_title[POCET_JAZYKOV + 1] = 
-{ "Liturgia hodín", "Liturgie hodin", "Liturgy of Hours", "Liturgia horarum", "", "Liturgie hodin", "Az Imaórák Liturgiája", "Литургия часов", "Літургія гадзінаў", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Liturgia hodín", "Liturgie hodin", "Liturgy of Hours", "Liturgia horarum", "", "Liturgie hodin", "Az Imaórák Liturgiája", "Литургия часов", "Літургія гадзінаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // html <title> element for pages generated for batch mode
 const char *html_title_batch_mode[POCET_JAZYKOV + 1] = 
-{ "Liturgia hodín – statické texty", "Liturgie hodin – statické texty", "Liturgy of Hours – static texts", "la_", "", "Liturgie hodin – statické texty", "Az Imaórák Liturgiája – állandó szövegek", "Литургия часов – статическиe тексты", "Літургія гадзінаў – by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Liturgia hodín – statické texty", "Liturgie hodin – statické texty", "Liturgy of Hours – static texts", "la_", "", "Liturgie hodin – statické texty", "Az Imaórák Liturgiája – állandó szövegek", "Литургия часов – статическиe тексты", "Літургія гадзінаў – by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const char *html_error_template[POCET_JAZYKOV + 1] = 
-{ "Šablóna pre modlitbu sa nenašla. Zrejme neexistuje súbor `%s'.", "Šablona pro modlitbu se nenašla. Patrně neexistuje soubor `%s'.", "Template for prayer not found. File `%s' does not exist.", "Template for prayer not found. File `%s' does not exist.", "", "Šablona pro modlitbu se nenašla. Patrně neexistuje soubor `%s'.", "Nem található sablon az imához. %s' fájl nem létezik.", "Template for prayer not found. File `%s' does not exist.", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "Šablóna pre modlitbu sa nenašla. Zrejme neexistuje súbor `%s'.", "Šablona pro modlitbu se nenašla. Patrně neexistuje soubor `%s'.", "Template for prayer not found. File `%s' does not exist.", "Template for prayer not found. File `%s' does not exist.", "", "Šablona pro modlitbu se nenašla. Patrně neexistuje soubor `%s'.", "Nem található sablon az imához. %s' fájl nem létezik.", "Template for prayer not found. File `%s' does not exist.", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // navigation buttons/texts: previous, next, today
-const char *html_button_predchadzajuci_[POCET_JAZYKOV + 1] = { "Predchádzajúci", "Předchozí", "Previous", "Præced&#233;nte", "", "Předchozí", "Előző", "Предыдущий", "папярэдні", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_button_nasledujuci_[POCET_JAZYKOV + 1] = { "Nasledujúci", "Následující", "Next", "Success&#237;vo", "", "Následující", "Következő", "Следующий", "наступны", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_button_dnes[POCET_JAZYKOV + 1] = { "dnes", "dnes", "today", "hodie", "", "dnes", "ma", "сегодня", "сёння", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_button_Dnes[POCET_JAZYKOV + 1] = { "Dnes", "Dnes", "Today", "Hodie", "", "Dnes", "Ma", "Cегодня", "Сёння", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_button_hore[POCET_JAZYKOV + 1] = { "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_button_predchadzajuci_[POCET_JAZYKOV + 1] = { "Predchádzajúci", "Předchozí", "Previous", "Præced&#233;nte", "", "Předchozí", "Előző", "Предыдущий", "папярэдні", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_button_nasledujuci_[POCET_JAZYKOV + 1] = { "Nasledujúci", "Následující", "Next", "Success&#237;vo", "", "Následující", "Következő", "Следующий", "наступны", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_button_dnes[POCET_JAZYKOV + 1] = { "dnes", "dnes", "today", "hodie", "", "dnes", "ma", "сегодня", "сёння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_button_Dnes[POCET_JAZYKOV + 1] = { "Dnes", "Dnes", "Today", "Hodie", "", "Dnes", "Ma", "Cегодня", "Сёння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_button_hore[POCET_JAZYKOV + 1] = { "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", "^ ", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
-const char *html_button_tento_den[POCET_JAZYKOV + 1] = { "tento deň", "tento den", "this day", "hoc dies" /* "hodie" */, "", "tento den", "ez a nap", "ru_text", "гэты дзень", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_button_tento_den[POCET_JAZYKOV + 1] = { "tento deň", "tento den", "this day", "hoc dies" /* "hodie" */, "", "tento den", "ez a nap", "ru_text", "гэты дзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // basic words: day, month, year
-const char *html_text_den[POCET_JAZYKOV + 1] = { "deň", "den", "day", "die", "", "den", "nap", "день", "дзень", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_mesiac[POCET_JAZYKOV + 1] = { "mesiac", "měsíc", "month", "mensis", "", "měsíc", "hó", "месяц", "месяц", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_rok[POCET_JAZYKOV + 1] = { "rok", "rok", "year", "anno", "", "rok", "év", "год", "год", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_Rok[POCET_JAZYKOV + 1] = { "Rok", "Rok", "Year", "Anno", "", "Rok", "Év", "Год", "Год", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_den[POCET_JAZYKOV + 1] = { "deň", "den", "day", "die", "", "den", "nap", "день", "дзень", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_mesiac[POCET_JAZYKOV + 1] = { "mesiac", "měsíc", "month", "mensis", "", "měsíc", "hó", "месяц", "месяц", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_rok[POCET_JAZYKOV + 1] = { "rok", "rok", "year", "anno", "", "rok", "év", "год", "год", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Rok[POCET_JAZYKOV + 1] = { "Rok", "Rok", "Year", "Anno", "", "Rok", "Év", "Год", "Год", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 // in the following: you MUST keep all %d, %c, %s etc. variables - these are replaced by numbers, characters, strings, etc. respectively
-const char *html_text_Rok_x[POCET_JAZYKOV + 1] = { "Rok %d", "Rok %d", "Year %d", "Anno %d", "%d", "Rok %d", "%.d év", "%d. годa", "%d год", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Rok_x[POCET_JAZYKOV + 1] = { "Rok %d", "Rok %d", "Year %d", "Anno %d", "%d", "Rok %d", "%.d év", "%d. годa", "%d год", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
-const char *html_text_zoznam_mesiacov[POCET_JAZYKOV + 1] = { "zoznam mesiacov", "seznam měsíců", "list of months", "", "", "seznam měsíců", "hónapok listája", "список месяцев", "спіс месяцаў", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_zoznam_mesiacov[POCET_JAZYKOV + 1] = { "zoznam mesiacov", "seznam měsíců", "list of months", "", "", "seznam měsíců", "hónapok listája", "список месяцев", "спіс месяцаў", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
-const char *html_text_modlitba[POCET_JAZYKOV + 1] = { "modlitba", "modlitba", "prayer", "ora", "", "modlitba", "imádság", "молитва", "малітва", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_modlitby_pre_den[POCET_JAZYKOV + 1] = { "modlitby pre deň", "modlitby pro den", "prayers for date", "orationes pro die", "", "modlitby pro den", "", "молитвы за день", "малітвы на дату", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_alebo_pre[POCET_JAZYKOV + 1] = { "alebo pre", "anebo pro", "or for", "vel pro", "", "anebo pro", "vagy", "или для", "ці на", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_dnesok[POCET_JAZYKOV + 1] = { "dnešok", "dnešní den", "today", "hodie", "", "dnešní den", "a mai nap imaórái", "сегодня", "сёння", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_modlitba[POCET_JAZYKOV + 1] = { "modlitba", "modlitba", "prayer", "ora", "", "modlitba", "imádság", "молитва", "малітва", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_modlitby_pre_den[POCET_JAZYKOV + 1] = { "modlitby pre deň", "modlitby pro den", "prayers for date", "orationes pro die", "", "modlitby pro den", "", "молитвы за день", "малітвы на дату", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_alebo_pre[POCET_JAZYKOV + 1] = { "alebo pre", "anebo pro", "or for", "vel pro", "", "anebo pro", "vagy", "или для", "ці на", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_dnesok[POCET_JAZYKOV + 1] = { "dnešok", "dnešní den", "today", "hodie", "", "dnešní den", "a mai nap imaórái", "сегодня", "сёння", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // 2010-02-15: pridané kvôli "zoznam.htm" batch mode
-const char *html_text_Breviar_dnes[POCET_JAZYKOV + 1] = { "Breviár dnes", "Breviář dnes", "Breviary today", "Liturgia horarum hodie", "", "Breviář dnes", "A mai nap imaórája", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_Dnesne_modlitby[POCET_JAZYKOV + 1] = { "Dnešné modlitby", "Dnešní modlitby", "Today's prayers", "la_hodie", "", "Dnešní modlitby", "A mai nap imái", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_Prehlad_mesiaca[POCET_JAZYKOV + 1] = { "Prehľad mesiaca", "Přehled měsíce", "Month overview", "la_", "", "Přehled měsíce", "A hónap áttekintése", "ru_text", "Прагляд месяца", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Breviar_dnes[POCET_JAZYKOV + 1] = { "Breviár dnes", "Breviář dnes", "Breviary today", "Liturgia horarum hodie", "", "Breviář dnes", "A mai nap imaórája", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Dnesne_modlitby[POCET_JAZYKOV + 1] = { "Dnešné modlitby", "Dnešní modlitby", "Today's prayers", "la_hodie", "", "Dnešní modlitby", "A mai nap imái", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Prehlad_mesiaca[POCET_JAZYKOV + 1] = { "Prehľad mesiaca", "Přehled měsíce", "Month overview", "la_", "", "Přehled měsíce", "A hónap áttekintése", "ru_text", "Прагляд месяца", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // 2011-03-18: pridané do "zoznam.htm" batch mode -- kalendáre a hlavný nadpis
-const char *html_text_batch_mode_h1[POCET_JAZYKOV + 1] = { "Liturgia hodín – Predgenerované modlitby", "Liturgie hodin – Předgenerované modlitby", "Liturgy of Hours – Pregenerated prayers", "la_", "", "Liturgie hodin – Předgenerované modlitby", "Az Imaórák Liturgiája – Előre generált imák", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_Kalendar[POCET_JAZYKOV + 1] = { "Kalendár", "Kalendář", "Proprietary calendary", "Propria", "", "Kalendář", "Naptár", "ru_text", "Каляндар", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_mode_h1[POCET_JAZYKOV + 1] = { "Liturgia hodín – Predgenerované modlitby", "Liturgie hodin – Předgenerované modlitby", "Liturgy of Hours – Pregenerated prayers", "la_", "", "Liturgie hodin – Předgenerované modlitby", "Az Imaórák Liturgiája – Előre generált imák", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Kalendar[POCET_JAZYKOV + 1] = { "Kalendár", "Kalendář", "Proprietary calendary", "Propria", "", "Kalendář", "Naptár", "ru_text", "Каляндар", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const char *html_text_Vysvetlivky[POCET_JAZYKOV + 1] =
 {
@@ -1346,7 +1351,8 @@ const char *html_text_Vysvetlivky[POCET_JAZYKOV + 1] =
 	"Jelmagyarázat",
 	"ru_text",
 	"Легенда",
-	/* STRING_2_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_dalsie_moznosti[POCET_JAZYKOV + 1] =
@@ -1360,6 +1366,7 @@ const char *html_text_dalsie_moznosti[POCET_JAZYKOV + 1] =
 	"További lehetőségek választása:",
 	"ru_text",
 	"Іншыя опцыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1374,6 +1381,7 @@ const char *html_text_dalsie_moznosti_1[POCET_JAZYKOV + 1] =
 	"Beállítások",
 	"ru_text",
 	"Налады",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1388,6 +1396,7 @@ const char *html_text_dalsie_moznosti_2[POCET_JAZYKOV + 1] =
 	"Más megjelenítési lehetőségek",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1401,7 +1410,8 @@ const char *html_text_prik_sviatky_atd[POCET_JAZYKOV + 1] = {
 	"kötelező ünnepek", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_lit_kalendar[POCET_JAZYKOV + 1] = { 
@@ -1414,7 +1424,8 @@ const char *html_text_lit_kalendar[POCET_JAZYKOV + 1] = {
 	"liturgikus naptár", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_roku[POCET_JAZYKOV + 1] = { 
@@ -1427,7 +1438,8 @@ const char *html_text_roku[POCET_JAZYKOV + 1] = {
 	"", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_tabulka_pohyblive_od[POCET_JAZYKOV + 1] = { 
@@ -1440,7 +1452,8 @@ const char *html_text_tabulka_pohyblive_od[POCET_JAZYKOV + 1] = {
 	"a mozgó (változó) ünnepek táblázata a következő években", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_do_roku[POCET_JAZYKOV + 1] = { 
@@ -1453,7 +1466,8 @@ const char *html_text_do_roku[POCET_JAZYKOV + 1] = {
 	"", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_zobrazit_linky[POCET_JAZYKOV + 1] = { 
@@ -1466,7 +1480,8 @@ const char *html_text_zobrazit_linky[POCET_JAZYKOV + 1] = {
 	"A táblázat megjelenítése az egyes napokhoz tartozó hiperhivatkozásokkal együtt.", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_pre_cezrocne_obd[POCET_JAZYKOV + 1] = { 
@@ -1479,7 +1494,8 @@ const char *html_text_pre_cezrocne_obd[POCET_JAZYKOV + 1] = {
 	"", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_tyzden_zaltara_cislo[POCET_JAZYKOV + 1] = { 
@@ -1492,7 +1508,8 @@ const char *html_text_tyzden_zaltara_cislo[POCET_JAZYKOV + 1] = {
 	"%d. zsoltáros hét", 
 	"%d. ru_text", 
 	"%d. by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_tyzden_cislo[POCET_JAZYKOV + 1] = { 
@@ -1505,7 +1522,8 @@ const char *html_text_tyzden_cislo[POCET_JAZYKOV + 1] = {
 	"%d. hét", 
 	"%d ru_text", 
 	"%d by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_tyzden[POCET_JAZYKOV + 1] = { 
@@ -1518,7 +1536,8 @@ const char *html_text_tyzden[POCET_JAZYKOV + 1] = {
 	". hét", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_v_tyzdni_zaltara[POCET_JAZYKOV + 1] = { 
@@ -1531,7 +1550,8 @@ const char *html_text_v_tyzdni_zaltara[POCET_JAZYKOV + 1] = {
 	". zsoltáros hét", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_pre[POCET_JAZYKOV + 1] = { 
@@ -1544,7 +1564,8 @@ const char *html_text_pre[POCET_JAZYKOV + 1] = {
 	"", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_ordinarium[POCET_JAZYKOV + 1] = { 
@@ -1557,7 +1578,8 @@ const char *html_text_ordinarium[POCET_JAZYKOV + 1] = {
 	"általános rész:", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 // in the following: you MUST keep all HTML elements, e.g. <a href...>, <br/> etc.
@@ -1572,6 +1594,7 @@ const char *html_text_dnes_je_atd[POCET_JAZYKOV + 1] =
 	"Ma %s %d. napja van, " HTML_A_HREF_BEGIN "\"%s%s\">Julián naptár" HTML_A_END " JD = %ld%s.\n" HTML_LINE_BREAK "\n",
 	"%d / %s ru_text, " HTML_A_HREF_BEGIN "\"%s%s\">ru_text" HTML_A_END " JD = %ld%s.\n" HTML_LINE_BREAK "\n",
 	"%d / %s by_text, " HTML_A_HREF_BEGIN "\"%s%s\">by_text" HTML_A_END " JD = %ld%s.\n" HTML_LINE_BREAK "\n",
+	"%d / %s text_pl, " HTML_A_HREF_BEGIN "\"%s%s\">text_pl" HTML_A_END " JD = %ld%s.\n" HTML_LINE_BREAK "\n",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1585,7 +1608,8 @@ const char *html_text_alebo[POCET_JAZYKOV + 1] = {
 	"", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_zakladne_info[POCET_JAZYKOV + 1] = { 
@@ -1598,7 +1622,8 @@ const char *html_text_zakladne_info[POCET_JAZYKOV + 1] = {
 	"Alapvető információk", 
 	"ru_text", 
 	"Асноўная інфармацыя", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_je[POCET_JAZYKOV + 1] = { 
@@ -1611,7 +1636,8 @@ const char *html_text_je[POCET_JAZYKOV + 1] = {
 	/* HU: van, ale nie pre prestupný */ "", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_nie_je[POCET_JAZYKOV + 1] = { 
@@ -1624,7 +1650,8 @@ const char *html_text_nie_je[POCET_JAZYKOV + 1] = {
 	/* HU: nincs, ale nie pre prestupný */ "nem", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_prestupny[POCET_JAZYKOV + 1] = { 
@@ -1637,7 +1664,8 @@ const char *html_text_prestupny[POCET_JAZYKOV + 1] = {
 	"szökőév", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_datumy_pohyblivych_slaveni[POCET_JAZYKOV + 1] = { 
@@ -1650,7 +1678,8 @@ const char *html_text_datumy_pohyblivych_slaveni[POCET_JAZYKOV + 1] = {
 	"A mozgó (változó) ünnepek dátumai", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_ritus[POCET_JAZYKOV + 1] = { 
@@ -1663,7 +1692,8 @@ const char *html_text_ritus[POCET_JAZYKOV + 1] = {
 	"Szertartás", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_den_v_roku[POCET_JAZYKOV + 1] = { 
@@ -1676,7 +1706,8 @@ const char *html_text_den_v_roku[POCET_JAZYKOV + 1] = {
 	"az év %d. napja", 
 	"%d. ru_text", 
 	"%d. by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_zacina[POCET_JAZYKOV + 1] = { 
@@ -1689,7 +1720,8 @@ const char *html_text_zacina[POCET_JAZYKOV + 1] = {
 	"kezdődik", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_liturgicky_rok[POCET_JAZYKOV + 1] = { 
@@ -1702,7 +1734,8 @@ const char *html_text_liturgicky_rok[POCET_JAZYKOV + 1] = {
 	"liturgikus év", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 const char *html_text_txt_export[POCET_JAZYKOV + 1] = { 
@@ -1715,7 +1748,8 @@ const char *html_text_txt_export[POCET_JAZYKOV + 1] = {
 	"Szöveg exportálása", 
 	"ru_text", 
 	"by_text", 
-	/* STRING_1_FOR_NEW_LANGUAGE */ 
+	"text_pl",
+	/* STRING_1_FOR_NEW_LANGUAGE */
 };
 
 #define POCET_HTML_TEXT_POHYBLIVE 12
@@ -1732,6 +1766,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Naptári" HTML_LINE_BREAK "év",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1744,6 +1779,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Vasár-" HTML_LINE_BREAK "nap" HTML_LINE_BREAK "betűje",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1756,6 +1792,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Vasár-" HTML_LINE_BREAK "napi" HTML_LINE_BREAK "ciklus",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1768,6 +1805,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Urunk" HTML_LINE_BREAK "megjelenése" HTML_LINE_BREAK "(Vízkereszt)",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1780,6 +1818,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Urunk" HTML_LINE_BREAK "megkeresztel-" HTML_LINE_BREAK "kedése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1792,6 +1831,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"EK" HTML_LINE_BREAK "a HSZ" HTML_LINE_BREAK "előtt",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1804,6 +1844,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Hamvazó-" HTML_LINE_BREAK "szerda",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1816,6 +1857,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Húsvét",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1828,6 +1870,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Urunk" HTML_LINE_BREAK "menny-" HTML_LINE_BREAK "bemenetele",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1840,6 +1883,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Pünkösd",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1852,6 +1896,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"EK" HTML_LINE_BREAK "a HU" HTML_LINE_BREAK "után",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1864,6 +1909,7 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Advent" HTML_LINE_BREAK "első" HTML_LINE_BREAK "vasárnapja",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 },
 {
@@ -1876,12 +1922,13 @@ const char *html_text_pohyblive[POCET_HTML_TEXT_POHYBLIVE + 1][POCET_JAZYKOV + 1
 	"Szent" HTML_LINE_BREAK "Család" HTML_LINE_BREAK "ünnepe",
 	"ru_text",
 	"Святой Сям'і: Езуса, Марыі і Юзафа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 }
 };
 
-const char *html_text_Nedelne_pismeno[POCET_JAZYKOV + 1] = { "Nedeľné písmeno", "Nedělní písmeno", "Sunday letter", "", "", "Nedělní písmeno", "A vasárnap betűje", "ru_text", "Нядзельны цыкл", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_Nedelne_pismena[POCET_JAZYKOV + 1] = { "Nedeľné písmená", "Nedělní písmena", "Sunday letters", "", "", "Nedělní písmena", "A vasárnap betűje", "ru_text", "Нядзельныя цыклы", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Nedelne_pismeno[POCET_JAZYKOV + 1] = { "Nedeľné písmeno", "Nedělní písmeno", "Sunday letter", "", "", "Nedělní písmeno", "A vasárnap betűje", "ru_text", "Нядзельны цыкл", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_Nedelne_pismena[POCET_JAZYKOV + 1] = { "Nedeľné písmená", "Nedělní písmena", "Sunday letters", "", "", "Nedělní písmena", "A vasárnap betűje", "ru_text", "Нядзельныя цыклы", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const char *html_text_Od_prvej_adv_atd[POCET_JAZYKOV + 1] = {
 	"Od prvej adventnej nedele v roku %d (%s) pokračuje " HTML_A_HREF_BEGIN "\"%s%s\">liturgický rok" HTML_A_END " <" HTML_SPAN_BOLD ">%s" HTML_SPAN_END ".",
@@ -1893,6 +1940,7 @@ const char *html_text_Od_prvej_adv_atd[POCET_JAZYKOV + 1] = {
 	"%d (%s) advent első vasárnapjától az <" HTML_SPAN_BOLD ">%s" HTML_SPAN_END " " HTML_A_HREF_BEGIN "\"%s%s\">liturgikus év" HTML_A_END " folytatódik.",
 	"ru_text | From the 1st Advent Sunday in the year %d (%s) continues " HTML_A_HREF_BEGIN "\"%s%s\">liturgical year" HTML_A_END " <" HTML_SPAN_BOLD ">%s" HTML_SPAN_END ".",
 	"by_text | From the 1st Advent Sunday in the year %d (%s) continues " HTML_A_HREF_BEGIN "\"%s%s\">liturgical year" HTML_A_END " <" HTML_SPAN_BOLD ">%s" HTML_SPAN_END ".",
+	"text_pl | From the 1st Advent Sunday in the year %d (%s) continues " HTML_A_HREF_BEGIN "\"%s%s\">liturgical year" HTML_A_END " <" HTML_SPAN_BOLD ">%s" HTML_SPAN_END ".",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1906,6 +1954,7 @@ const char *html_text_Po_Velkej_noci_atd[POCET_JAZYKOV + 1] = {
 	"Húsvét után az évközi idő %d. %sja következik.", // vasárnapja, nedeľa = vasárnap
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1919,6 +1968,7 @@ const char *html_text_Prikazane_sviatky_v_roku[POCET_JAZYKOV + 1] = {
 	"%s kötelező ünnepei",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1932,26 +1982,27 @@ const char *html_text_Jednotlive_mesiace_roku[POCET_JAZYKOV + 1] = {
 	"Egyes hónapok %s-ben(-ban)",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
 const char *str_doplnkova_psalmodia[POCET_JAZYKOV + 1] = 
-{ "doplnková psalmódia", "žalmy z doplňovacího cyklu", "supplementary psalmody", "psalmodia complementaris", "", "doplnková psalmodie", "kiegészítő zsoltárok", "ru_text", "дадатковая псальмодыя", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "doplnková psalmódia", "žalmy z doplňovacího cyklu", "supplementary psalmody", "psalmodia complementaris", "", "doplnková psalmodie", "kiegészítő zsoltárok", "ru_text", "дадатковая псальмодыя", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 const char *str_modl_cez_den_zalmy_zo_dna[POCET_JAZYKOV + 1] = 
-{ "bežnej psalmódie", "běžné psalmodie", "ordinary psalmody", "___", "", "běžné psalmodie", "soros zsoltárösszeállítást", "ru_text", "са звычайнай псальмодыі", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "bežnej psalmódie", "běžné psalmodie", "ordinary psalmody", "___", "", "běžné psalmodie", "soros zsoltárösszeállítást", "ru_text", "са звычайнай псальмодыі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #define		STR_MODL_CEZ_DEN_ZALMY_ZO_DNA 	str_modl_cez_den_zalmy_zo_dna[_global_jazyk]
 
 const char *str_modl_cez_den_doplnkova_psalmodia[POCET_JAZYKOV + 1] = 
-{ "doplnkovej psalmódie", "doplňovacího cyklu", "supplementary psalmody", "psalmodia complementaris", "", "doplňkové psalmodie", "kiegészítő zsoltárok", "ru_text", "з дадатковай псальмодыі", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "doplnkovej psalmódie", "doplňovacího cyklu", "supplementary psalmody", "psalmodia complementaris", "", "doplňkové psalmodie", "kiegészítő zsoltárok", "ru_text", "з дадатковай псальмодыі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #define		STR_MODL_CEZ_DEN_DOPLNKOVA_PSALMODIA 	str_modl_cez_den_doplnkova_psalmodia[_global_jazyk]
 
 const char *str_modl_zalmy_zo_dna[POCET_JAZYKOV + 1] = 
-{ "dňa", "dne", "day", "die", "", "dne", "naptól", "ru_text", "з дня", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "dňa", "dne", "day", "die", "", "dne", "naptól", "ru_text", "з дня", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #define		STR_MODL_ZALMY_ZO_DNA 	str_modl_zalmy_zo_dna[_global_jazyk]
 
 const char *str_modl_zalmy_zo_sv[POCET_JAZYKOV + 1] = 
-{ "sviatku", "svátku", "celebration", "___", "", "svátku", "ünneptől", "ru_text", "з цэлебрацыі", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "sviatku", "svátku", "celebration", "___", "", "svátku", "ünneptől", "ru_text", "з цэлебрацыі", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #define		STR_MODL_ZALMY_ZO_SV 	str_modl_zalmy_zo_sv[_global_jazyk]
 
 #define STR_VALUE_TRUE  "1"
@@ -1959,11 +2010,11 @@ const char *str_modl_zalmy_zo_sv[POCET_JAZYKOV + 1] =
 #define STR_VALUE_ZERO  "0"
 
 const char *str_ano[POCET_JAZYKOV + 1] = 
-{ "áno", "ano", "yes", "sic", "___", "ano", "igen", "ru_text", "так", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "áno", "ano", "yes", "sic", "___", "ano", "igen", "ru_text", "так", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #define		STR_ANO		str_ano[_global_jazyk]
 
 const char *str_nie[POCET_JAZYKOV + 1] = 
-{ "nie", "ne", "no", "non", "___", "ne", "nem", "ru_text", "не", /* STRING_1_FOR_NEW_LANGUAGE */ };
+{ "nie", "ne", "no", "non", "___", "ne", "nem", "ru_text", "не", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 #define		STR_NIE		str_nie[_global_jazyk]
 
 // const char *html_text_jazyk_android = "SK/CZ/HU:";
@@ -1979,6 +2030,7 @@ const char *html_text_jazyk[POCET_JAZYKOV + 1] =
 	"Nyelv",
 	"ru_text",
 	"Мова",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -1993,6 +2045,7 @@ const char *html_text_jazyk_verzia[POCET_JAZYKOV + 1] =
 	"Nyelv/zsolozsma verzió",
 	"ru_text",
 	"Мова/Версія літургіі гадзінаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2007,6 +2060,7 @@ const char *html_text_jazyk_long[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2021,6 +2075,7 @@ const char *html_text_jazyk_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2035,6 +2090,7 @@ const char *html_text_detaily_uvod[POCET_JAZYKOV + 1] =
 	"Ez a választási lehetőség befolyásolja a megszerkesztett ima megjelenítését és tartalmát.\nVálasszon a szerkeszthető lehetőségek közül.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2049,6 +2105,7 @@ const char *html_text_opt_0_kalendar[POCET_JAZYKOV + 1] =
 	"a liturgikus naptár beállításai",
 	"ru_text",
 	"налады літургічнага календара",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2063,6 +2120,7 @@ const char *html_text_opt_0_kalendar_explain[POCET_JAZYKOV + 1] =
 	"Az Imaórák liturgiája megadja a lehetőséget, hogy némely ünnepek kétféleképpen legyenek megünnepelve; az adott országtól függ, ahogy az adott püspöki konferencia döntött.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2077,6 +2135,7 @@ const char *html_text_opt_1_nemenne_sucasti[POCET_JAZYKOV + 1] =
 	"jelenjenek meg az imaóra következő elemei:",
 	"ru_text",
 	"паказваць <i>нязменныя часткі</i> малітвы?",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2091,6 +2150,7 @@ const char *html_text_opt_1_nemenne_sucasti_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2105,6 +2165,7 @@ const char *html_text_opt_1_dalsie_prepinace[POCET_JAZYKOV + 1] =
 	"egyéb választási lehetőségek:",
 	"ru_text",
 	"опцыі для генераваных малітваў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2120,6 +2181,7 @@ const char *html_text_opt_1_dalsie_prepinace_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2134,6 +2196,7 @@ const char *html_text_zalmy_brat_zo[POCET_JAZYKOV + 1] =
 	"zsoltárok a következő helyről: ",
 	"ru_text",
 	"узяць псальмодыю з ",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2148,6 +2211,7 @@ const char *html_text_zalmy_brat_zo_okrem_mcd[POCET_JAZYKOV + 1] =
 	" (a Napközi imát kivéve)\n",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2162,6 +2226,7 @@ const char *html_text_spol_casti_vziat_zo[POCET_JAZYKOV + 1] =
 	"a közös részből",
 	"ru_text",
 	"часткі малітвы з агульнай часткі ",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2176,6 +2241,7 @@ const char *html_text_spol_casti_vziat_zo_explain[POCET_JAZYKOV + 1] =
 	"A szentek ünnepén, a liturgikus előírások szerint, azok az imarészek, amelyek nem találhatók meg a zsolozsma saját részében, tetszés szerint vehetők vagy a közös részből, néha több közös részből lehet választani, vagy a köznapról.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2190,6 +2256,7 @@ const char *html_text_opt_0_specialne[POCET_JAZYKOV + 1] =
 	"az imaóra szövegében jelenjen meg:",
 	"ru_text",
 	"паказваць у тэксце малітваў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2205,6 +2272,7 @@ const char *html_text_opt_0_specialne_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2219,6 +2287,7 @@ const char *html_text_opt_0_verse[POCET_JAZYKOV + 1] =
 	"a versek száma",
 	"ru_text",
 	"нумерацыя вершаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2233,6 +2302,7 @@ const char *html_text_opt_0_verse_explain[POCET_JAZYKOV + 1] =
 	"Az imaórák liturgiája (latin tipikus kiadás) megjeleníti a zsoltárokban, kantikumokban és hosszabb szentírási olvasmányokban a versek számozását. Egyes kiadások e számozást nem tartalmazzák.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2247,6 +2317,7 @@ const char *html_text_opt_0_referencie[POCET_JAZYKOV + 1] =
 	"Bibliai hivatkozások a szentiras.hu oldalon",
 	"ru_text",
 	"біблійныя спасылкі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2261,6 +2332,7 @@ const char *html_text_opt_0_referencie_explain[POCET_JAZYKOV + 1] =
 	"Az imák szövegében minden bibliai utalás (például Jn 3, 16) aktív linkként a szentiras.hu katolikus bibliafordításának megfelelő részére mutat. (A Szent István Társulat fordítását használjuk.)",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2275,6 +2347,7 @@ const char *html_text_opt_0_citania[POCET_JAZYKOV + 1] =
 	"liturgikus olvasmányok",
 	"ru_text",
 	"літургічныя чытанні",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2289,6 +2362,7 @@ const char *html_text_opt_0_citania_explain[POCET_JAZYKOV + 1] =
 	"Liturgikus olvasmányok (katolikus.hu).",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2303,6 +2377,7 @@ const char *html_text_opt_0_zjv_ne[POCET_JAZYKOV + 1] =
 	"Urunk megjelenése (Vízkereszt) megünneplése vasárnap, január 2. és 8. között",
 	"ru_text",
 	"адзначаць Аб'яўленне Пана ў нядзелю паміж 2 і 8 студзеня",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2317,6 +2392,7 @@ const char *html_text_opt_0_zjv_ne_explain[POCET_JAZYKOV + 1] =
 	"Urunk megjelenése (Vízkereszt) január 6-án van; egyes országokban azonban vasárnap, január 2. és 8. között ünneplik.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2331,6 +2407,7 @@ const char *html_text_opt_0_nan_ne[POCET_JAZYKOV + 1] =
 	"Urunk mennybemenetelét vasárnap ünnepelni",
 	"ru_text",
 	"адзначаць Унебаўшэсце Пана ў нядзелю",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2345,6 +2422,7 @@ const char *html_text_opt_0_nan_ne_explain[POCET_JAZYKOV + 1] =
 	"Urunk mennybemenetele húsvét után a 40. napon van (tehát csütörtökön); egyes országokban azonban a legközelebbi vasárnapon ünneplik (vagyis Húsvét 7. vasárnapján).",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2359,6 +2437,7 @@ const char *html_text_opt_0_tk_ne[POCET_JAZYKOV + 1] =
 	"Krisztus Szent Teste és Vére ünnepe vasárnapra téve",
 	"ru_text",
 	"адзначаць Божае Цела ў нядзелю",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2373,6 +2452,7 @@ const char *html_text_opt_0_tk_ne_explain[POCET_JAZYKOV + 1] =
 	"Krisztus Szent Teste és Vére Pünkösd után a 11. napon van (tehát Szentháromság utáni csütörtökön); egyes országokban azonban a legközelebbi vasárnapon ünneplik.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2387,6 +2467,7 @@ const char *html_text_opt_0_font_normal[POCET_JAZYKOV + 1] =
 	"normál betűtípus használata (félkövér helyett)",
 	"ru_text",
 	"зрабіць шрыфт нармальным (не тоўстым)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2402,6 +2483,7 @@ const char *html_text_opt_0_font_normal_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2416,6 +2498,7 @@ const char *html_text_opt_0_buttons_order[POCET_JAZYKOV + 1] =
 	"a fejlécben a dátumválasztó gombok legyenek az imaóra választó gombok után",
 	"ru_text",
 	"паказваць кнопкі з датай пасля кнопак з малітвамі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2431,6 +2514,7 @@ const char *html_text_opt_0_buttons_order_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2445,6 +2529,7 @@ const char *html_text_opt_0_blind_friendly[POCET_JAZYKOV + 1] =
 	"mutassa meg csak az imaszövegeket (vakok és gyengénlátók részére) rubrikák nélkül",
 	"ru_text",
 	"тэкст для невідушчых(без рубрык), для пераводу ў аўдыё",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2460,6 +2545,7 @@ const char *html_text_opt_0_blind_friendly_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2474,6 +2560,7 @@ const char *html_text_opt_0_footnotes[POCET_JAZYKOV + 1] =
 	"jegyzetek, lábjegyzetek",
 	"ru_text",
 	"паказваць зноскі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2489,6 +2576,7 @@ const char *html_text_opt_0_footnotes_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2503,6 +2591,7 @@ const char *html_text_opt_0_transparent_nav[POCET_JAZYKOV + 1] =
 	"navigációs nyilak mutatása",
 	"ru_text",
 	"паказваць стрэлкі навігацыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2518,6 +2607,7 @@ const char *html_text_opt_0_transparent_nav_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2532,6 +2622,7 @@ const char *html_text_opt_0_zalmy_full_text[POCET_JAZYKOV + 1] =
 	"mutassa meg a zsoltárok kihagyott részeit",
 	"ru_text",
 	"паказваць пропускі ў псальмах",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2547,6 +2638,7 @@ const char *html_text_opt_0_zalmy_full_text_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2561,6 +2653,7 @@ const char *html_text_opt_1_chvalospevy[POCET_JAZYKOV + 1] =
 	"evangéliumi kantikumok (Benedictus, Magnificat, Nunc dimittis)",
 	"ru_text",
 	"евангельскія песні (Benedictus, Magnificat, Nunc dimittis)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2575,6 +2668,7 @@ const char *html_text_opt_1_chvalospevy_explain[POCET_JAZYKOV + 1] =
 	"Az imaórák liturgiája ezeket az evangéliumi kantikumokat alaphelyzetben nem mutatja.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2589,6 +2683,7 @@ const char *html_text_opt_1_slava_otcu[POCET_JAZYKOV + 1] =
 	"Dicsőség az Atyának", // [a zsoltárok és kantikumok végén]
 	"ru_text",
 	"Хвала Айцу",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2603,6 +2698,7 @@ const char *html_text_opt_1_slava_otcu_explain[POCET_JAZYKOV + 1] =
 	"Az imaórák liturgiája a Dicsőség az Atyának… dicsőítő verset a zsoltárok és kantikumok végén alaphelyzetben nem mutatja.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2617,6 +2713,7 @@ const char *html_text_opt_1_rubriky[POCET_JAZYKOV + 1] =
 	"rubrikák", // (pl. záró áldás)
 	"ru_text",
 	"рубрыкі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2631,6 +2728,7 @@ const char *html_text_opt_1_rubriky_explain[POCET_JAZYKOV + 1] =
 	"Az imaórák liturgiája piros betűvel különböző többnyire magyarázó vagy az imaórát (az „Általános rendelkezések Az imaórák liturgiájáról“ szerint) szabályozó szövegeket jelenít meg. Alaphelyzetben nem mutatja.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2645,6 +2743,7 @@ const char *html_text_opt_1_otcenas[POCET_JAZYKOV + 1] =
 	"az Úr imádsága (Miatyánk)",
 	"ru_text",
 	"малітва Панская (Ойча наш)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2659,6 +2758,7 @@ const char *html_text_opt_1_otcenas_explain[POCET_JAZYKOV + 1] =
 	"Az imaórák liturgiája az Úr imádságát (Miatyánkot) a Reggeli és Esti dicséretben alaphelyzetben nem mutatja.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2673,6 +2773,7 @@ const char *html_text_opt_1_tedeum[POCET_JAZYKOV + 1] =
 	"Téged, Isten, dicsérünk… himnusz",
 	"ru_text",
 	"гімн Цябе, Бога, праслаўляем",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2687,6 +2788,7 @@ const char *html_text_opt_1_tedeum_explain[POCET_JAZYKOV + 1] =
 	"Az imaórák liturgiája a Téged, Isten, dicsérünk… himnuszt az Olvasmányos imaórában alaphelyzetben nem mutatja.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2701,6 +2803,7 @@ const char *html_text_opt_1_plne_resp[POCET_JAZYKOV + 1] =
 	"a válaszos énekek teljes szövege",
 	"ru_text",
 	"поўная версія кароткіх рэспансорыяў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2715,6 +2818,7 @@ const char *html_text_opt_1_plne_resp_explain[POCET_JAZYKOV + 1] =
 	"Az Imaórák Liturgiája a válaszos énekeket a reggeli és esti dicséret rövid olvasmánya és az olvasmányos imaóra olvasmányai után nem mutatja teljes formában.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2729,6 +2833,7 @@ const char *html_text_option_zobrazit[POCET_JAZYKOV + 1] =
 	"megjelenítés",
 	"показ",
 	"паказаць",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2743,6 +2848,7 @@ const char *html_text_option_skryt[POCET_JAZYKOV + 1] =
 	"elrejtés",
 	"скрывать",
 	"схаваць",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2757,6 +2863,7 @@ const char *html_text_option_pouzit[POCET_JAZYKOV + 1] =
 	"használat",
 	"ru_text",
 	"выкарыстаць",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2771,6 +2878,7 @@ const char *html_text_opt_1_mcd_zalmy_nie_ine_short[POCET_JAZYKOV + 1] =
 	"az adott napi zsoltározást venni",
 	"ru_text",
 	"псальмодыя з дня",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2785,6 +2893,7 @@ const char *html_text_opt_1_mcd_zalmy_nie_ine[POCET_JAZYKOV + 1] =
 	"a Napközi imaórában az adott napi zsoltározást venni",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2799,6 +2908,7 @@ const char *html_text_opt_1_mcd_zalmy_ine_short[POCET_JAZYKOV + 1] =
 	"a kiegészítő zsoltárokat venni",
 	"ru_text",
 	"дадатковая псальмодыя",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2813,6 +2923,7 @@ const char *html_text_opt_1_mcd_zalmy_ine[POCET_JAZYKOV + 1] =
 	"vegye a napközi imaórákban a kiegészítő zsoltárokat",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2827,6 +2938,7 @@ const char *html_text_opt_1_mcd_zalmy_ine_explain[POCET_JAZYKOV + 1] =
 	"Aki több Napközi imaórát mond, az egyik imaórában a soros zsoltárösszeállítást veszi, a többin a kiegészítőt. Ez az úgynevezett „zarándokzsoltárokból“ vett három-három zsoltárból áll (Zsolt 119 – 127).",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2841,6 +2953,7 @@ const char *html_text_opt_1_mcd_zalmy_nie_tri_short[POCET_JAZYKOV + 1] =
 	"az adott hét zsoltározását alkalmazni mindhárom napközi imánál",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2855,6 +2968,7 @@ const char *html_text_opt_1_mcd_zalmy_nie_tri[POCET_JAZYKOV + 1] =
 	"a Napközi imaórában az adott hét zsoltározását alkalmazni mindhárom napközi imánál",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2869,6 +2983,7 @@ const char *html_text_opt_1_mcd_zalmy_tri_short[POCET_JAZYKOV + 1] =
 	"a három heti [aktuális, előző, következő] zsoltározást alkalmazni",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2883,6 +2998,7 @@ const char *html_text_opt_1_mcd_zalmy_tri[POCET_JAZYKOV + 1] =
 	"a napközi imaórákban vegye az aktuális, az előző és a következő heti zsoltározást",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2897,6 +3013,7 @@ const char *html_text_opt_1_mcd_zalmy_tri_explain[POCET_JAZYKOV + 1] =
 	"Ha valaki többször naponta mondja a napközi imát, a zsoltározás három hétből (aktuális, előző, következő) van alkalmazva.\nNincs hatása, ha ki van választva a kiegészítő zsoltárok alkalmazása.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2914,6 +3031,7 @@ const char *html_text_opt_1_zaver[POCET_JAZYKOV + 1] =
 	"befejezést",
 	"ru_text",
 	"завяршэнне",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2928,6 +3046,7 @@ const char *html_text_opt_1_zaver_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2942,6 +3061,7 @@ const char *html_text_opt_1_zalm95[POCET_JAZYKOV + 1] =
 	"a 23., 66. illetve a 99.  zsoltár helyett legyen a 94.",
 	"ru_text",
 	"псальм 95 (94)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2956,6 +3076,7 @@ const char *html_text_opt_1_zalm95_explain[POCET_JAZYKOV + 1] =
 	"Ha a reggeli és az esti dicséretben, vagy az olvasmányos imaórában előfordul a 23., 66. illetve 99. zsoltár, amely az Imádságra hívásban már imádkozva volt, akkor az adott imádságban a 94. zsoltár kerül helyébe.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2970,6 +3091,7 @@ const char *html_text_option_zobrazit_zvolania[POCET_JAZYKOV + 1] =
 	"megismételni a választ minden könyörgés után",
 	"ru_text",
 	"паўтараць заклік пасля кожнай просьбы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2984,6 +3106,7 @@ const char *html_text_option_skryt_zvolania[POCET_JAZYKOV + 1] =
 	"elrejteni a választ minden könyörgés után",
 	"ru_text",
 	"схаваць заклік пасля кожнай просьбы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -2998,6 +3121,7 @@ const char *html_text_option_zobrazit_kratsie_prosby[POCET_JAZYKOV + 1] =
 	"használja a rövidebb könyörgéseket a függelékből",
 	"ru_text",
 	"выкарыстоўваць карацейшыя малітвы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3012,6 +3136,7 @@ const char *html_text_option_skryt_kratsie_prosby[POCET_JAZYKOV + 1] =
 	"ne használja a rövidebb könyörgéseket a függelékből",
 	"ru_text",
 	"не выкарыстоўваць карацейшыя малітвы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3026,6 +3151,7 @@ const char *html_text_opt_1_prosby_zvolanie[POCET_JAZYKOV + 1] =
 	"minden fohász után ismételje a választ",
 	"ru_text",
 	"паўтор закліка пасля кожнай просьбы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3040,6 +3166,7 @@ const char *html_text_opt_1_prosby_zvolanie_explain[POCET_JAZYKOV + 1] =
 	"A reggeli és az esti dicséretben minden fohász után ismételni a választ.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3054,6 +3181,7 @@ const char *html_text_opt_1_skryt_popis_svaty[POCET_JAZYKOV + 1] =
 	"ne mutassa a leírást a szentről az imaórában",
 	"ru_text",
 	"не паказваць інфармацыю пра святых",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3068,6 +3196,7 @@ const char *html_text_opt_1_skryt_popis_svaty_explain[POCET_JAZYKOV + 1] =
 	"Többnyire az imák az imaóra elnevezése előtt a szent életrajzát, az ünnep leírását vagy más rövid jegyzetet tartalmaznak, amit az egyszerűség kedvéért leírásnak nevezünk.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3082,6 +3211,7 @@ const char *html_text_opt_1_spolc_svaty[POCET_JAZYKOV + 1] =
 	"mutassa meg, hogy a közös részek honnan lettek véve a szentek zsolozsmájához",
 	"ru_text",
 	"паказваць інфармацыю пра агульныя тэксты пра святых",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3096,6 +3226,7 @@ const char *html_text_opt_1_spolc_svaty_explain[POCET_JAZYKOV + 1] =
 	"Rubrika, amely azt az információt tartalmazza, hogy melyik közös részből vannak véve a szentek zsolozsmájához tartozó közös részek.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3110,6 +3241,7 @@ const char *html_text_opt_1_vesp_kratsie_prosby[POCET_JAZYKOV + 1] =
 	"Esti dicséretben használja a függelékből a rövidebb, közbenjáró fohászokat",
 	"ru_text",
 	"выкарыстоўваць карацейшыя малітвы ў Нешпарах",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3124,6 +3256,7 @@ const char *html_text_opt_1_vesp_kratsie_prosby_explain[POCET_JAZYKOV + 1] =
 	"Esti dicséretben használja a rövidebb közbenjáró fohászokat a függelékből, a napra meghatározott helyett.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3138,6 +3271,7 @@ const char *html_text_opt_1_vigilia[POCET_JAZYKOV + 1] =
 	"hosszabb vigíliás ünneplés Olvasmányos imaórával", // (vasárnap, főünnep és ünnep előtt)
 	"ru_text",
 	"цэлебрацыя вігіліі для Гадзіны чытанняў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3152,6 +3286,7 @@ const char *html_text_opt_1_vigilia_explain[POCET_JAZYKOV + 1] =
 	"Akik a hagyományokhoz híven vasárnap, főünnep és ünnep előtt hosszabb vigíliás ünneplést akarnak tartani, először végezzék el az Olvasmányos imaórát, a két olvasmány után és a Téged, Isten, dicsérünk himnusz előtt vegyék hozzá a kantikumokat és utána az evangéliumot.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3166,6 +3301,7 @@ const char *html_text_opt_1_spomienka_spolcast[POCET_JAZYKOV + 1] =
 	"emléknapon vegye a jelzett részeket a közös részből",
 	"ru_text",
 	"браць часткі з цэлебрацыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3180,6 +3316,7 @@ const char *html_text_opt_1_spomienka_spolcast_explain[POCET_JAZYKOV + 1] =
 	"Kiválasztani, hogy az imádságra hívás antifónája, himnusz, rövid olvasmány, a Benedictus és a Magnifikat antifónája és a fohászok a közös részből legyenek véve (egyébként a köznapról) a 235 b) általános rendelkezés szerint.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3194,6 +3331,7 @@ const char *html_text_opt_1_spomienka_spolcast_NIE[POCET_JAZYKOV + 1] =
 	"emléknapon a jelzett részeket az adott napról vegye, ne a közös részből",
 	"ru_text",
 	"браць часткі з дня",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3208,6 +3346,7 @@ const char *html_text_opt_1_override_stupen_slavenia[POCET_JAZYKOV + 1] =
 	"magasabb fokú ünneplést venni",
 	"ru_text",
 	"павысіць узровень цэлебрацыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3222,6 +3361,7 @@ const char *html_text_opt_1_override_stupen_slavenia_explain[POCET_JAZYKOV + 1] 
 	"Lehetséges a (tetszés szerinti) emléknapot, mint ünnepet vagy főünnepet venni, hasonlóan az ünnepet mint főünnepet venni (hejbéli ünnep/főünnep).",
 	"ru_text",
 	"Магчымасць цэлебраваць успамін як свята альбо ўрачыстасць; таксама магчымасць цэлебраваць свята як урачыстасць.",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3236,6 +3376,7 @@ const char *html_text_opt_1_override_stupen_slavenia_NIE[POCET_JAZYKOV + 1] =
 	"az előírt fokú ünneplést venni",
 	"ru_text",
 	"цэлебраваць на прадпісанай літургічнай ступені",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3250,6 +3391,7 @@ const char *html_text_opt_1_slavit_ako_sviatok[POCET_JAZYKOV + 1] =
 	"mint ünnepet venni",
 	"ru_text",
 	"цэлебраваць як свята",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3264,6 +3406,7 @@ const char *html_text_opt_1_slavit_ako_slavnost[POCET_JAZYKOV + 1] =
 	"mint főünnepet venni",
 	"ru_text",
 	"цэлебраваць як урачыстасць",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3278,6 +3421,7 @@ const char *html_text_opt_2_html_export[POCET_JAZYKOV + 1] =
 	"az oldalak megjelenítésének lehetőségei:",
 	"ru_text",
 	"паказаць опцыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3292,6 +3436,7 @@ const char *html_text_opt_2_html_export_explain[POCET_JAZYKOV + 1] =
 	"Ezek a beállítások hatással vannak a formai megjelenítésre, de az imaszöveg nem változik.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3306,6 +3451,7 @@ const char *html_text_opt_2_prve_vespery[POCET_JAZYKOV + 1] =
 	"vasárnapok és főünnepek esetén az I. Esti dicséret gombja az ünneplés napján jelenjen meg",
 	"ru_text",
 	"паказваць кнопку з першымі Нешпарамі для нядзеляў і ўрачыстасцяў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3320,6 +3466,7 @@ const char *html_text_opt_2_prve_vespery_explain[POCET_JAZYKOV + 1] =
 	"Mivel az imaórák megjelenítése elsősorban a dátumtól függ, a vasárnapok és főünnepek I. Esti dicsérete (valamint az utánuk következő Befejező imaóra) formálisan nem tartozik az adott dátumhoz, hanem az előző naphoz. Itt mint köznapi Esti dicséret jelenik meg. Az I. Esti dicséret (és Befejező imaóra) gombja nem fog megjelenni szombati végzéshez.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3334,6 +3481,7 @@ const char *html_text_opt_2_iso_datum[POCET_JAZYKOV + 1] =
 	"a dátum ISO 8601 formátumban (ÉÉÉÉ-HH-NN) jelenjen meg",
 	"ru_text",
 	"паказваць дату ў фармаце ISO 8601 (ГГГГ-ММ-ДД)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3349,6 +3497,7 @@ const char *html_text_opt_2_iso_datum_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3363,6 +3512,7 @@ const char *html_text_opt_2_font_family[POCET_JAZYKOV + 1] =
 	"talp nélküli betűk használata",
 	"ru_text",
 	"выкарыстоўваць шрыфт без засечак?",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3377,6 +3527,7 @@ const char *html_text_opt_2_font_family_explain[POCET_JAZYKOV + 1] =
 	"Válasszon talpas (Serif) vagy talp nélküli (Sans Serif) betűt, kényelem szerint. A böngészőablakban mutatott betűtípus az alapértelmezett.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3392,6 +3543,7 @@ const char *html_text_navig_buttons[POCET_JAZYKOV + 1] =
 	"navigáció",
 	"ru_text",
 	"кнопкі навігацыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3406,6 +3558,7 @@ const char *html_text_opt_2_navigation[POCET_JAZYKOV + 1] =
 	"a navigáció mutatása az imaszövegben",
 	"ru_text",
 	"паказваць кнопкі навігацыі ў малітве",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3420,6 +3573,7 @@ const char *html_text_opt_2_navigation_explain[POCET_JAZYKOV + 1] =
 	"Legyen-e hiperhivatkozás a nap többi imaórájára is,  illetve mutassa-e az előző és következő nap imaóráit is közvetlenül a szövegben.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3434,6 +3588,7 @@ const char *html_text_opt_2_moznosti[POCET_JAZYKOV + 1] =
 	"mutassa meg az imák szövegében a különböző lehetőségeket",
 	"ru_text",
 	"паказваць розныя опцыі ў малітвах",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3448,6 +3603,7 @@ const char *html_text_opt_2_moznosti_explain[POCET_JAZYKOV + 1] =
 	"Megjelenjenek-e közvetlenül különböző lehetőségek az ima szövegében (pl. napközi imaóránál a kiegészítő zsoltár).",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3462,6 +3618,7 @@ const char *html_text_opt_2_textwrap[POCET_JAZYKOV + 1] =
 	"hosszú sorok tördelése, mint a nyomtatott kiadásban (versrészek)",
 	"ru_text",
 	"скарачаць даўгія радкі, як у друкаваным выданні",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3476,6 +3633,7 @@ const char *html_text_opt_2_textwrap_explain[POCET_JAZYKOV + 1] =
 	"Legyenek-e tördelve az imaórák szövegében a zsoltárok, kantikumok és más versrészek hosszú sorai, mint a nyomtatott kiadásban.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3490,6 +3648,7 @@ const char *html_text_opt_2_buttons_usporne[POCET_JAZYKOV + 1] =
 	"az imaórák gombjainak gazdaságos elhelyezése",
 	"ru_text",
 	"меншыя кнопкі ў малітвах",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3504,6 +3663,7 @@ const char *html_text_opt_2_buttons_usporne_explain[POCET_JAZYKOV + 1] =
 	"Legyenek-e az imaórák gombjai gazdaságosan elhelyezve, táblázatban (kisebb szélesség) mobilkészülékekhez.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3518,6 +3678,7 @@ const char *html_text_opt_2_nocny_rezim[POCET_JAZYKOV + 1] =
 	"éjszakai mód",
 	"ночной режим",
 	"начны рэжым",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3532,6 +3693,7 @@ const char *html_text_opt_2_nocny_rezim_explain[POCET_JAZYKOV + 1] =
 	"Világos szöveg megjelenítése sötét háttéren.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3546,6 +3708,7 @@ const char *html_text_opt_2_alternatives[POCET_JAZYKOV + 1] =
 	"lehetőségek",
 	"ru_text",
 	"альтэрнатывы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3560,6 +3723,7 @@ const char *html_text_opt_2_alternatives_explain[POCET_JAZYKOV + 1] =
 	"Megmutatja…",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3574,6 +3738,7 @@ const char *html_text_opt_2_show_defalut_calendar[POCET_JAZYKOV + 1] =
 	"kijelölni az ünnepeket a nemzeti naptárban",
 	"ru_text",
 	"пазначаць цэлебрацыі лакальнага календара",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3588,6 +3753,7 @@ const char *html_text_opt_2_show_defalut_calendar_explain[POCET_JAZYKOV + 1] =
 	"Az ima felirata alatt megmutatja az információt, hogy az ünnep a nemzeti naptárban van (tehát nem az általánosban).",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3602,6 +3768,7 @@ const char *html_text_opt_2_background_override[POCET_JAZYKOV + 1] =
 	"fehér/fekete háttért alkalmazni (vetítő/AMOLED kijelző)",
 	"ru_text",
 	"Выкарыстоўваць белы / чорны фон (праектар / дысплэі AMOLED)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3616,6 +3783,7 @@ const char *html_text_opt_2_background_override_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3630,6 +3798,7 @@ const char *html_text_opt_5_KomplHymnusA[POCET_JAZYKOV + 1] =
 	"himnusz A: Immár a nap leáldozott",
 	"ru_text",
 	"гімн A",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3644,6 +3813,7 @@ const char *html_text_opt_5_KomplHymnusB[POCET_JAZYKOV + 1] =
 	"himnusz B: Krisztus, tündöklő nappalunk",
 	"ru_text",
 	"гімн Б",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3658,6 +3828,7 @@ const char *html_text_opt_5_PCHymnusI[POCET_JAZYKOV + 1] =
 	"himnusz I. [Amikor az imaórát éjszaka vagy kora hajnalban mondják]",
 	"ru_text",
 	"гімн I",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3672,6 +3843,7 @@ const char *html_text_opt_5_PCHymnusII[POCET_JAZYKOV + 1] =
 	"himnusz II. [Amikor az imaórát a nap nem reggeli órájában végzik]",
 	"ru_text",
 	"гімн II",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3686,6 +3858,7 @@ const char *html_text_opt_5_PCHymnusVNnedela[POCET_JAZYKOV + 1] =
 	"himnusz Urunknak áldott napja ez",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3700,6 +3873,7 @@ const char *html_text_opt_5_PCHymnusVNferia[POCET_JAZYKOV + 1] =
 	"himnusz Örvendj, ég, messzi csillagok",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3714,6 +3888,7 @@ const char *html_text_opt_5_RChHymnusVNnedela[POCET_JAZYKOV + 1] =
 	"himnusz Rózsálló hajnalfény ragyog",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3728,6 +3903,7 @@ const char *html_text_opt_5_RChHymnusVNferia[POCET_JAZYKOV + 1] =
 	"himnusz Az új Sionnak kórusa",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3742,6 +3918,7 @@ const char *html_text_opt_5_VespHymnusVNnedela[POCET_JAZYKOV + 1] =
 	"himnusz Ím, vár a Bárány asztala",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3756,6 +3933,7 @@ const char *html_text_opt_5_VespHymnusVNferia[POCET_JAZYKOV + 1] =
 	"himnusz Örök Királyunk, szent Urunk",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3770,6 +3948,7 @@ const char *html_text_opt_5_MCDPredHymnus1[POCET_JAZYKOV + 1] =
 	"himnusz Most jöjj, Szentlélek, szállj közénk",
 	"ru_text",
 	"гімн 1",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3784,6 +3963,7 @@ const char *html_text_opt_5_MCDPredHymnus2[POCET_JAZYKOV + 1] =
 	"himnusz Idők rendjét megtartva most",
 	"ru_text",
 	"гімн 2",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3798,6 +3978,7 @@ const char *html_text_opt_5_MCDNaHymnus1[POCET_JAZYKOV + 1] =
 	"himnusz Urunk, felséges Istenünk",
 	"ru_text",
 	"гімн 1",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3812,6 +3993,7 @@ const char *html_text_opt_5_MCDNaHymnus2[POCET_JAZYKOV + 1] =
 	"himnusz Dicsérjük dallal az Urat",
 	"ru_text",
 	"гімн 2",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3826,6 +4008,7 @@ const char *html_text_opt_5_MCDPoHymnus1[POCET_JAZYKOV + 1] =
 	"himnusz Világfenntartó Istenünk",
 	"ru_text",
 	"гімн 1",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3840,6 +4023,7 @@ const char *html_text_opt_5_MCDPoHymnus2[POCET_JAZYKOV + 1] =
 	"himnusz Háromszor három óra már",
 	"ru_text",
 	"гімн 2",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3854,6 +4038,7 @@ const char *html_text_opt_5_1VHymnusNe[POCET_JAZYKOV + 1] =
 	"I. Esti dicséret himnusza",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3868,6 +4053,7 @@ const char *html_text_opt_5_1VHymnusPC[POCET_JAZYKOV + 1] =
 	"Olvasmányos imaóra himnusza [napközben]",
 	"ru_text",
 	"гімн",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3882,6 +4068,7 @@ const char *html_text_opt_5_CZHymnus_ordinary[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3896,6 +4083,7 @@ const char *html_text_opt_5_CZHymnus_extra[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3910,6 +4098,7 @@ const char *html_text_opt_5_PopolStrPsalm_4STR[POCET_JAZYKOV + 1] =
 	"Hamvazószerdán vegye a zsoltározást a 4. zsoltáros hét szerdájáról",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3924,6 +4113,7 @@ const char *html_text_opt_5_PopolStrPsalm_3PI[POCET_JAZYKOV + 1] =
 	"Hamvazószerdán vegye a zsoltározást a 3. zsoltáros hét péntekjéről",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3938,6 +4128,7 @@ const char *html_text_opt_5_CZhymny[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3952,6 +4143,7 @@ const char *html_text_opt_5_CZhymny_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3966,6 +4158,7 @@ const char *html_text_opt_5_CZhymnyNORMAL[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3980,6 +4173,7 @@ const char *html_text_opt_5_CZhymnyRENC[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -3994,6 +4188,7 @@ const char *html_text_opt_5_DPsalmZ122_129[POCET_JAZYKOV + 1] =
 	"a 121. helyett vehető a 128. zsoltár",
 	"ru_text",
 	"выкарыстоўваць псальм 129 (128) замест 122 (121)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4008,6 +4203,7 @@ const char *html_text_opt_5_DPsalmZ126_129[POCET_JAZYKOV + 1] =
 	"a 125. helyett vehető a 128. zsoltár",
 	"ru_text",
 	"выкарыстоўваць псальм 129 (128) замест 126 (125)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4022,6 +4218,7 @@ const char *html_text_opt_5_DPsalmZ127_131[POCET_JAZYKOV + 1] =
 	"a 126. helyett vehető a 130. zsoltár",
 	"ru_text",
 	"выкарыстоўваць псальм 131 (130) замест 127 (126)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4036,6 +4233,7 @@ const char *html_text_opt_5_DPsalmZ122_NORMAL[POCET_JAZYKOV + 1] =
 	"hu_take 121. zsoltár from kiegészítő zsoltároknál",
 	"ru_text",
 	"выкарыстоўваць псальм 122 (121) з дадатковай псальмодыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4050,6 +4248,7 @@ const char *html_text_opt_5_DPsalmZ126_NORMAL[POCET_JAZYKOV + 1] =
 	"hu_take 125. zsoltár from kiegészítő zsoltároknál",
 	"ru_text",
 	"выкарыстоўваць псальм 126 (125) з дадатковай псальмодыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4064,6 +4263,7 @@ const char *html_text_opt_5_DPsalmZ127_NORMAL[POCET_JAZYKOV + 1] =
 	"hu_take 126. zsoltár from kiegészítő zsoltároknál",
 	"ru_text",
 	"выкарыстоўваць псальм 127 (126) з дадатковай псальмодыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4078,6 +4278,7 @@ const char *html_text_opt_5_DPsalmZ122_129_explain[POCET_JAZYKOV + 1] =
 	"A kiegészítő zsoltároknál a 121. helyett vehető a 128. zsoltár.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4092,6 +4293,7 @@ const char *html_text_opt_5_DPsalmZ126_129_explain[POCET_JAZYKOV + 1] =
 	"A kiegészítő zsoltároknál a 125. helyett vehető a 128. zsoltár.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4106,6 +4308,7 @@ const char *html_text_opt_5_DPsalmZ127_131_explain[POCET_JAZYKOV + 1] =
 	"A kiegészítő zsoltároknál a 126. helyett vehető a 130. zsoltár.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4120,6 +4323,7 @@ const char *html_text_opt_5_OffDefZ146_150[POCET_JAZYKOV + 1] =
 	"a 145. helyett vehető a 150. zsoltár",
 	"ru_text",
 	"выкарыстоўваць псальм 150 замест 146 (145)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4134,6 +4338,7 @@ const char *html_text_opt_5_OffDefZ146_150_explain[POCET_JAZYKOV + 1] =
 	"a 145. helyett vehető a 150. zsoltár",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4148,6 +4353,7 @@ const char *html_text_opt_5_OffDefZ146_150_NORMAL[POCET_JAZYKOV + 1] =
 	"a 150. helyett vehető a 145. zsoltár",
 	"ru_text",
 	"выкарыстоўваць псальм 146 (145) замест 150",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4162,6 +4368,7 @@ const char *html_text_opt_5_zaver_knaz_diakon[POCET_JAZYKOV + 1] =
 	"ezután, ha pap vagy diakónus vezeti",
 	"ru_text",
 	"завяршэнне на выпадак, калі прысутны святар ці дыякан",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4176,6 +4383,7 @@ const char *html_text_opt_5_zaver_knaz_diakon_explain[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4190,6 +4398,7 @@ const char *html_text_opt_5_zaver_knaz_diakon_NORMAL[POCET_JAZYKOV + 1] =
 	"ha nincs jelen pap vagy diakónus, valamint egyéni imádkozás esetén",
 	"ru_text",
 	"завяршэнне на выпадак, калі святара ці дыякана няма альбо для індывідуальнай малітвы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4204,6 +4413,7 @@ const char *html_text_opt_6_alternatives_multi[POCET_JAZYKOV + 1] =
 	"lehetőségek",
 	"ru_text",
 	"альтэрнатывы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4218,6 +4428,7 @@ const char *html_text_opt_6_alternatives_multi_hymnus[POCET_JAZYKOV + 1] =
 	"más himnusz",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4233,6 +4444,7 @@ const char *html_text_opt_6_alternatives_multi_citanie[POCET_JAZYKOV + 1] =
 	"más olvasmány",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4248,6 +4460,7 @@ const char *html_text_opt_6_alternatives_multi_antifona[POCET_JAZYKOV + 1] =
 	"más antifóna",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4262,6 +4475,7 @@ const char *html_text_opt_6_alternatives_multi_prosby[POCET_JAZYKOV + 1] =
 	"más fohászok",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4276,6 +4490,7 @@ const char *html_text_opt_6_alternatives_multi_kcit_resp[POCET_JAZYKOV + 1] =
 	"más olvasmány és válaszos ének",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4290,6 +4505,7 @@ const char *html_text_opt_6_alternatives_multi_kresp[POCET_JAZYKOV + 1] =
 	"más válaszos ének",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4304,6 +4520,7 @@ const char *html_text_opt_6_alternatives_multi_modlitba[POCET_JAZYKOV + 1] =
 	"más könyörgés",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4318,6 +4535,7 @@ const char *html_text_font_name[POCET_JAZYKOV + 1] =
 	"betűtípus kiválasztása",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4332,6 +4550,7 @@ const char *html_text_font_name_explain[POCET_JAZYKOV + 1] =
 	"Ha nem választunk betűtípust, akkor a böngészőablakban látható az alapértelmezett (talpas vagy talpatlan az előző kiválasztás szerint).",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4346,6 +4565,7 @@ const char *html_text_font_size[POCET_JAZYKOV + 1] =
 	"betűméret",
 	"ru_text",
 	"памер шрыфта",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4360,6 +4580,7 @@ const char *html_text_font_size_explain[POCET_JAZYKOV + 1] =
 	"betűméret",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4380,6 +4601,7 @@ const char *html_text_kalendar[POCET_JAZYKOV + 1] =
 	"a naptárat",
 	"ru_text",
 	"каляндар",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4394,6 +4616,7 @@ const char *html_text_kalendar_miestny[POCET_JAZYKOV + 1] =
 	"Az imaórák liturgiája"
 	"ru_text",
 	"Каляндар Літургіі гадзінаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *html_text_kalendar_miestny_post[POCET_JAZYKOV + 1] =
@@ -4407,6 +4630,7 @@ const char *html_text_kalendar_miestny_post[POCET_JAZYKOV + 1] =
 	"naptárát használják",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4421,6 +4645,7 @@ const char *html_text_kalendar_miestny_explain[POCET_JAZYKOV + 1] =
 	"Lehetséges a helyi naptárt választani, szerzetesrendét, kongregációét, intézményét...",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4435,6 +4660,7 @@ const char *html_text_detaily_explain[POCET_JAZYKOV + 1] =
 	"A többi beállítási lehetőség a főoldalon található." HTML_P_END "\n" HTML_P_BEGIN "Amennyiben valamelyik kiválasztott paraméter nem működik, figyelmen kívül kell hagyni (vagyis tetszőlegesen állíthatók).",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4450,21 +4676,22 @@ const char *html_text_inv_slavaotcu[POCET_JAZYKOV + 1] =
 	"Következik a <" HTML_SPAN_NORMAL ">Dicsőség az Atyának" HTML_SPAN_END " és megismételjük az antifónát.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
 // page navigation (top, bottom)
-const char *html_text_top[POCET_JAZYKOV + 1] = { "&uarr; navrch", "&uarr; nahoru", "&uarr; top", "", "", "&uarr; nahoru", "&uarr; fel", "&uarr; ru_text", "&uarr; by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }; // HU: to up -> felfelé | up -> fel | Andy: fent | top -> eleje | to top -> elejére
-const char *html_text_bottom[POCET_JAZYKOV + 1] = { "&darr; naspodok", "&darr; dolů", "&darr; bottom", "", "", "&darr; dolů", "&darr; le", "&darr; ru_text", "&darr; by_text", /* STRING_1_FOR_NEW_LANGUAGE */ }; // HU: to down -> lefelé | down -> le | Andy: lent | bottom -> vége | to bottom -> végére
+const char *html_text_top[POCET_JAZYKOV + 1] = { "&uarr; navrch", "&uarr; nahoru", "&uarr; top", "", "", "&uarr; nahoru", "&uarr; fel", "&uarr; ru_text", "&uarr; by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }; // HU: to up -> felfelé | up -> fel | Andy: fent | top -> eleje | to top -> elejére
+const char *html_text_bottom[POCET_JAZYKOV + 1] = { "&darr; naspodok", "&darr; dolů", "&darr; bottom", "", "", "&darr; dolů", "&darr; le", "&darr; ru_text", "&darr; by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ }; // HU: to down -> lefelé | down -> le | Andy: lent | bottom -> vége | to bottom -> végére
 
 // titles & navigation for batch mode
-const char *html_text_batch_Zoznam1[POCET_JAZYKOV + 1] = { "Zoznam modlitieb", "Seznam modliteb", "List of prayers", "", "", "Seznam modliteb", "Az imák jegyzéke", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_batch_Zoznam1m[POCET_JAZYKOV + 1] = { "Zoznam modlitieb po mesiacoch", "Seznam modliteb dle měsíců", "List of prayers by months", "", "", "Seznam modliteb dle měsíců", "Az imák jegyzéke hónapok szerint", "ru_text", "by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_batch_obdobie1m[POCET_JAZYKOV + 1] = { "("/*obdobie */"od %d. %s %d do %d. %s %d)", "(pro období od %d. %s %d do %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(pro období od %d. %s %d do %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_batch_Zoznam2[POCET_JAZYKOV + 1] = {/* Zoznam modlitieb pre */"%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_batch_Back[POCET_JAZYKOV + 1] = { "&uarr; hore", "&uarr; nahoru", "&uarr; up", "", "", "&uarr; nahoru", "&uarr; felfelé", "&uarr; ru_text", "&uarr; by_text", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_batch_Prev[POCET_JAZYKOV + 1] = { "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", /* STRING_1_FOR_NEW_LANGUAGE */ };
-const char *html_text_batch_Next[POCET_JAZYKOV + 1] = { "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_Zoznam1[POCET_JAZYKOV + 1] = { "Zoznam modlitieb", "Seznam modliteb", "List of prayers", "", "", "Seznam modliteb", "Az imák jegyzéke", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_Zoznam1m[POCET_JAZYKOV + 1] = { "Zoznam modlitieb po mesiacoch", "Seznam modliteb dle měsíců", "List of prayers by months", "", "", "Seznam modliteb dle měsíců", "Az imák jegyzéke hónapok szerint", "ru_text", "by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_obdobie1m[POCET_JAZYKOV + 1] = { "("/*obdobie */"od %d. %s %d do %d. %s %d)", "(pro období od %d. %s %d do %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(pro období od %d. %s %d do %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", "(%d. %s %d — %d. %s %d)", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_Zoznam2[POCET_JAZYKOV + 1] = {/* Zoznam modlitieb pre */"%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "%s %d", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_Back[POCET_JAZYKOV + 1] = { "&uarr; hore", "&uarr; nahoru", "&uarr; up", "", "", "&uarr; nahoru", "&uarr; felfelé", "&uarr; ru_text", "&uarr; by_text", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_Prev[POCET_JAZYKOV + 1] = { "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "&larr;", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
+const char *html_text_batch_Next[POCET_JAZYKOV + 1] = { "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "&rarr;", "text_pl", /* STRING_1_FOR_NEW_LANGUAGE */ };
 
 // zakončenie modlitby trojaké, krátke resp. dlhé | triple prayer ending (short, long)
 const char *text_ZAKONCENIE_SKRZE_dlhe[POCET_JAZYKOV + 1] =
@@ -4478,6 +4705,7 @@ const char *text_ZAKONCENIE_SKRZE_dlhe[POCET_JAZYKOV + 1] =
 	"A mi Urunk, Jézus Krisztus, a te Fiad által, aki veled él és uralkodik a Szentlélekkel egységben, Isten mindörökkön-örökké.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4492,6 +4720,7 @@ const char *text_ZAKONCENIE_SKRZE_kratke[POCET_JAZYKOV + 1] =
 	"Krisztus, a mi Urunk által.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4506,6 +4735,7 @@ const char *text_ZAKONCENIE_LEBO_ON_dlhe[POCET_JAZYKOV + 1] =
 	"Aki veled él és uralkodik a Szentlélekkel egységben, Isten mindörökkön-örökké.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4520,6 +4750,7 @@ const char *text_ZAKONCENIE_LEBO_ON_kratke[POCET_JAZYKOV + 1] =
 	"Aki él és uralkodik mindörökkön-örökké.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4534,6 +4765,7 @@ const char *text_ZAKONCENIE_LEBO_TY_dlhe[POCET_JAZYKOV + 1] =
 	"Aki élsz és uralkodol az Atyaistennel és a Szentlélek­kel egységben, Isten mindörökkön-örökké.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4548,6 +4780,7 @@ const char *text_ZAKONCENIE_LEBO_TY_kratke[POCET_JAZYKOV + 1] =
 	"Aki élsz és uralkodol mindörökkön-örökké.",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4568,6 +4801,7 @@ const char *text_ZAKONCENIE_O_TO_TA_PROSIME[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4586,6 +4820,7 @@ const char *text_DRUHA_NEDELA_PO_NAR_PANA[POCET_JAZYKOV + 1] =
 	"Karácsony Utáni 2. Vasárnap",
 	"ru_text",
 	"II Нядзеля пасля Нараджэння Пана", // convertToRoman()
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -4602,6 +4837,7 @@ const char *text_JAN_01[POCET_JAZYKOV + 1] =
 	"Szűz Mária, Isten Anyja (újév)",
 	"Пресвятая Богородица Мария",
 	"Святой Багародзіцы Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_01_SJ[POCET_JAZYKOV + 1] =
@@ -4615,6 +4851,7 @@ const char *text_JAN_01_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_02[POCET_JAZYKOV + 1] =
@@ -4628,6 +4865,7 @@ const char *text_JAN_02[POCET_JAZYKOV + 1] =
 	"Nagy Szent Vazul és Nazianzi Szent Gergely " HTML_LINE_BREAK "püspökök és egyháztanítók",
 	"Свв. Василий Великий и Григорий Назианзин, " HTML_LINE_BREAK "епископы и учители Церкви",
 	"Св. Базыля Вялікага і Грыгорыя Назіянзскага, " HTML_LINE_BREAK "біскупаў і доктараў Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_03[POCET_JAZYKOV + 1] =
@@ -4641,6 +4879,7 @@ const char *text_JAN_03[POCET_JAZYKOV + 1] =
 	"Jézus szent neve", // "Jézus Szentséges Nevének"
 	"ru_text",
 	"Найсвяцейшага Імя Езуса",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_03_OCD[POCET_JAZYKOV + 1] =
@@ -4654,6 +4893,7 @@ const char *text_JAN_03_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_03_OP[POCET_JAZYKOV + 1] =
@@ -4667,6 +4907,7 @@ const char *text_JAN_03_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_04_OFM[POCET_JAZYKOV + 1] =
@@ -4680,6 +4921,7 @@ const char *text_JAN_04_OFM[POCET_JAZYKOV + 1] =
 	"Folignói Boldog Angéla, szerzetesnő a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_04_CM[POCET_JAZYKOV + 1] =
@@ -4693,6 +4935,7 @@ const char *text_JAN_04_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_05_CSSR[POCET_JAZYKOV + 1] =
@@ -4706,6 +4949,7 @@ const char *text_JAN_05_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_05_OFM[POCET_JAZYKOV + 1] =
@@ -4719,6 +4963,7 @@ const char *text_JAN_05_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_06[POCET_JAZYKOV + 1] = // 6. januára | alebo nedeľu medzi 2. a 8. januárom
@@ -4732,6 +4977,7 @@ const char *text_JAN_06[POCET_JAZYKOV + 1] = // 6. januára | alebo nedeľu medz
 	"Urunk megjelenése (Vízkereszt)",
 	"ru_text",
 	"Аб'яўленне Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_07[POCET_JAZYKOV + 1] =
@@ -4745,6 +4991,7 @@ const char *text_JAN_07[POCET_JAZYKOV + 1] =
 	"Penyaforti Szent Rajmund áldozópap",
 	"ru_text",
 	"Св. Раймунда Пеньяфорцкага, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_08_OCD[POCET_JAZYKOV + 1] =
@@ -4758,6 +5005,7 @@ const char *text_JAN_08_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_09_OCD[POCET_JAZYKOV + 1] =
@@ -4771,6 +5019,7 @@ const char *text_JAN_09_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_10_1_OP[POCET_JAZYKOV + 1] =
@@ -4784,6 +5033,7 @@ const char *text_JAN_10_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_10_2_OP[POCET_JAZYKOV + 1] =
@@ -4797,6 +5047,7 @@ const char *text_JAN_10_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_11_OP[POCET_JAZYKOV + 1] =
@@ -4810,6 +5061,7 @@ const char *text_JAN_11_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_KRST[POCET_JAZYKOV + 1] = // v nedeľu po 6. januári | (v nedeľu po Zjavení Pána) alebo: ak však táto nedeľa (zrejme Zjavenia Pána) padne na deň 7. alebo 8. januára, ofícium sa slávi v nasledujúci deň
@@ -4823,6 +5075,7 @@ const char *text_JAN_KRST[POCET_JAZYKOV + 1] = // v nedeľu po 6. januári | (v 
 	"Urunk megkeresztelkedése",
 	"ru_text",
 	"Хрост Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_12_OFM[POCET_JAZYKOV + 1] =
@@ -4836,6 +5089,7 @@ const char *text_JAN_12_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_13[POCET_JAZYKOV + 1] =
@@ -4849,6 +5103,7 @@ const char *text_JAN_13[POCET_JAZYKOV + 1] =
 	"Szent Hiláriusz (Vidor) püspök és egyháztanító",
 	"ru_text",
 	"Св. Гілярыя, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_14_CSSR[POCET_JAZYKOV + 1] =
@@ -4862,6 +5117,7 @@ const char *text_JAN_14_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_14_OFM[POCET_JAZYKOV + 1] =
@@ -4875,12 +5131,13 @@ const char *text_JAN_14_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_14_OPRAEM[POCET_JAZYKOV + 1] =
 {
 	"",
-	"Sv. Gotfrída, řeholníka z premonstrátského řádu",
+	"Sv. Gotfrída, řeholníka z premonstrátského řádu",
 	"",
 	"",
 	"",
@@ -4888,6 +5145,7 @@ const char *text_JAN_14_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_15_HU[POCET_JAZYKOV + 1] =
@@ -4901,6 +5159,7 @@ const char *text_JAN_15_HU[POCET_JAZYKOV + 1] =
 	"Remete Szent Pál szerzetes",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_15_OP[POCET_JAZYKOV + 1] =
@@ -4914,11 +5173,12 @@ const char *text_JAN_15_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_15_SVD[POCET_JAZYKOV + 1] =
 {
-	"Sv. Arnolda Janssena, kňaza a zakladateľa troch misijných rehoľných spoločností",
+	"Sv. Arnolda Janssena, kňaza a zakladateľa troch misijných rehoľných spoločností",
 	"",
 	"",
 	"la_",
@@ -4927,6 +5187,7 @@ const char *text_JAN_15_SVD[POCET_JAZYKOV + 1] =
 	"Janssen Szent Arnold áldozópap",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_15_SDB[POCET_JAZYKOV + 1] =
@@ -4940,6 +5201,7 @@ const char *text_JAN_15_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_16_OFM[POCET_JAZYKOV + 1] =
@@ -4953,6 +5215,7 @@ const char *text_JAN_16_OFM[POCET_JAZYKOV + 1] =
 	"Szent Berárd, pap és vértanú társai az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_17[POCET_JAZYKOV + 1] =
@@ -4966,6 +5229,7 @@ const char *text_JAN_17[POCET_JAZYKOV + 1] =
 	"Szent Antal apát",
 	"ru_text",
 	"Св. Антонія, абата",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_18_CZ[POCET_JAZYKOV + 1] =
@@ -4979,6 +5243,7 @@ const char *text_JAN_18_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_18[POCET_JAZYKOV + 1] =
@@ -4992,6 +5257,7 @@ const char *text_JAN_18[POCET_JAZYKOV + 1] =
 	"Árpád-házi Szent Margit szűz",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_19_OP[POCET_JAZYKOV + 1] =
@@ -5005,6 +5271,7 @@ const char *text_JAN_19_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_19_SJ[POCET_JAZYKOV + 1] =
@@ -5018,6 +5285,7 @@ const char *text_JAN_19_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_20_1[POCET_JAZYKOV + 1] =
@@ -5031,6 +5299,7 @@ const char *text_JAN_20_1[POCET_JAZYKOV + 1] =
 	"Szent Fábián pápa és vértanú",
 	"ru_text",
 	"Св. Фабіяна, папы і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_20_2[POCET_JAZYKOV + 1] =
@@ -5044,6 +5313,7 @@ const char *text_JAN_20_2[POCET_JAZYKOV + 1] =
 	"Szent Sebestyén vértanú",
 	"ru_text",
 	"Св. Себасцьяна, мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_20_OFM[POCET_JAZYKOV + 1] =
@@ -5057,6 +5327,7 @@ const char *text_JAN_20_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_20_HU[POCET_JAZYKOV + 1] =
@@ -5070,6 +5341,7 @@ const char *text_JAN_20_HU[POCET_JAZYKOV + 1] =
 	"Esztergomi Boldog Özséb áldozópap",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_21[POCET_JAZYKOV + 1] =
@@ -5083,6 +5355,7 @@ const char *text_JAN_21[POCET_JAZYKOV + 1] =
 	"Szent Ágnes szűz és vértanú",
 	"ru_text",
 	"Св. Агнешкі, панны і мучаніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_22[POCET_JAZYKOV + 1] =
@@ -5096,6 +5369,7 @@ const char *text_JAN_22[POCET_JAZYKOV + 1] =
 	"Szent Vince diakónus és vértanú",
 	"ru_text",
 	"Св. Вінцэнта, дыякана і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_22_OP[POCET_JAZYKOV + 1] =
@@ -5109,6 +5383,7 @@ const char *text_JAN_22_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_22_HU[POCET_JAZYKOV + 1] =
@@ -5122,6 +5397,7 @@ const char *text_JAN_22_HU[POCET_JAZYKOV + 1] =
 	"Boldog Batthyány-Stratmann László családapa",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_22_SDB[POCET_JAZYKOV + 1] =
@@ -5135,6 +5411,7 @@ const char *text_JAN_22_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_23_SK[POCET_JAZYKOV + 1] =
@@ -5148,6 +5425,7 @@ const char *text_JAN_23_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_23_OP[POCET_JAZYKOV + 1] =
@@ -5161,6 +5439,7 @@ const char *text_JAN_23_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_24[POCET_JAZYKOV + 1] =
@@ -5174,6 +5453,7 @@ const char *text_JAN_24[POCET_JAZYKOV + 1] =
 	"Szalézi Szent Ferenc püspök és egyháztanító",
 	"ru_text",
 	"Св. Францішка Сальскага, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_24_SDB[POCET_JAZYKOV + 1] =
@@ -5187,6 +5467,7 @@ const char *text_JAN_24_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_25[POCET_JAZYKOV + 1] =
@@ -5200,6 +5481,7 @@ const char *text_JAN_25[POCET_JAZYKOV + 1] =
 	"Szent Pál apostol megtérése (Pál fordulása)",
 	"ru_text",
 	"Навяртанне св. Паўла, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_25_CM[POCET_JAZYKOV + 1] =
@@ -5213,6 +5495,7 @@ const char *text_JAN_25_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_26[POCET_JAZYKOV + 1] =
@@ -5226,6 +5509,7 @@ const char *text_JAN_26[POCET_JAZYKOV + 1] =
 	"Szent Timóteus és Szent Titusz püspökök",
 	"ru_text",
 	"Св. Цімафея і Ціта, біскупаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_27[POCET_JAZYKOV + 1] =
@@ -5239,6 +5523,7 @@ const char *text_JAN_27[POCET_JAZYKOV + 1] =
 	"Merici Szent Angéla szűz",
 	"ru_text",
 	"Св. Анжэлы Мэрычы, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_27_BY[POCET_JAZYKOV + 1] =
@@ -5252,6 +5537,7 @@ const char *text_JAN_27_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Бл. Юрыя Матулевіча, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_27_OP[POCET_JAZYKOV + 1] =
@@ -5265,6 +5551,7 @@ const char *text_JAN_27_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_27_OCD[POCET_JAZYKOV + 1] =
@@ -5278,6 +5565,7 @@ const char *text_JAN_27_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_28[POCET_JAZYKOV + 1] =
@@ -5291,6 +5579,7 @@ const char *text_JAN_28[POCET_JAZYKOV + 1] =
 	"Aquinói Szent Tamás áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Тамаша Аквінскага, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_29_BY[POCET_JAZYKOV + 1] =
@@ -5304,6 +5593,7 @@ const char *text_JAN_29_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Бл. Баляславы Марыі Лямэнт, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_29_SVD[POCET_JAZYKOV + 1] =
@@ -5317,6 +5607,7 @@ const char *text_JAN_29_SVD[POCET_JAZYKOV + 1] =
 	"Freinademetz Szent József áldozópap",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_29_OP[POCET_JAZYKOV + 1] =
@@ -5330,6 +5621,7 @@ const char *text_JAN_29_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_30_SDB[POCET_JAZYKOV + 1] =
@@ -5343,6 +5635,7 @@ const char *text_JAN_30_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_30_OFM[POCET_JAZYKOV + 1] =
@@ -5356,6 +5649,7 @@ const char *text_JAN_30_OFM[POCET_JAZYKOV + 1] =
 	"Szent Jácinta, szűz a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_31[POCET_JAZYKOV + 1] =
@@ -5369,6 +5663,7 @@ const char *text_JAN_31[POCET_JAZYKOV + 1] =
 	"Bosco Szent János áldozópap",
 	"ru_text",
 	"Св. Яна Боска, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JAN_31_SDB[POCET_JAZYKOV + 1] =
@@ -5382,6 +5677,7 @@ const char *text_JAN_31_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -5398,6 +5694,7 @@ const char *text_FEB_01_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_01_CM[POCET_JAZYKOV + 1] =
@@ -5411,6 +5708,7 @@ const char *text_FEB_01_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_02[POCET_JAZYKOV + 1] =
@@ -5424,6 +5722,7 @@ const char *text_FEB_02[POCET_JAZYKOV + 1] =
 	"Urunk bemutatása (Gyertyaszentelő Boldogasszony)",
 	"ru_text",
 	"Ахвяраванне Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_03_1[POCET_JAZYKOV + 1] =
@@ -5437,6 +5736,7 @@ const char *text_FEB_03_1[POCET_JAZYKOV + 1] =
 	"Szent Balázs püspök és vértanú",
 	"ru_text",
 	"Св. Блажэя, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_03_2[POCET_JAZYKOV + 1] =
@@ -5450,6 +5750,7 @@ const char *text_FEB_03_2[POCET_JAZYKOV + 1] =
 	"Szent Anszgár (Oszkár) püspök",
 	"ru_text",
 	"Св. Анзгара, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_03_1_OP[POCET_JAZYKOV + 1] =
@@ -5463,6 +5764,7 @@ const char *text_FEB_03_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_03_2_OP[POCET_JAZYKOV + 1] =
@@ -5476,6 +5778,7 @@ const char *text_FEB_03_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_03_3_OP[POCET_JAZYKOV + 1] =
@@ -5489,6 +5792,7 @@ const char *text_FEB_03_3_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_04_OP[POCET_JAZYKOV + 1] =
@@ -5502,6 +5806,7 @@ const char *text_FEB_04_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_04_SJ[POCET_JAZYKOV + 1] =
@@ -5515,6 +5820,7 @@ const char *text_FEB_04_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_04_OFM[POCET_JAZYKOV + 1] =
@@ -5528,6 +5834,7 @@ const char *text_FEB_04_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_04_OPRAEM[POCET_JAZYKOV + 1] =
@@ -5541,6 +5848,7 @@ const char *text_FEB_04_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_05[POCET_JAZYKOV + 1] =
@@ -5554,6 +5862,7 @@ const char *text_FEB_05[POCET_JAZYKOV + 1] =
 	"Szent Ágota szűz és vértanú",
 	"ru_text",
 	"Св. Агаты, панны і мучаніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_06[POCET_JAZYKOV + 1] =
@@ -5567,6 +5876,7 @@ const char *text_FEB_06[POCET_JAZYKOV + 1] =
 	"Miki Szent Pál és társai vértanúk",
 	"ru_text",
 	"Св. Паўла Мікі і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_06_SJ[POCET_JAZYKOV + 1] =
@@ -5580,6 +5890,7 @@ const char *text_FEB_06_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_06_OFM[POCET_JAZYKOV + 1] =
@@ -5593,6 +5904,7 @@ const char *text_FEB_06_OFM[POCET_JAZYKOV + 1] =
 	"Keresztelő Szent Péter, Miki Pál és vértanú társai",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_07_OP[POCET_JAZYKOV + 1] =
@@ -5606,6 +5918,7 @@ const char *text_FEB_07_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_07_SDB[POCET_JAZYKOV + 1] =
@@ -5619,6 +5932,7 @@ const char *text_FEB_07_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_07_OFM[POCET_JAZYKOV + 1] =
@@ -5632,6 +5946,7 @@ const char *text_FEB_07_OFM[POCET_JAZYKOV + 1] =
 	"Szent Koléta, szűz a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_08_1[POCET_JAZYKOV + 1] =
@@ -5645,6 +5960,7 @@ const char *text_FEB_08_1[POCET_JAZYKOV + 1] =
 	"Emiliáni Szent Jeromos",
 	"ru_text",
 	"Св. Гераніма Эміліяні",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_08_2[POCET_JAZYKOV + 1] =
@@ -5658,6 +5974,7 @@ const char *text_FEB_08_2[POCET_JAZYKOV + 1] =
 	"Bakhita Szent Jozefina szűz",
 	"ru_text",
 	"Св. Жазэфіны Бакіты, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_09_SDB[POCET_JAZYKOV + 1] =
@@ -5671,6 +5988,7 @@ const char *text_FEB_09_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_09_OFMCAP[POCET_JAZYKOV + 1] =
@@ -5684,6 +6002,7 @@ const char *text_FEB_09_OFMCAP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_10[POCET_JAZYKOV + 1] =
@@ -5697,6 +6016,7 @@ const char *text_FEB_10[POCET_JAZYKOV + 1] =
 	"Szent Skolasztika szűz",
 	"ru_text",
 	"Св. Схалястыкі, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_10_OPRAEM[POCET_JAZYKOV + 1] =
@@ -5710,6 +6030,7 @@ const char *text_FEB_10_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_11[POCET_JAZYKOV + 1] =
@@ -5723,6 +6044,7 @@ const char *text_FEB_11[POCET_JAZYKOV + 1] =
 	"A Lourdes-i Boldogságos Szűz Mária",
 	"ru_text",
 	"Найсвяцейшай Панны Марыі з Люрда",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_12_OP[POCET_JAZYKOV + 1] =
@@ -5736,6 +6058,7 @@ const char *text_FEB_12_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_13_OP[POCET_JAZYKOV + 1] =
@@ -5749,6 +6072,7 @@ const char *text_FEB_13_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_14[POCET_JAZYKOV + 1] =
@@ -5762,6 +6086,7 @@ const char *text_FEB_14[POCET_JAZYKOV + 1] =
 	"Szent Cirill szerzetes és Szent Metód püspök, " HTML_LINE_BREAK "Európa társvédőszentjei",
 	"ru_text",
 	"Св. Кірыла, мніха, і Мятода, біскупа, апекуноў Еўропы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_15_SJ[POCET_JAZYKOV + 1] =
@@ -5775,6 +6100,7 @@ const char *text_FEB_15_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_15_CZ[POCET_JAZYKOV + 1] =
@@ -5788,6 +6114,7 @@ const char *text_FEB_15_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_16_OP[POCET_JAZYKOV + 1] =
@@ -5801,6 +6128,7 @@ const char *text_FEB_16_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_17[POCET_JAZYKOV + 1] =
@@ -5814,6 +6142,7 @@ const char *text_FEB_17[POCET_JAZYKOV + 1] =
 	"A szervita rend hét szent alapítója",
 	"ru_text",
 	"Св. сямі Заснавальнікаў ордэна " HTML_LINE_BREAK "Слугаў Найсвяцейшай Панны Марыі (сэрвітаў)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_17_OPRAEM[POCET_JAZYKOV + 1] =
@@ -5827,6 +6156,7 @@ const char *text_FEB_17_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_18_OPRAEM[POCET_JAZYKOV + 1] =
@@ -5840,6 +6170,7 @@ const char *text_FEB_18_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_18_CM[POCET_JAZYKOV + 1] =
@@ -5853,6 +6184,7 @@ const char *text_FEB_18_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_18_OP[POCET_JAZYKOV + 1] =
@@ -5866,6 +6198,7 @@ const char *text_FEB_18_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_19_OP[POCET_JAZYKOV + 1] =
@@ -5879,6 +6212,7 @@ const char *text_FEB_19_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_19_OFM[POCET_JAZYKOV + 1] =
@@ -5892,6 +6226,7 @@ const char *text_FEB_19_OFM[POCET_JAZYKOV + 1] =
 	"Piacenzai Szent Konrád, remete a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_20_OP[POCET_JAZYKOV + 1] =
@@ -5905,6 +6240,7 @@ const char *text_FEB_20_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_21[POCET_JAZYKOV + 1] =
@@ -5918,6 +6254,7 @@ const char *text_FEB_21[POCET_JAZYKOV + 1] =
 	"Damiáni Szent Péter püspök és egyháztanító",
 	"ru_text",
 	"Св. Пятра Дам'яна, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_22[POCET_JAZYKOV + 1] =
@@ -5931,6 +6268,7 @@ const char *text_FEB_22[POCET_JAZYKOV + 1] =
 	"Szent Péter apostol székfoglalása",
 	"ru_text",
 	"Катэдры св. Пятра, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_23[POCET_JAZYKOV + 1] =
@@ -5944,6 +6282,7 @@ const char *text_FEB_23[POCET_JAZYKOV + 1] =
 	"Szent Polikárp püspök és vértanú",
 	"ru_text",
 	"Св. Палікарпа, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_24_OP[POCET_JAZYKOV + 1] =
@@ -5957,6 +6296,7 @@ const char *text_FEB_24_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_FEB_25_SDB[POCET_JAZYKOV + 1] =
@@ -5970,6 +6310,7 @@ const char *text_FEB_25_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -5986,6 +6327,7 @@ const char *text_POPOLCOVA_STREDA[POCET_JAZYKOV + 1] =
 	"Hamvazószerda",
 	"ru_text",
 	"Папяльцовая серада",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -6002,6 +6344,7 @@ const char *text_MAR_02_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_04[POCET_JAZYKOV + 1] =
@@ -6015,6 +6358,7 @@ const char *text_MAR_04[POCET_JAZYKOV + 1] =
 	"Szent Kázmér",
 	"ru_text",
 	"Св. Казіміра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_04_HU[POCET_JAZYKOV + 1] =
@@ -6028,6 +6372,7 @@ const char *text_MAR_04_HU[POCET_JAZYKOV + 1] =
 	"Boldog Meszlényi Zoltán püspök és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_07[POCET_JAZYKOV + 1] =
@@ -6041,6 +6386,7 @@ const char *text_MAR_07[POCET_JAZYKOV + 1] =
 	"Szent Perpétua és Felicitász vértanúk",
 	"ru_text",
 	"Св. Пэрпэтуі і Фэліцыты, мучаніц",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_08[POCET_JAZYKOV + 1] =
@@ -6054,6 +6400,7 @@ const char *text_MAR_08[POCET_JAZYKOV + 1] =
 	"Istenes Szent János szerzetes",
 	"ru_text",
 	"Св. Яна Божага, законніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_09[POCET_JAZYKOV + 1] =
@@ -6067,6 +6414,7 @@ const char *text_MAR_09[POCET_JAZYKOV + 1] =
 	"Római Szent Franciska szerzetesnő",
 	"ru_text",
 	"Св. Францішкі Рымскай, законніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_10_SK[POCET_JAZYKOV + 1] =
@@ -6080,6 +6428,7 @@ const char *text_MAR_10_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_10_CZ[POCET_JAZYKOV + 1] =
@@ -6093,6 +6442,7 @@ const char *text_MAR_10_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_12_OFM[POCET_JAZYKOV + 1] =
@@ -6106,6 +6456,7 @@ const char *text_MAR_12_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_15_CSSR[POCET_JAZYKOV + 1] =
@@ -6119,6 +6470,7 @@ const char *text_MAR_15_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_17[POCET_JAZYKOV + 1] =
@@ -6132,6 +6484,7 @@ const char *text_MAR_17[POCET_JAZYKOV + 1] =
 	"Szent Patrik püspök",
 	"ru_text",
 	"Св. Патрыка, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_17_HU[POCET_JAZYKOV + 1] =
@@ -6145,6 +6498,7 @@ const char *text_MAR_17_HU[POCET_JAZYKOV + 1] =
 	"A Győri könnyező Szűz Mária",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_18[POCET_JAZYKOV + 1] =
@@ -6158,6 +6512,7 @@ const char *text_MAR_18[POCET_JAZYKOV + 1] =
 	"Jeruzsálemi Szent Cirill püspök és egyháztanító",
 	"ru_text",
 	"Св. Кірыла Ерузалемскага, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_18_OFM[POCET_JAZYKOV + 1] =
@@ -6171,6 +6526,7 @@ const char *text_MAR_18_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_19[POCET_JAZYKOV + 1] =
@@ -6184,6 +6540,7 @@ const char *text_MAR_19[POCET_JAZYKOV + 1] =
 	"Szent József, a Boldogságos Szűz Mária jegyese",
 	"ru_text",
 	"Св. Юзафа, абранніка Найсвяцейшай Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_23[POCET_JAZYKOV + 1] =
@@ -6197,6 +6554,7 @@ const char *text_MAR_23[POCET_JAZYKOV + 1] =
 	"Mongrovejói Szent Turibiusz püspök",
 	"ru_text",
 	"Св. Турыбія Мангравэха, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAR_25[POCET_JAZYKOV + 1] =
@@ -6210,6 +6568,7 @@ const char *text_MAR_25[POCET_JAZYKOV + 1] =
 	"Urunk születésének hírüladása (Gyümölcsoltó Boldogasszony)",
 	"ru_text",
 	"Звеставанне Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -6226,6 +6585,7 @@ const char *text_APR_01_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_02[POCET_JAZYKOV + 1] =
@@ -6239,6 +6599,7 @@ const char *text_APR_02[POCET_JAZYKOV + 1] =
 	"Paolai Szent Ferenc remete",
 	"ru_text",
 	"Св. Францішка з Паолы, пустэльніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_04[POCET_JAZYKOV + 1] =
@@ -6252,6 +6613,7 @@ const char *text_APR_04[POCET_JAZYKOV + 1] =
 	"Szent Izidor püspök és egyháztanító",
 	"ru_text",
 	"Св. Ізыдора, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_05[POCET_JAZYKOV + 1] =
@@ -6265,6 +6627,7 @@ const char *text_APR_05[POCET_JAZYKOV + 1] =
 	"Ferrer Szent Vince áldozópap",
 	"ru_text",
 	"Св. Вінцэнта Фэрэра, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_07[POCET_JAZYKOV + 1] =
@@ -6278,6 +6641,7 @@ const char *text_APR_07[POCET_JAZYKOV + 1] =
 	"De la Salle Szent János áldozópap",
 	"ru_text",
 	"Св. Жана Батыста Сальскага, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_10_OP[POCET_JAZYKOV + 1] =
@@ -6291,6 +6655,7 @@ const char *text_APR_10_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_11[POCET_JAZYKOV + 1] =
@@ -6304,6 +6669,7 @@ const char *text_APR_11[POCET_JAZYKOV + 1] =
 	"Szent Szaniszló püspök és vértanú",
 	"ru_text",
 	"Св. Станіслава, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_13[POCET_JAZYKOV + 1] =
@@ -6317,6 +6683,7 @@ const char *text_APR_13[POCET_JAZYKOV + 1] =
 	"Szent I. Márton pápa és vértanú",
 	"ru_text",
 	"Св. Марціна I, папы і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_13_OP[POCET_JAZYKOV + 1] =
@@ -6330,6 +6697,7 @@ const char *text_APR_13_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_14_OP[POCET_JAZYKOV + 1] =
@@ -6343,6 +6711,7 @@ const char *text_APR_14_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_16[POCET_JAZYKOV + 1] =
@@ -6356,6 +6725,7 @@ const char *text_APR_16[POCET_JAZYKOV + 1] =
 	"Soubirous Szent Mária Bernadett szűz",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_17_1_OP[POCET_JAZYKOV + 1] =
@@ -6369,6 +6739,7 @@ const char *text_APR_17_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_17_2_OP[POCET_JAZYKOV + 1] =
@@ -6382,6 +6753,7 @@ const char *text_APR_17_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_17_OCD[POCET_JAZYKOV + 1] =
@@ -6395,6 +6767,7 @@ const char *text_APR_17_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_18_OCD[POCET_JAZYKOV + 1] =
@@ -6408,6 +6781,7 @@ const char *text_APR_18_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_19_1_OP[POCET_JAZYKOV + 1] =
@@ -6421,6 +6795,7 @@ const char *text_APR_19_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_19_2_OP[POCET_JAZYKOV + 1] =
@@ -6434,6 +6809,7 @@ const char *text_APR_19_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_20_OP[POCET_JAZYKOV + 1] =
@@ -6447,6 +6823,7 @@ const char *text_APR_20_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_21[POCET_JAZYKOV + 1] =
@@ -6460,6 +6837,7 @@ const char *text_APR_21[POCET_JAZYKOV + 1] =
 	"Szent Anzelm püspök és egyháztanító",
 	"ru_text",
 	"Св. Анзэльма, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_21_OFM[POCET_JAZYKOV + 1] =
@@ -6473,6 +6851,7 @@ const char *text_APR_21_OFM[POCET_JAZYKOV + 1] =
 	"Parzhami Szent Konrád, szerzetes az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_22_OFM[POCET_JAZYKOV + 1] =
@@ -6486,6 +6865,7 @@ const char *text_APR_22_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_22_SJ[POCET_JAZYKOV + 1] =
@@ -6499,6 +6879,7 @@ const char *text_APR_22_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_23[POCET_JAZYKOV + 1] =
@@ -6512,6 +6893,7 @@ const char *text_APR_23[POCET_JAZYKOV + 1] =
 	"Szent Adalbert (Béla) püspök és vértanú",
 	"ru_text",
 	"Св. Адальбэрта (Войцеха), біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_23_HU[POCET_JAZYKOV + 1] =
@@ -6525,6 +6907,7 @@ const char *text_APR_23_HU[POCET_JAZYKOV + 1] =
 	"Szent Adalbert (Béla) püspök és vértanú, az Esztergomi főegyházmegye védőszentje",
 	"ru_text",
 	"Св. Адальбэрта (Войцеха), біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_23_OFM[POCET_JAZYKOV + 1] =
@@ -6538,6 +6921,7 @@ const char *text_APR_23_OFM[POCET_JAZYKOV + 1] =
 	"Assisi Boldog Egyed, szerzetes az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_24_1[POCET_JAZYKOV + 1] =
@@ -6551,6 +6935,7 @@ const char *text_APR_24_1[POCET_JAZYKOV + 1] =
 	"Szent György vértanú",
 	"ru_text",
 	"Св. Юрыя, мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_24_2[POCET_JAZYKOV + 1] =
@@ -6564,6 +6949,7 @@ const char *text_APR_24_2[POCET_JAZYKOV + 1] =
 	"Sigmaringeni Szent Fidél áldozópap és vértanú",
 	"ru_text",
 	"Св. Фідэля Сігмарынгенскага, прэзбітэра і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_24_OFM[POCET_JAZYKOV + 1] =
@@ -6577,6 +6963,7 @@ const char *text_APR_24_OFM[POCET_JAZYKOV + 1] =
 	"Sigmaringeni Szent Fidél, pap és vértanú az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_24_OCD[POCET_JAZYKOV + 1] =
@@ -6590,6 +6977,7 @@ const char *text_APR_24_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_24_OPRAEM[POCET_JAZYKOV + 1] =
@@ -6603,6 +6991,7 @@ const char *text_APR_24_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_25[POCET_JAZYKOV + 1] =
@@ -6616,6 +7005,7 @@ const char *text_APR_25[POCET_JAZYKOV + 1] =
 	"Szent Márk evangélista",
 	"ru_text",
 	"Св. Марка, евангеліста",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_26_OPRAEM[POCET_JAZYKOV + 1] =
@@ -6629,6 +7019,7 @@ const char *text_APR_26_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_26_CM[POCET_JAZYKOV + 1] =
@@ -6642,6 +7033,7 @@ const char *text_APR_26_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_27_SJ[POCET_JAZYKOV + 1] =
@@ -6655,6 +7047,7 @@ const char *text_APR_27_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_27_OP[POCET_JAZYKOV + 1] =
@@ -6668,6 +7061,7 @@ const char *text_APR_27_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_28_1[POCET_JAZYKOV + 1] =
@@ -6681,6 +7075,7 @@ const char *text_APR_28_1[POCET_JAZYKOV + 1] =
 	"Chanel Szent Péter áldozópap és vértanú",
 	"ru_text",
 	"Св. Пятра Шанэля, прэзбітэра і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_28_2[POCET_JAZYKOV + 1] =
@@ -6694,6 +7089,7 @@ const char *text_APR_28_2[POCET_JAZYKOV + 1] =
 	"Montforti Grignion Szent Lajos Mária áldozópap",
 	"ru_text",
 	"Св. Людвіка Марыі Грыньён дэ Манфора, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_28_OFM[POCET_JAZYKOV + 1] =
@@ -6707,6 +7103,7 @@ const char *text_APR_28_OFM[POCET_JAZYKOV + 1] =
 	"Boldog Luchesius a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_29[POCET_JAZYKOV + 1] =
@@ -6720,6 +7117,7 @@ const char *text_APR_29[POCET_JAZYKOV + 1] =
 	"Sienai Szent Katalin szűz és egyháztanító",
 	"ru_text",
 	"Св. Кацярыны Сіенскай, панны і доктара Касцёла, " HTML_LINE_BREAK "апякункі Еўропы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_30[POCET_JAZYKOV + 1] =
@@ -6733,6 +7131,7 @@ const char *text_APR_30[POCET_JAZYKOV + 1] =
 	"Szent V. Piusz pápa",
 	"ru_text",
 	"Св. Пія V, папы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_30_CZ[POCET_JAZYKOV + 1] =
@@ -6746,6 +7145,7 @@ const char *text_APR_30_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_APR_30_OFM[POCET_JAZYKOV + 1] =
@@ -6759,6 +7159,7 @@ const char *text_APR_30_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -6775,6 +7176,7 @@ const char *text_MAJ_01[POCET_JAZYKOV + 1] =
 	"Munkás Szent József",
 	"ru_text",
 	"Св. Юзафа рамесніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_02[POCET_JAZYKOV + 1] =
@@ -6788,6 +7190,7 @@ const char *text_MAJ_02[POCET_JAZYKOV + 1] =
 	"Szent Atanáz püspök és egyháztanító",
 	"ru_text",
 	"Св. Атаназія, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_02_OPRAEM[POCET_JAZYKOV + 1] =
@@ -6801,6 +7204,7 @@ const char *text_MAJ_02_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_03[POCET_JAZYKOV + 1] =
@@ -6814,6 +7218,7 @@ const char *text_MAJ_03[POCET_JAZYKOV + 1] =
 	"Szent Fülöp és Szent Jakab apostol",
 	"ru_text",
 	"Св. Філіпа і Якуба, апосталаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_04[POCET_JAZYKOV + 1] =
@@ -6827,6 +7232,7 @@ const char *text_MAJ_04[POCET_JAZYKOV + 1] =
 	"Szent Flórián vértanú",
 	"ru_text",
 	"Св. Флоряна, мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_04_SJ[POCET_JAZYKOV + 1] =
@@ -6840,6 +7246,7 @@ const char *text_MAJ_04_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_04_OFM[POCET_JAZYKOV + 1] =
@@ -6853,6 +7260,7 @@ const char *text_MAJ_04_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_04_OP[POCET_JAZYKOV + 1] =
@@ -6866,6 +7274,7 @@ const char *text_MAJ_04_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_06_CZ[POCET_JAZYKOV + 1] =
@@ -6879,6 +7288,7 @@ const char *text_MAJ_06_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_06_SDB[POCET_JAZYKOV + 1] =
@@ -6892,6 +7302,7 @@ const char *text_MAJ_06_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_07_OP[POCET_JAZYKOV + 1] =
@@ -6905,6 +7316,7 @@ const char *text_MAJ_07_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_07_HU_1[POCET_JAZYKOV + 1] =
@@ -6918,6 +7330,7 @@ const char *text_MAJ_07_HU_1[POCET_JAZYKOV + 1] =
 	"Boldog Gizella királyné",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_07_HU_2[POCET_JAZYKOV + 1] =
@@ -6931,6 +7344,7 @@ const char *text_MAJ_07_HU_2[POCET_JAZYKOV + 1] =
 	"Az Egri bazilika-főszékesegyház",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_08_CZ[POCET_JAZYKOV + 1] =
@@ -6944,6 +7358,7 @@ const char *text_MAJ_08_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_08_OP[POCET_JAZYKOV + 1] =
@@ -6957,6 +7372,7 @@ const char *text_MAJ_08_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_08_OFM[POCET_JAZYKOV + 1] =
@@ -6970,6 +7386,7 @@ const char *text_MAJ_08_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_08_2_OFM[POCET_JAZYKOV + 1] =
@@ -6983,6 +7400,7 @@ const char *text_MAJ_08_2_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_08_3_OFM[POCET_JAZYKOV + 1] =
@@ -6996,6 +7414,7 @@ const char *text_MAJ_08_3_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_09_OFM[POCET_JAZYKOV + 1] =
@@ -7009,6 +7428,7 @@ const char *text_MAJ_09_OFM[POCET_JAZYKOV + 1] =
 	"Bolognai Szent Katalin, szűz a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_09_CM[POCET_JAZYKOV + 1] =
@@ -7022,6 +7442,7 @@ const char *text_MAJ_09_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_10_OP[POCET_JAZYKOV + 1] =
@@ -7035,6 +7456,7 @@ const char *text_MAJ_10_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_11_SK[POCET_JAZYKOV + 1] =
@@ -7048,6 +7470,7 @@ const char *text_MAJ_11_SK[POCET_JAZYKOV + 1] =
 	"Boldog Salkaházi Sára szűz és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_11_OFM[POCET_JAZYKOV + 1] =
@@ -7061,6 +7484,7 @@ const char *text_MAJ_11_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_11_OP[POCET_JAZYKOV + 1] = // vo všeobecnom kalendári pre OP sa slávi 13. mája
@@ -7074,6 +7498,7 @@ const char *text_MAJ_11_OP[POCET_JAZYKOV + 1] = // vo všeobecnom kalendári pre
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_12_1[POCET_JAZYKOV + 1] =
@@ -7087,6 +7512,7 @@ const char *text_MAJ_12_1[POCET_JAZYKOV + 1] =
 	"Szent Néreusz és Szent Achilleusz vértanúk",
 	"ru_text",
 	"Св. Нэрэя і Ахіла, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_12_2[POCET_JAZYKOV + 1] =
@@ -7100,6 +7526,7 @@ const char *text_MAJ_12_2[POCET_JAZYKOV + 1] =
 	"Szent Pongrác vértanú",
 	"ru_text",
 	"Св. Панкрата, мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_12_CZ[POCET_JAZYKOV + 1] =
@@ -7113,6 +7540,7 @@ const char *text_MAJ_12_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_12_OFM[POCET_JAZYKOV + 1] =
@@ -7126,6 +7554,7 @@ const char *text_MAJ_12_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_12_OP[POCET_JAZYKOV + 1] =
@@ -7139,6 +7568,7 @@ const char *text_MAJ_12_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_13[POCET_JAZYKOV + 1] =
@@ -7152,6 +7582,7 @@ const char *text_MAJ_13[POCET_JAZYKOV + 1] =
 	"A Fatimai Boldogságos Szűz Mária",
 	"ru_text",
 	"Найсв. Панны Марыі з Фацімы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_13_SDB[POCET_JAZYKOV + 1] =
@@ -7165,6 +7596,7 @@ const char *text_MAJ_13_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_13_OFM[POCET_JAZYKOV + 1] =
@@ -7178,6 +7610,7 @@ const char *text_MAJ_13_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_14[POCET_JAZYKOV + 1] =
@@ -7191,6 +7624,7 @@ const char *text_MAJ_14[POCET_JAZYKOV + 1] =
 	"Szent Mátyás apostol", // v HU sa slávi 24.2.
 	"ru_text",
 	"Св. Мацея, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_15_CZOP[POCET_JAZYKOV + 1] =
@@ -7204,6 +7638,7 @@ const char *text_MAJ_15_CZOP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_15_1_OP[POCET_JAZYKOV + 1] =
@@ -7217,6 +7652,7 @@ const char *text_MAJ_15_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_15_2_OP[POCET_JAZYKOV + 1] =
@@ -7230,6 +7666,7 @@ const char *text_MAJ_15_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_16_SJ[POCET_JAZYKOV + 1] =
@@ -7243,6 +7680,7 @@ const char *text_MAJ_16_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Св. Андрэя Баболі, прэзбітэра і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_16[POCET_JAZYKOV + 1] =
@@ -7256,6 +7694,7 @@ const char *text_MAJ_16[POCET_JAZYKOV + 1] =
 	"Nepomuki Szent János áldozópap és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_16_SDB[POCET_JAZYKOV + 1] =
@@ -7269,6 +7708,7 @@ const char *text_MAJ_16_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_16_OCD[POCET_JAZYKOV + 1] =
@@ -7282,6 +7722,7 @@ const char *text_MAJ_16_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_16_OFM[POCET_JAZYKOV + 1] =
@@ -7295,6 +7736,7 @@ const char *text_MAJ_16_OFM[POCET_JAZYKOV + 1] =
 	"Cortonai Szent Margit a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_17_OFM[POCET_JAZYKOV + 1] =
@@ -7308,6 +7750,7 @@ const char *text_MAJ_17_OFM[POCET_JAZYKOV + 1] =
 	"Baylon Szent Paszkál, szerzetes az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_17_HU[POCET_JAZYKOV + 1] =
@@ -7321,6 +7764,7 @@ const char *text_MAJ_17_HU[POCET_JAZYKOV + 1] =
 	"Boldog Scheffler János püspök és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_18[POCET_JAZYKOV + 1] =
@@ -7334,6 +7778,7 @@ const char *text_MAJ_18[POCET_JAZYKOV + 1] =
 	"Szent I. János pápa és vértanú",
 	"ru_text",
 	"Св. Яна I, папы і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_18_SDB[POCET_JAZYKOV + 1] =
@@ -7347,6 +7792,7 @@ const char *text_MAJ_18_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_18_OFM[POCET_JAZYKOV + 1] =
@@ -7360,6 +7806,7 @@ const char *text_MAJ_18_OFM[POCET_JAZYKOV + 1] =
 	"Kantalicei Szent Félix, szerzetes az 1. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_19_OFM[POCET_JAZYKOV + 1] =
@@ -7373,6 +7820,7 @@ const char *text_MAJ_19_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_19_OP[POCET_JAZYKOV + 1] =
@@ -7386,6 +7834,7 @@ const char *text_MAJ_19_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_20_CZ[POCET_JAZYKOV + 1] =
@@ -7399,6 +7848,7 @@ const char *text_MAJ_20_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_20[POCET_JAZYKOV + 1] =
@@ -7412,6 +7862,7 @@ const char *text_MAJ_20[POCET_JAZYKOV + 1] =
 	"Sienai Szent Bernardin áldozópap",
 	"ru_text",
 	"Св. Бэрнардына Сіенскага, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_20_OFM[POCET_JAZYKOV + 1] =
@@ -7425,6 +7876,7 @@ const char *text_MAJ_20_OFM[POCET_JAZYKOV + 1] =
 	"Sienai Szent Bernardin, pap az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_20_OP[POCET_JAZYKOV + 1] =
@@ -7438,6 +7890,7 @@ const char *text_MAJ_20_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_21_CZ[POCET_JAZYKOV + 1] =
@@ -7451,6 +7904,7 @@ const char *text_MAJ_21_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_21[POCET_JAZYKOV + 1] =
@@ -7464,6 +7918,7 @@ const char *text_MAJ_21[POCET_JAZYKOV + 1] =
 	"Magallán Szent Kristóf áldozópap és társai, mexikói vértanúk",
 	"ru_text",
 	"Св. Хрыстафора Магалана, прэзбітэра, і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_21_OP[POCET_JAZYKOV + 1] =
@@ -7477,6 +7932,7 @@ const char *text_MAJ_21_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_22[POCET_JAZYKOV + 1] =
@@ -7490,6 +7946,7 @@ const char *text_MAJ_22[POCET_JAZYKOV + 1] =
 	"Szent Rita szerzetesnő",
 	"ru_text",
 	"Св. Рыты з Касіі, законніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_22_OCD[POCET_JAZYKOV + 1] =
@@ -7503,6 +7960,7 @@ const char *text_MAJ_22_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_23_CM[POCET_JAZYKOV + 1] =
@@ -7516,6 +7974,7 @@ const char *text_MAJ_23_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_23_HU[POCET_JAZYKOV + 1] =
@@ -7529,6 +7988,7 @@ const char *text_MAJ_23_HU[POCET_JAZYKOV + 1] =
 	"Boldog Apor Vilmos püspök és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_24_OP[POCET_JAZYKOV + 1] =
@@ -7542,6 +8002,7 @@ const char *text_MAJ_24_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_24_OPRAEM[POCET_JAZYKOV + 1] =
@@ -7555,6 +8016,7 @@ const char *text_MAJ_24_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_24_OFM[POCET_JAZYKOV + 1] =
@@ -7568,6 +8030,7 @@ const char *text_MAJ_24_OFM[POCET_JAZYKOV + 1] =
 	"Szent Ferenc atyánk assisi bazilikájának felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_24[POCET_JAZYKOV + 1] = // ToDo rozdeliť pre všeobecný kalendár a pre SDB
@@ -7581,6 +8044,7 @@ const char *text_MAJ_24[POCET_JAZYKOV + 1] = // ToDo rozdeliť pre všeobecný k
 	"Szűz Mária, a keresztények segítsége",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_25_1[POCET_JAZYKOV + 1] =
@@ -7594,6 +8058,7 @@ const char *text_MAJ_25_1[POCET_JAZYKOV + 1] =
 	"Tiszteletreméltó Szent Béda áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Бэды Вялебнага, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_25_2[POCET_JAZYKOV + 1] =
@@ -7607,6 +8072,7 @@ const char *text_MAJ_25_2[POCET_JAZYKOV + 1] =
 	"Szent VII. Gergely pápa",
 	"ru_text",
 	"Св. Грыгорыя VII, папы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_25_3[POCET_JAZYKOV + 1] =
@@ -7620,6 +8086,7 @@ const char *text_MAJ_25_3[POCET_JAZYKOV + 1] =
 	"Pazzi Szent Mária Magdolna szűz",
 	"ru_text",
 	"Св. Марыі Магдалены Паццы, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_26[POCET_JAZYKOV + 1] =
@@ -7633,6 +8100,7 @@ const char *text_MAJ_26[POCET_JAZYKOV + 1] =
 	"Néri Szent Fülöp áldozópap",
 	"ru_text",
 	"Св. Філіпа Нэры, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_27[POCET_JAZYKOV + 1] =
@@ -7646,6 +8114,7 @@ const char *text_MAJ_27[POCET_JAZYKOV + 1] =
 	"Canterburyi Szent Ágoston püspök",
 	"ru_text",
 	"Св. Аўгустына Кэнтэрберыйскага, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_27_OP[POCET_JAZYKOV + 1] =
@@ -7659,6 +8128,7 @@ const char *text_MAJ_27_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_28_OP[POCET_JAZYKOV + 1] =
@@ -7672,6 +8142,7 @@ const char *text_MAJ_28_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_28_OFM[POCET_JAZYKOV + 1] =
@@ -7685,6 +8156,7 @@ const char *text_MAJ_28_OFM[POCET_JAZYKOV + 1] =
 	"Paredes-i Szent Mária Anna, szűz a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_29_OP[POCET_JAZYKOV + 1] =
@@ -7698,6 +8170,7 @@ const char *text_MAJ_29_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_29_SDB[POCET_JAZYKOV + 1] =
@@ -7711,6 +8184,7 @@ const char *text_MAJ_29_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_29_OCD[POCET_JAZYKOV + 1] =
@@ -7724,6 +8198,7 @@ const char *text_MAJ_29_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_30_OP[POCET_JAZYKOV + 1] =
@@ -7737,6 +8212,7 @@ const char *text_MAJ_30_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_30_CZ[POCET_JAZYKOV + 1] =
@@ -7750,6 +8226,7 @@ const char *text_MAJ_30_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_30_HU[POCET_JAZYKOV + 1] =
@@ -7763,6 +8240,7 @@ const char *text_MAJ_30_HU[POCET_JAZYKOV + 1] =
 	"Szent István király ereklyéinek átvitele",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_30_OFM[POCET_JAZYKOV + 1] =
@@ -7776,6 +8254,7 @@ const char *text_MAJ_30_OFM[POCET_JAZYKOV + 1] =
 	"Boldog Baptista Verano, szűz a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_MAJ_31[POCET_JAZYKOV + 1] =
@@ -7789,6 +8268,7 @@ const char *text_MAJ_31[POCET_JAZYKOV + 1] =
 	"Szűz Mária látogatása Erzsébetnél " HTML_LINE_BREAK "(Sarlós Boldogasszony)",
 	"ru_text",
 	"Адведзіны Найсв. Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -7805,6 +8285,7 @@ const char *text_NANEBOVSTUPENIE_PANA[POCET_JAZYKOV + 1] =
 	"Urunk mennybemenetele",
 	"ru_text",
 	"Урачыстасць Унебаўшэсця Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_VELKONOCNA_NEDELA[POCET_JAZYKOV + 1] =
@@ -7818,6 +8299,7 @@ const char *text_VELKONOCNA_NEDELA[POCET_JAZYKOV + 1] =
 	"Húsvétvasárnap",
 	"ru_text",
 	"Велікодная нядзеля",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NEDELA_PANOVHO_ZMRTVYCHVSTANIA[POCET_JAZYKOV + 1] = // 2012-12-13: XML nepodporuje &mdash; -- použitý číselný kód &#8212; http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
@@ -7831,6 +8313,7 @@ const char *text_NEDELA_PANOVHO_ZMRTVYCHVSTANIA[POCET_JAZYKOV + 1] = // 2012-12-
 	", " HTML_LINE_BREAK "Krisztus feltámadása",
 	"ru_text",
 	", " HTML_LINE_BREAK "урачыстасць Уваскрасення Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NEDELA_VO_VELKONOCNEJ_OKTAVE[POCET_JAZYKOV + 1] =
@@ -7844,6 +8327,7 @@ const char *text_NEDELA_VO_VELKONOCNEJ_OKTAVE[POCET_JAZYKOV + 1] =
 	"Vasárnap Húsvét nyolcadában",
 	"ru_text",
 	"II Велікодная нядзеля", // convertToRoman()
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NEDELA_VO_VELKONOCNEJ_OKTAVE_SUBSTRING[POCET_JAZYKOV + 1] =
@@ -7857,6 +8341,7 @@ const char *text_NEDELA_VO_VELKONOCNEJ_OKTAVE_SUBSTRING[POCET_JAZYKOV + 1] =
 	"Húsvét 2. vasárnapja – Az Isteni Irgalmasság vasárnapja",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEN_VO_VELKONOCNEJ_OKTAVE[POCET_JAZYKOV + 1] =
@@ -7870,6 +8355,7 @@ const char *text_DEN_VO_VELKONOCNEJ_OKTAVE[POCET_JAZYKOV + 1] =
 	"%s Húsvét nyolcadában",
 	"ru_text",
 	"%s у актаве Пасхі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -7888,6 +8374,7 @@ const char *text_NPJK_NAJ_KNAZA[POCET_JAZYKOV + 1] =
 	"hu_XXX",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NAJSVATEJSEJ_TROJICE[POCET_JAZYKOV + 1] =
@@ -7901,6 +8388,7 @@ const char *text_NAJSVATEJSEJ_TROJICE[POCET_JAZYKOV + 1] =
 	"Szentháromság vasárnapja",
 	"ru_text",
 	"Найсвяцейшай Тройцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_KRISTA_KRALA[POCET_JAZYKOV + 1] =
@@ -7914,6 +8402,7 @@ const char *text_KRISTA_KRALA[POCET_JAZYKOV + 1] =
 	"Krisztus Király",
 	"ru_text",
 	"Урачыстасць Пана Нашага Езуса Хрыста," HTML_LINE_BREAK " Валадара Сусвету",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NAJSV_KRISTOVHO_TELA_A_KRVI[POCET_JAZYKOV + 1] =
@@ -7927,6 +8416,7 @@ const char *text_NAJSV_KRISTOVHO_TELA_A_KRVI[POCET_JAZYKOV + 1] =
 	"Krisztus Szent Teste és Vére",
 	"ru_text",
 	"Найсвяцейшага Цела і Крыві Хрыста",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NAJSV_SRDCA_JEZISOVHO[POCET_JAZYKOV + 1] =
@@ -7940,6 +8430,7 @@ const char *text_NAJSV_SRDCA_JEZISOVHO[POCET_JAZYKOV + 1] =
 	"Jézus Szent Szíve",
 	"ru_text",
 	"Найсвяцейшага Сэрца Езуса",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NEPOSKVRNENEHO_SRDCA_PM[POCET_JAZYKOV + 1] =
@@ -7953,6 +8444,7 @@ const char *text_NEPOSKVRNENEHO_SRDCA_PM[POCET_JAZYKOV + 1] =
 	"A Boldogságos Szűz Mária Szeplőtelen Szíve",
 	"ru_text",
 	"Беззаганнага Сэрца Найсвяцейшай Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NEPOSKVRNENEHO_SRDCA_PM_OFM[POCET_JAZYKOV + 1] =
@@ -7966,6 +8458,7 @@ const char *text_NEPOSKVRNENEHO_SRDCA_PM_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NARODENIE_PANA[POCET_JAZYKOV + 1] =
@@ -7979,6 +8472,7 @@ const char *text_NARODENIE_PANA[POCET_JAZYKOV + 1] =
 	"Urunk születése (Karácsony)",
 	"ru_text",
 	"Нараджэнне Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_ZOSLANIE_DUCHA_SVATEHO[POCET_JAZYKOV + 1] =
@@ -7992,6 +8486,7 @@ const char *text_ZOSLANIE_DUCHA_SVATEHO[POCET_JAZYKOV + 1] =
 	"Pünkösd",
 	"ru_text",
 	"Нядзеля Спаслання Святога Духа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_PRVA_ADVENTNA_NEDELA[POCET_JAZYKOV + 1] =
@@ -8005,6 +8500,7 @@ const char *text_PRVA_ADVENTNA_NEDELA[POCET_JAZYKOV + 1] =
 	"Advent első vasárnapja",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NEDELA_SV_RODINY[POCET_JAZYKOV + 1] =
@@ -8018,6 +8514,7 @@ const char *text_NEDELA_SV_RODINY[POCET_JAZYKOV + 1] =
 	"A Szent Család: Jézus, Mária és József", // "Szent Család ünnepe"
 	"ru_text",
 	"Святой Сям'і: Езуса, Марыі і Юзафа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SPOMIENKA_PM_V_SOBOTU[POCET_JAZYKOV + 1] =
@@ -8031,6 +8528,7 @@ const char *text_SPOMIENKA_PM_V_SOBOTU[POCET_JAZYKOV + 1] =
 	"Szűz Mária szombati emléknapja",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -8047,6 +8545,7 @@ const char *text_JUN_01[POCET_JAZYKOV + 1] =
 	"Szent Jusztínusz vértanú",
 	"ru_text",
 	"Св. Юстына, мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_02[POCET_JAZYKOV + 1] =
@@ -8060,6 +8559,7 @@ const char *text_JUN_02[POCET_JAZYKOV + 1] =
 	"Szent Marcellínusz és Szent Péter vértanúk",
 	"ru_text",
 	"Св. Марцэліна і Пятра, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_02_OFM[POCET_JAZYKOV + 1] =
@@ -8073,6 +8573,7 @@ const char *text_JUN_02_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_02_OP[POCET_JAZYKOV + 1] =
@@ -8086,6 +8587,7 @@ const char *text_JUN_02_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_03[POCET_JAZYKOV + 1] =
@@ -8099,6 +8601,7 @@ const char *text_JUN_03[POCET_JAZYKOV + 1] =
 	"Lwanga Szent Károly és társai, vértanúk",
 	"ru_text",
 	"Св. Караля Луангі і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_04_OP[POCET_JAZYKOV + 1] =
@@ -8112,6 +8615,7 @@ const char *text_JUN_04_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_04_HU[POCET_JAZYKOV + 1] =
@@ -8125,6 +8629,7 @@ const char *text_JUN_04_HU[POCET_JAZYKOV + 1] =
 	"Szent Quirinus (Kerény) püspök és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_05[POCET_JAZYKOV + 1] =
@@ -8138,6 +8643,7 @@ const char *text_JUN_05[POCET_JAZYKOV + 1] =
 	"Szent Bonifác püspök és vértanú",
 	"ru_text",
 	"Св. Баніфацыя, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_06[POCET_JAZYKOV + 1] =
@@ -8151,6 +8657,7 @@ const char *text_JUN_06[POCET_JAZYKOV + 1] =
 	"Szent Norbert püspök",
 	"ru_text",
 	"Св. Норбэрта, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_06_OPRAEM[POCET_JAZYKOV + 1] =
@@ -8164,6 +8671,7 @@ const char *text_JUN_06_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_07_OCD[POCET_JAZYKOV + 1] =
@@ -8177,6 +8685,7 @@ const char *text_JUN_07_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_08_HU[POCET_JAZYKOV + 1] =
@@ -8190,6 +8699,7 @@ const char *text_JUN_08_HU[POCET_JAZYKOV + 1] =
 	"Prágai Szent Ágnes szűz",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_08_OFM[POCET_JAZYKOV + 1] =
@@ -8203,6 +8713,7 @@ const char *text_JUN_08_OFM[POCET_JAZYKOV + 1] =
 	"Prágai Szent Ágnes, szűz a II. Rendből", // pozor, iné slávenie!
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_08_SDB[POCET_JAZYKOV + 1] =
@@ -8216,6 +8727,7 @@ const char *text_JUN_08_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_08_OP[POCET_JAZYKOV + 1] =
@@ -8229,6 +8741,7 @@ const char *text_JUN_08_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_08_SJ[POCET_JAZYKOV + 1] =
@@ -8242,6 +8755,7 @@ const char *text_JUN_08_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_09[POCET_JAZYKOV + 1] =
@@ -8255,6 +8769,7 @@ const char *text_JUN_09[POCET_JAZYKOV + 1] =
 	"Szent Efrém diakónus és egyháztanító",
 	"ru_text",
 	"Св. Эфрэма, дыякана і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_09_SJ[POCET_JAZYKOV + 1] =
@@ -8268,6 +8783,7 @@ const char *text_JUN_09_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_10_OP[POCET_JAZYKOV + 1] =
@@ -8281,6 +8797,7 @@ const char *text_JUN_10_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_11[POCET_JAZYKOV + 1] =
@@ -8294,6 +8811,7 @@ const char *text_JUN_11[POCET_JAZYKOV + 1] =
 	"Szent Barnabás apostol",
 	"ru_text",
 	"Св. Барнабы, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_CZ[POCET_JAZYKOV + 1] =
@@ -8307,6 +8825,7 @@ const char *text_JUN_12_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_BY[POCET_JAZYKOV + 1] =
@@ -8320,6 +8839,7 @@ const char *text_JUN_12_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Бл. Генрыха Глябовіча, прэзбітэра, і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_SDB[POCET_JAZYKOV + 1] =
@@ -8333,6 +8853,7 @@ const char *text_JUN_12_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_OP[POCET_JAZYKOV + 1] =
@@ -8346,6 +8867,7 @@ const char *text_JUN_12_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_OCD[POCET_JAZYKOV + 1] =
@@ -8359,6 +8881,7 @@ const char *text_JUN_12_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_SVD[POCET_JAZYKOV + 1] =
@@ -8372,6 +8895,7 @@ const char *text_JUN_12_SVD[POCET_JAZYKOV + 1] =
 	"Boldog Mzyk Lajos áldozópap és társai vértanúk",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_OFM[POCET_JAZYKOV + 1] =
@@ -8385,6 +8909,7 @@ const char *text_JUN_12_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_2_OFM[POCET_JAZYKOV + 1] =
@@ -8398,6 +8923,7 @@ const char *text_JUN_12_2_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_12_3_OFM[POCET_JAZYKOV + 1] =
@@ -8411,6 +8937,7 @@ const char *text_JUN_12_3_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_13[POCET_JAZYKOV + 1] =
@@ -8424,6 +8951,7 @@ const char *text_JUN_13[POCET_JAZYKOV + 1] =
 	"Páduai Szent Antal áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Антонія Падуанскага, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_13_SK[POCET_JAZYKOV + 1] =
@@ -8437,6 +8965,7 @@ const char *text_JUN_13_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_13_OFM[POCET_JAZYKOV + 1] =
@@ -8450,6 +8979,7 @@ const char *text_JUN_13_OFM[POCET_JAZYKOV + 1] =
 	"Páduai Szent Antal, pap, egyháztanító az I. Rendből",
 	"ru_text",
 	"Св. Антонія Падуанскага, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_14_HU[POCET_JAZYKOV + 1] =
@@ -8463,6 +8993,7 @@ const char *text_JUN_14_HU[POCET_JAZYKOV + 1] =
 	"A Szombathelyi székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_14_OCD[POCET_JAZYKOV + 1] =
@@ -8476,6 +9007,7 @@ const char *text_JUN_14_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_15_CZ[POCET_JAZYKOV + 1] =
@@ -8489,6 +9021,7 @@ const char *text_JUN_15_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_15_HU[POCET_JAZYKOV + 1] =
@@ -8502,6 +9035,7 @@ const char *text_JUN_15_HU[POCET_JAZYKOV + 1] =
 	"Árpád-házi Boldog Jolán szerzetesnő",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_15_OFM_HU[POCET_JAZYKOV + 1] =
@@ -8515,6 +9049,7 @@ const char *text_JUN_15_OFM_HU[POCET_JAZYKOV + 1] =
 	"Boldog Jolán, szerzetesnő a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_16_SK[POCET_JAZYKOV + 1] =
@@ -8528,6 +9063,7 @@ const char *text_JUN_16_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_16_1_OFM[POCET_JAZYKOV + 1] =
@@ -8541,6 +9077,7 @@ const char *text_JUN_16_1_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_16_2_OFM[POCET_JAZYKOV + 1] =
@@ -8554,6 +9091,7 @@ const char *text_JUN_16_2_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_16_OPRAEM[POCET_JAZYKOV + 1] =
@@ -8567,6 +9105,7 @@ const char *text_JUN_16_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_16_HU[POCET_JAZYKOV + 1] =
@@ -8580,6 +9119,7 @@ const char *text_JUN_16_HU[POCET_JAZYKOV + 1] =
 	"Tours-i Szent Márton püspök ereklyéinek átvitele",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_17_OFM[POCET_JAZYKOV + 1] =
@@ -8593,6 +9133,7 @@ const char *text_JUN_17_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_18_OP[POCET_JAZYKOV + 1] =
@@ -8606,6 +9147,7 @@ const char *text_JUN_18_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_19[POCET_JAZYKOV + 1] =
@@ -8619,6 +9161,7 @@ const char *text_JUN_19[POCET_JAZYKOV + 1] =
 	"Szent Romuald apát",
 	"ru_text",
 	"Св. Рамуальда, абата",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_19_CZ[POCET_JAZYKOV + 1] =
@@ -8632,6 +9175,7 @@ const char *text_JUN_19_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_21[POCET_JAZYKOV + 1] =
@@ -8645,6 +9189,7 @@ const char *text_JUN_21[POCET_JAZYKOV + 1] =
 	"Gonzága Szent Alajos szerzetes",
 	"ru_text",
 	"Св. Алаізія Ганзагі, законніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_21_SJ[POCET_JAZYKOV + 1] =
@@ -8658,6 +9203,7 @@ const char *text_JUN_21_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_22_2[POCET_JAZYKOV + 1] =
@@ -8671,6 +9217,7 @@ const char *text_JUN_22_2[POCET_JAZYKOV + 1] =
 	"Nolai Szent Paulínusz püspök",
 	"ru_text",
 	"Св. Паўліна Нольскага, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_22_1[POCET_JAZYKOV + 1] =
@@ -8684,6 +9231,7 @@ const char *text_JUN_22_1[POCET_JAZYKOV + 1] =
 	"Fisher Szent János püspök " HTML_LINE_BREAK "és Morus Szent Tamás vértanúk",
 	"ru_text",
 	"Св. Джона Фішара, біскупа, " HTML_LINE_BREAK "і Томаса Мора, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_22_HU[POCET_JAZYKOV + 1] =
@@ -8697,6 +9245,7 @@ const char *text_JUN_22_HU[POCET_JAZYKOV + 1] =
 	"A Pécsi székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_23_SDB[POCET_JAZYKOV + 1] =
@@ -8710,6 +9259,7 @@ const char *text_JUN_23_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_23_OP[POCET_JAZYKOV + 1] =
@@ -8723,6 +9273,7 @@ const char *text_JUN_23_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_24[POCET_JAZYKOV + 1] =
@@ -8736,6 +9287,7 @@ const char *text_JUN_24[POCET_JAZYKOV + 1] =
 	"Keresztelő Szent János születése",
 	"ru_text",
 	"Нараджэнне св. Яна Хрысціцеля",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_26_OFM[POCET_JAZYKOV + 1] =
@@ -8749,6 +9301,7 @@ const char *text_JUN_26_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_26_OCD[POCET_JAZYKOV + 1] =
@@ -8762,6 +9315,7 @@ const char *text_JUN_26_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_26_CM[POCET_JAZYKOV + 1] =
@@ -8775,6 +9329,7 @@ const char *text_JUN_26_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_27[POCET_JAZYKOV + 1] =
@@ -8788,6 +9343,7 @@ const char *text_JUN_27[POCET_JAZYKOV + 1] =
 	"Alexandriai Szent Cirill püspök és egyháztanító", // HU: 26JUN
 	"ru_text",
 	"Св. Кірыла Александрыйскага, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_27_SK_HU[POCET_JAZYKOV + 1] =
@@ -8801,6 +9357,7 @@ const char *text_JUN_27_SK_HU[POCET_JAZYKOV + 1] =
 	"Szent László király",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_27_CSSR[POCET_JAZYKOV + 1] =
@@ -8814,6 +9371,7 @@ const char *text_JUN_27_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_28[POCET_JAZYKOV + 1] =
@@ -8827,6 +9385,7 @@ const char *text_JUN_28[POCET_JAZYKOV + 1] =
 	"Szent Iréneusz püspök és vértanú",
 	"ru_text",
 	"Св. Ірэнэя, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_29[POCET_JAZYKOV + 1] =
@@ -8840,6 +9399,7 @@ const char *text_JUN_29[POCET_JAZYKOV + 1] =
 	"Szent Péter és Szent Pál apostolok",
 	"ru_text",
 	"Св. Пятра і Паўла, апосталаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_29_OPRAEM[POCET_JAZYKOV + 1] =
@@ -8853,6 +9413,7 @@ const char *text_JUN_29_OPRAEM[POCET_JAZYKOV + 1] =
 	"Szent Péter és Szent Pál apostolok",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_30[POCET_JAZYKOV + 1] =
@@ -8866,6 +9427,7 @@ const char *text_JUN_30[POCET_JAZYKOV + 1] =
 	"A római Egyház első szent vértanúi",
 	"ru_text",
 	"Св. Першамучанікаў Рымскага Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_30_CZ[POCET_JAZYKOV + 1] =
@@ -8879,6 +9441,7 @@ const char *text_JUN_30_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_30_CSSR[POCET_JAZYKOV + 1] =
@@ -8892,6 +9455,7 @@ const char *text_JUN_30_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUN_30_OFM[POCET_JAZYKOV + 1] =
@@ -8905,6 +9469,7 @@ const char *text_JUN_30_OFM[POCET_JAZYKOV + 1] =
 	"Boldog Raymundus Lullus, vértanú a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -8921,6 +9486,7 @@ const char *text_JUL_02_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_02_BY[POCET_JAZYKOV + 1] =
@@ -8934,6 +9500,7 @@ const char *text_JUL_02_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Найсв. Панны Марыі Будслаўскай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_03[POCET_JAZYKOV + 1] =
@@ -8947,6 +9514,7 @@ const char *text_JUL_03[POCET_JAZYKOV + 1] =
 	"Szent Tamás apostol",
 	"ru_text",
 	"Св. Тамаша, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_04[POCET_JAZYKOV + 1] =
@@ -8960,6 +9528,7 @@ const char *text_JUL_04[POCET_JAZYKOV + 1] =
 	"Portugáliai Szent Erzsébet",
 	"ru_text",
 	"Св. Альжбеты Партугальскай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_04_CZ[POCET_JAZYKOV + 1] =
@@ -8973,6 +9542,7 @@ const char *text_JUL_04_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_04_1_OP[POCET_JAZYKOV + 1] =
@@ -8986,6 +9556,7 @@ const char *text_JUL_04_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_04_2_OP[POCET_JAZYKOV + 1] =
@@ -8999,6 +9570,7 @@ const char *text_JUL_04_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_05_LA[POCET_JAZYKOV + 1] = // vo všeobecnom kalendári sa slávi 5. júla; na SK presunuté na 7. júla
@@ -9012,6 +9584,7 @@ const char *text_JUL_05_LA[POCET_JAZYKOV + 1] = // vo všeobecnom kalendári sa 
 	"Zaccaria Szent Antal Mária áldozópap",
 	"ru_text",
 	"Св. Антонія Марыі Дзаккарыя, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_05_SK_CZ[POCET_JAZYKOV + 1] =
@@ -9025,6 +9598,7 @@ const char *text_JUL_05_SK_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_05_BY[POCET_JAZYKOV + 1] =
@@ -9038,6 +9612,7 @@ const char *text_JUL_05_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Найсв. Панны Марыі Тракельскай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_06[POCET_JAZYKOV + 1] =
@@ -9051,6 +9626,7 @@ const char *text_JUL_06[POCET_JAZYKOV + 1] =
 	"Goretti Szent Mária szűz és vértanú",
 	"ru_text",
 	"Св. Марыі Гарэцці, панны і мучаніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_06_CZOP[POCET_JAZYKOV + 1] =
@@ -9064,6 +9640,7 @@ const char *text_JUL_06_CZOP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_07_SDB[POCET_JAZYKOV + 1] =
@@ -9077,6 +9654,7 @@ const char *text_JUL_07_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_07_OP[POCET_JAZYKOV + 1] =
@@ -9090,6 +9668,7 @@ const char *text_JUL_07_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_08_OP[POCET_JAZYKOV + 1] =
@@ -9103,6 +9682,7 @@ const char *text_JUL_08_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_08_HU[POCET_JAZYKOV + 1] =
@@ -9116,6 +9696,7 @@ const char *text_JUL_08_HU[POCET_JAZYKOV + 1] =
 	"A székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_08_OFM[POCET_JAZYKOV + 1] =
@@ -9129,6 +9710,7 @@ const char *text_JUL_08_OFM[POCET_JAZYKOV + 1] =
 	"Szent Grassi Gergely, püspök és vértanú társai az I és a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_09[POCET_JAZYKOV + 1] =
@@ -9142,6 +9724,7 @@ const char *text_JUL_09[POCET_JAZYKOV + 1] =
 	"Szent Zhao Rong Ágoston áldozópap és társai, kínai vértanúk",
 	"ru_text",
 	"Св. Аўгустына Джао Жонга, прэзбітэра, " HTML_LINE_BREAK "і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_09_OP[POCET_JAZYKOV + 1] =
@@ -9155,6 +9738,7 @@ const char *text_JUL_09_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_09_OFM[POCET_JAZYKOV + 1] =
@@ -9168,6 +9752,7 @@ const char *text_JUL_09_OFM[POCET_JAZYKOV + 1] =
 	"Szent Nicolaus Pick, Wilhaldus és vértanú társai az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_09_SJ[POCET_JAZYKOV + 1] =
@@ -9181,6 +9766,7 @@ const char *text_JUL_09_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_09_OPRAEM[POCET_JAZYKOV + 1] =
@@ -9194,6 +9780,7 @@ const char *text_JUL_09_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_10_OFM[POCET_JAZYKOV + 1] =
@@ -9207,6 +9794,7 @@ const char *text_JUL_10_OFM[POCET_JAZYKOV + 1] =
 	"Giuliani Szent Veronika, szűz a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_11[POCET_JAZYKOV + 1] =
@@ -9220,6 +9808,7 @@ const char *text_JUL_11[POCET_JAZYKOV + 1] =
 	"Szent Benedek apát, " HTML_LINE_BREAK "Európa fővédőszentje",
 	"ru_text",
 	"Св. Бэнэдыкта, абата, апекуна Еўропы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_12_OFM[POCET_JAZYKOV + 1] =
@@ -9233,6 +9822,7 @@ const char *text_JUL_12_OFM[POCET_JAZYKOV + 1] =
 	"Szent Joannes Jones és Joannes Wall, papok és vértanúk az I Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_12_OCD[POCET_JAZYKOV + 1] =
@@ -9246,6 +9836,7 @@ const char *text_JUL_12_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_13[POCET_JAZYKOV + 1] =
@@ -9259,6 +9850,7 @@ const char *text_JUL_13[POCET_JAZYKOV + 1] =
 	"Szent Henrik",
 	"ru_text",
 	"Св. Генрыха",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_13_OFM[POCET_JAZYKOV + 1] =
@@ -9272,6 +9864,7 @@ const char *text_JUL_13_OFM[POCET_JAZYKOV + 1] =
 	"Marscianói Boldog Angelina, szerzetesnő a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_13_OP[POCET_JAZYKOV + 1] =
@@ -9285,6 +9878,7 @@ const char *text_JUL_13_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_13_OCD[POCET_JAZYKOV + 1] =
@@ -9298,6 +9892,7 @@ const char *text_JUL_13_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_14[POCET_JAZYKOV + 1] =
@@ -9311,6 +9906,7 @@ const char *text_JUL_14[POCET_JAZYKOV + 1] =
 	"Lellisi Szent Kamill áldozópap",
 	"ru_text",
 	"Св. Каміла Леліскага, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_14_OFM[POCET_JAZYKOV + 1] =
@@ -9324,6 +9920,7 @@ const char *text_JUL_14_OFM[POCET_JAZYKOV + 1] =
 	"Szolánói Szent Ferenc, pap az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_14_CZ[POCET_JAZYKOV + 1] =
@@ -9337,6 +9934,7 @@ const char *text_JUL_14_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_14_OPRAEM[POCET_JAZYKOV + 1] =
@@ -9350,6 +9948,7 @@ const char *text_JUL_14_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_15[POCET_JAZYKOV + 1] =
@@ -9363,6 +9962,7 @@ const char *text_JUL_15[POCET_JAZYKOV + 1] =
 	"Szent Bonaventura püspök és egyháztanító",
 	"ru_text",
 	"Св. Бонавэнтуры, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_15_OFM[POCET_JAZYKOV + 1] =
@@ -9376,6 +9976,7 @@ const char *text_JUL_15_OFM[POCET_JAZYKOV + 1] =
 	"Szent Bonaventura, püspök és egyháztanító az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_16[POCET_JAZYKOV + 1] =
@@ -9389,6 +9990,7 @@ const char *text_JUL_16[POCET_JAZYKOV + 1] =
 	"Kármel-hegyi Boldogasszony",
 	"ru_text",
 	"Найсв. Панны Марыі з гары Кармэль",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_16_OCD[POCET_JAZYKOV + 1] =
@@ -9402,6 +10004,7 @@ const char *text_JUL_16_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_16_CZ[POCET_JAZYKOV + 1] =
@@ -9415,6 +10018,7 @@ const char *text_JUL_16_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_17_SK[POCET_JAZYKOV + 1] =
@@ -9428,6 +10032,7 @@ const char *text_JUL_17_SK[POCET_JAZYKOV + 1] =
 	"Szent Zoerárd-András és Benedek remeték",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_17_CZ[POCET_JAZYKOV + 1] =
@@ -9441,6 +10046,7 @@ const char *text_JUL_17_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_17_OCD[POCET_JAZYKOV + 1] =
@@ -9454,6 +10060,7 @@ const char *text_JUL_17_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_17_OP[POCET_JAZYKOV + 1] =
@@ -9467,6 +10074,7 @@ const char *text_JUL_17_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_18_HU[POCET_JAZYKOV + 1] =
@@ -9480,6 +10088,7 @@ const char *text_JUL_18_HU[POCET_JAZYKOV + 1] =
 	"Szent Hedvig királyné",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_18_OP[POCET_JAZYKOV + 1] =
@@ -9493,6 +10102,7 @@ const char *text_JUL_18_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_18_OFM[POCET_JAZYKOV + 1] =
@@ -9506,6 +10116,7 @@ const char *text_JUL_18_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_19_OCD[POCET_JAZYKOV + 1] =
@@ -9519,6 +10130,7 @@ const char *text_JUL_19_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_19_OFM[POCET_JAZYKOV + 1] =
@@ -9532,6 +10144,7 @@ const char *text_JUL_19_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_20[POCET_JAZYKOV + 1] =
@@ -9545,6 +10158,7 @@ const char *text_JUL_20[POCET_JAZYKOV + 1] =
 	"Szent Apollinaris püspök és vértanú",
 	"ru_text",
 	"Св. Апалінарыя, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_20_OCD[POCET_JAZYKOV + 1] =
@@ -9558,6 +10172,7 @@ const char *text_JUL_20_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_21[POCET_JAZYKOV + 1] =
@@ -9571,6 +10186,7 @@ const char *text_JUL_21[POCET_JAZYKOV + 1] =
 	"Brindisi Szent Lőrinc áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Лаўрэнція з Брындызі, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_21_OFM[POCET_JAZYKOV + 1] =
@@ -9584,6 +10200,7 @@ const char *text_JUL_21_OFM[POCET_JAZYKOV + 1] =
 	"Brindisi Szent Lőrinc, pap és Egyháztanító az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_22[POCET_JAZYKOV + 1] =
@@ -9597,6 +10214,7 @@ const char *text_JUL_22[POCET_JAZYKOV + 1] =
 	"Szent Mária Magdolna",
 	"ru_text",
 	"Св. Марыі Магдалены",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_23[POCET_JAZYKOV + 1] =
@@ -9610,6 +10228,7 @@ const char *text_JUL_23[POCET_JAZYKOV + 1] =
 	"Szent Brigitta szerzetesnő",
 	"ru_text",
 	"Св. Брыгіты, законніцы, апякункі Еўропы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_24[POCET_JAZYKOV + 1] =
@@ -9623,6 +10242,7 @@ const char *text_JUL_24[POCET_JAZYKOV + 1] =
 	"Szent Charbel Makhlouf áldozópap", // HU: 27JUL
 	"ru_text",
 	"Св. Шарбэля Маклуфа, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_24_HU[POCET_JAZYKOV + 1] =
@@ -9636,6 +10256,7 @@ const char *text_JUL_24_HU[POCET_JAZYKOV + 1] =
 	"Árpád-házi Szent Kinga szűz", // 2011-07-05: sv. Sarbela v HU: 27JUL
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_24_OFM[POCET_JAZYKOV + 1] =
@@ -9649,6 +10270,7 @@ const char *text_JUL_24_OFM[POCET_JAZYKOV + 1] =
 	"Savoiai Boldog Ludovica, szerzetesnő a II. Rendből", // HU: different saint!
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_24_1_OP[POCET_JAZYKOV + 1] =
@@ -9662,6 +10284,7 @@ const char *text_JUL_24_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_24_2_OP[POCET_JAZYKOV + 1] =
@@ -9675,6 +10298,7 @@ const char *text_JUL_24_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_24_1_OCD[POCET_JAZYKOV + 1] =
@@ -9688,6 +10312,7 @@ const char *text_JUL_24_1_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_24_2_OCD[POCET_JAZYKOV + 1] =
@@ -9701,6 +10326,7 @@ const char *text_JUL_24_2_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_25[POCET_JAZYKOV + 1] =
@@ -9714,6 +10340,7 @@ const char *text_JUL_25[POCET_JAZYKOV + 1] =
 	"Szent Jakab apostol",
 	"ru_text",
 	"Св. Якуба, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_26[POCET_JAZYKOV + 1] =
@@ -9727,6 +10354,7 @@ const char *text_JUL_26[POCET_JAZYKOV + 1] =
 	"Szent Joakim és Szent Anna, a Boldogságos Szűz Mária szülei",
 	"ru_text",
 	"Св. Яўхіма і Ганны, бацькоў Найсв. Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_27[POCET_JAZYKOV + 1] =
@@ -9740,6 +10368,7 @@ const char *text_JUL_27[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_27_OP[POCET_JAZYKOV + 1] = // SK OP: 28JUL
@@ -9753,6 +10382,7 @@ const char *text_JUL_27_OP[POCET_JAZYKOV + 1] = // SK OP: 28JUL
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_27_OFM[POCET_JAZYKOV + 1] =
@@ -9766,6 +10396,7 @@ const char *text_JUL_27_OFM[POCET_JAZYKOV + 1] =
 	"Boldog Martinengo Mária Magdolna, szűz a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_27_OCD[POCET_JAZYKOV + 1] =
@@ -9779,6 +10410,7 @@ const char *text_JUL_27_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_28_OFM[POCET_JAZYKOV + 1] =
@@ -9792,6 +10424,7 @@ const char *text_JUL_28_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_28_OCD[POCET_JAZYKOV + 1] =
@@ -9805,6 +10438,7 @@ const char *text_JUL_28_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_29[POCET_JAZYKOV + 1] =
@@ -9818,6 +10452,7 @@ const char *text_JUL_29[POCET_JAZYKOV + 1] =
 	"Szent Márta",
 	"ru_text",
 	"Св. Марты",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_30[POCET_JAZYKOV + 1] =
@@ -9831,6 +10466,7 @@ const char *text_JUL_30[POCET_JAZYKOV + 1] =
 	"Aranyszavú (Krizologosz) Szent Péter püspök és egyháztanító",
 	"ru_text",
 	"Св. Пятра Хрызалога, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_30_SK[POCET_JAZYKOV + 1] =
@@ -9844,6 +10480,7 @@ const char *text_JUL_30_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_30_SK_OFM[POCET_JAZYKOV + 1] =
@@ -9857,6 +10494,7 @@ const char *text_JUL_30_SK_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_30_CM[POCET_JAZYKOV + 1] =
@@ -9870,6 +10508,7 @@ const char *text_JUL_30_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_31[POCET_JAZYKOV + 1] =
@@ -9883,6 +10522,7 @@ const char *text_JUL_31[POCET_JAZYKOV + 1] =
 	"Loyolai Szent Ignác áldozópap",
 	"ru_text",
 	"Св. Ігнацыя Лаёлы, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_JUL_31_SJ[POCET_JAZYKOV + 1] =
@@ -9896,6 +10536,7 @@ const char *text_JUL_31_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -9912,6 +10553,7 @@ const char *text_POSVIACKA_KATEDRALNEHO_CHRAMU[POCET_JAZYKOV + 1] =
 	"A székesegyház felszentelése",
 	"ru_text",
 	"Гадавіна пасвячэння катэдральнага касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -9926,6 +10568,7 @@ const char *text_CSSR_TITUL_KONGREGACIE[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -9942,6 +10585,7 @@ const char *text_AUG_01[POCET_JAZYKOV + 1] =
 	"Liguori Szent Alfonz Mária püspök és egyháztanító",
 	"ru_text",
 	"Св. Альфонса Марыі Лігуоры, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_01_CSSR[POCET_JAZYKOV + 1] =
@@ -9955,6 +10599,7 @@ const char *text_AUG_01_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_02_1[POCET_JAZYKOV + 1] =
@@ -9968,6 +10613,7 @@ const char *text_AUG_02_1[POCET_JAZYKOV + 1] =
 	"Vercelli Szent Özséb püspök",
 	"ru_text",
 	"Св. Эўзэбія Вэрчэльскага, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_02_2[POCET_JAZYKOV + 1] =
@@ -9981,6 +10627,7 @@ const char *text_AUG_02_2[POCET_JAZYKOV + 1] =
 	"Szent Eymard Julián Péter áldozópap",
 	"ru_text",
 	"Св. Пятра Юліяна Эймарда, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_02_OFM[POCET_JAZYKOV + 1] =
@@ -9994,6 +10641,7 @@ const char *text_AUG_02_OFM[POCET_JAZYKOV + 1] =
 	"Angyalos Boldogasszony (Portiuncula)",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_02_OP[POCET_JAZYKOV + 1] =
@@ -10007,6 +10655,7 @@ const char *text_AUG_02_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_03_OP[POCET_JAZYKOV + 1] =
@@ -10020,6 +10669,7 @@ const char *text_AUG_03_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_02_SDB[POCET_JAZYKOV + 1] =
@@ -10033,6 +10683,7 @@ const char *text_AUG_02_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_02_SJ[POCET_JAZYKOV + 1] =
@@ -10046,6 +10697,7 @@ const char *text_AUG_02_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_04[POCET_JAZYKOV + 1] =
@@ -10059,6 +10711,7 @@ const char *text_AUG_04[POCET_JAZYKOV + 1] =
 	"Vianney Szent János Mária áldozópap",
 	"ru_text",
 	"Св. Яна Марыі Віянэя, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_05[POCET_JAZYKOV + 1] =
@@ -10072,6 +10725,7 @@ const char *text_AUG_05[POCET_JAZYKOV + 1] =
 	"Szűz Mária római főtemplomának felszentelése (Havas Boldogasszony)",
 	"ru_text",
 	"Гадавіна пасвячэння рымскай базілікі Найсв. Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_05_BY[POCET_JAZYKOV + 1] =
@@ -10085,6 +10739,7 @@ const char *text_AUG_05_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Найсв. Панны Марыі Кангрэгацкай (Студэнцкай)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_06[POCET_JAZYKOV + 1] =
@@ -10098,6 +10753,7 @@ const char *text_AUG_06[POCET_JAZYKOV + 1] =
 	"Urunk színeváltozása",
 	"ru_text",
 	"Перамяненне Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_07_OCD[POCET_JAZYKOV + 1] =
@@ -10111,6 +10767,7 @@ const char *text_AUG_07_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_07_1[POCET_JAZYKOV + 1] =
@@ -10124,6 +10781,7 @@ const char *text_AUG_07_1[POCET_JAZYKOV + 1] =
 	"Szent II. Szixtusz pápa és társai vértanúk",
 	"ru_text",
 	"Св. Сікста II, папы, і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_07_2[POCET_JAZYKOV + 1] =
@@ -10137,6 +10795,7 @@ const char *text_AUG_07_2[POCET_JAZYKOV + 1] =
 	"Szent Kajetán áldozópap",
 	"ru_text",
 	"Св. Каятана, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_07_OFM[POCET_JAZYKOV + 1] =
@@ -10150,6 +10809,7 @@ const char *text_AUG_07_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_08[POCET_JAZYKOV + 1] =
@@ -10163,6 +10823,7 @@ const char *text_AUG_08[POCET_JAZYKOV + 1] =
 	"Szent Domonkos áldozópap",
 	"ru_text",
 	"Св. Дамініка, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_08_OP[POCET_JAZYKOV + 1] =
@@ -10176,6 +10837,7 @@ const char *text_AUG_08_OP[POCET_JAZYKOV + 1] =
 	"Szent Domonkos áldozópap",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_08_OFM[POCET_JAZYKOV + 1] =
@@ -10189,6 +10851,7 @@ const char *text_AUG_08_OFM[POCET_JAZYKOV + 1] =
 	"Szent Domonkos atya, pap, a Prédikátorok Rendjének Alapítója",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_09[POCET_JAZYKOV + 1] =
@@ -10202,6 +10865,7 @@ const char *text_AUG_09[POCET_JAZYKOV + 1] =
 	"A keresztről nevezett Szent Teréz Benedikta (Edith Stein) " HTML_LINE_BREAK "szűz és vértanú, Európa társvédőszentje",
 	"ru_text",
 	"Св. Тэрэзы Бэнэдыкты ад Крыжа (Эдыты Штайн), " HTML_LINE_BREAK "панны і мучаніцы, апякункі Еўропы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_09_OCD[POCET_JAZYKOV + 1] =
@@ -10215,6 +10879,7 @@ const char *text_AUG_09_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_10[POCET_JAZYKOV + 1] =
@@ -10228,6 +10893,7 @@ const char *text_AUG_10[POCET_JAZYKOV + 1] =
 	"Szent Lőrinc diakónus és vértanú",
 	"ru_text",
 	"Св. Лаўрэнція, дыякана і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_11[POCET_JAZYKOV + 1] =
@@ -10241,6 +10907,7 @@ const char *text_AUG_11[POCET_JAZYKOV + 1] =
 	"Szent Klára szűz",
 	"ru_text",
 	"Св. Клары, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_11_OFM[POCET_JAZYKOV + 1] =
@@ -10254,6 +10921,7 @@ const char *text_AUG_11_OFM[POCET_JAZYKOV + 1] =
 	"Assisi Szent Klára, szűz a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_12[POCET_JAZYKOV + 1] =
@@ -10267,6 +10935,7 @@ const char *text_AUG_12[POCET_JAZYKOV + 1] =
 	"Chantal Szent Johanna Franciska szerzetesnő",
 	"ru_text",
 	"Св. Жаны Франсуазы дэ Шанталь, законніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_12_1_OP[POCET_JAZYKOV + 1] =
@@ -10280,6 +10949,7 @@ const char *text_AUG_12_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_12_2_OP[POCET_JAZYKOV + 1] =
@@ -10293,6 +10963,7 @@ const char *text_AUG_12_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_12_3_OP[POCET_JAZYKOV + 1] =
@@ -10306,6 +10977,7 @@ const char *text_AUG_12_3_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_13[POCET_JAZYKOV + 1] =
@@ -10319,6 +10991,7 @@ const char *text_AUG_13[POCET_JAZYKOV + 1] =
 	"Szent Ponciánusz pápa és Szent Hippolitusz áldozópap és vértanúk", // HU: 16AUG
 	"ru_text",
 	"Св. Пантыяна, папы, і Гіпаліта, прэзбітэра, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_13_HU[POCET_JAZYKOV + 1] =
@@ -10332,6 +11005,7 @@ const char *text_AUG_13_HU[POCET_JAZYKOV + 1] =
 	"Boldog XI. Ince pápa", // HU
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_13_OPRAEM[POCET_JAZYKOV + 1] =
@@ -10345,6 +11019,7 @@ const char *text_AUG_13_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_13_OFM[POCET_JAZYKOV + 1] =
@@ -10358,6 +11033,7 @@ const char *text_AUG_13_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_14[POCET_JAZYKOV + 1] =
@@ -10371,6 +11047,7 @@ const char *text_AUG_14[POCET_JAZYKOV + 1] =
 	"Szent Maximilián Mária Kolbe áldozópap és vértanú",
 	"ru_text",
 	"Св. Максімільяна Марыі Кольбэ, прэзбітэра і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_14_OFM[POCET_JAZYKOV + 1] =
@@ -10384,6 +11061,7 @@ const char *text_AUG_14_OFM[POCET_JAZYKOV + 1] =
 	"Szent Maximilián Mária Kolbe áldozópap és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_15[POCET_JAZYKOV + 1] =
@@ -10397,6 +11075,7 @@ const char *text_AUG_15[POCET_JAZYKOV + 1] =
 	"Szűz Mária mennybevétele (Nagyboldogasszony)",
 	"ru_text",
 	"Унебаўзяцце Найсв. Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_16[POCET_JAZYKOV + 1] =
@@ -10410,6 +11089,7 @@ const char *text_AUG_16[POCET_JAZYKOV + 1] =
 	"Szent István király, Magyarország fővédőszentje",
 	"ru_text",
 	"Св. Стэфана Венгерскага",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_16_OCD[POCET_JAZYKOV + 1] =
@@ -10423,6 +11103,7 @@ const char *text_AUG_16_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_16_OPRAEM[POCET_JAZYKOV + 1] =
@@ -10436,6 +11117,7 @@ const char *text_AUG_16_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_17_OP[POCET_JAZYKOV + 1] =
@@ -10449,6 +11131,7 @@ const char *text_AUG_17_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_17_OFM[POCET_JAZYKOV + 1] =
@@ -10462,6 +11145,7 @@ const char *text_AUG_17_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_17_HU[POCET_JAZYKOV + 1] =
@@ -10475,6 +11159,7 @@ const char *text_AUG_17_HU[POCET_JAZYKOV + 1] =
 	"Kaposvár: A székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_18[POCET_JAZYKOV + 1] =
@@ -10488,6 +11173,7 @@ const char *text_AUG_18[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_18_HU[POCET_JAZYKOV + 1] =
@@ -10501,6 +11187,7 @@ const char *text_AUG_18_HU[POCET_JAZYKOV + 1] =
 	"Vác: A székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_18_SJ[POCET_JAZYKOV + 1] =
@@ -10514,6 +11201,7 @@ const char *text_AUG_18_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_18_OP[POCET_JAZYKOV + 1] =
@@ -10527,6 +11215,7 @@ const char *text_AUG_18_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_18_OCD[POCET_JAZYKOV + 1] =
@@ -10540,6 +11229,7 @@ const char *text_AUG_18_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_18_1_OFM[POCET_JAZYKOV + 1] =
@@ -10553,6 +11243,7 @@ const char *text_AUG_18_1_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_18_2_OFM[POCET_JAZYKOV + 1] =
@@ -10566,6 +11257,7 @@ const char *text_AUG_18_2_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_19[POCET_JAZYKOV + 1] =
@@ -10579,6 +11271,7 @@ const char *text_AUG_19[POCET_JAZYKOV + 1] =
 	"Eudes Szent János áldozópap",
 	"ru_text",
 	"Св. Яна Эда, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_19_OP[POCET_JAZYKOV + 1] =
@@ -10592,6 +11285,7 @@ const char *text_AUG_19_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_19_OFM[POCET_JAZYKOV + 1] =
@@ -10605,6 +11299,7 @@ const char *text_AUG_19_OFM[POCET_JAZYKOV + 1] =
 	"Szent Lajos, püspök az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_20[POCET_JAZYKOV + 1] =
@@ -10618,6 +11313,7 @@ const char *text_AUG_20[POCET_JAZYKOV + 1] =
 	"Szent Bernát apát és egyháztanító", // HU 19AUG
 	"ru_text",
 	"Св. Бэрнарда, абата і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_21[POCET_JAZYKOV + 1] =
@@ -10631,6 +11327,7 @@ const char *text_AUG_21[POCET_JAZYKOV + 1] =
 	"Szent X. Piusz pápa",
 	"ru_text",
 	"Св. Пія X, папы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OPATSKY_KOSTOL_OPRAEM[POCET_JAZYKOV + 1] =
@@ -10644,6 +11341,7 @@ const char *text_OPATSKY_KOSTOL_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_22[POCET_JAZYKOV + 1] =
@@ -10657,6 +11355,7 @@ const char *text_AUG_22[POCET_JAZYKOV + 1] =
 	"Boldogságos Szűz Mária Királynő",
 	"ru_text",
 	"Найсв. Панны Марыі Каралевы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_23[POCET_JAZYKOV + 1] =
@@ -10670,6 +11369,7 @@ const char *text_AUG_23[POCET_JAZYKOV + 1] =
 	"Limai Szent Róza szűz",
 	"ru_text",
 	"Св. Ружы Лімскай, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_23_OFM[POCET_JAZYKOV + 1] =
@@ -10683,6 +11383,7 @@ const char *text_AUG_23_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_24[POCET_JAZYKOV + 1] =
@@ -10696,6 +11397,7 @@ const char *text_AUG_24[POCET_JAZYKOV + 1] =
 	"Szent Bertalan apostol",
 	"ru_text",
 	"Св. Барталамея, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_1[POCET_JAZYKOV + 1] =
@@ -10709,6 +11411,7 @@ const char *text_AUG_25_1[POCET_JAZYKOV + 1] =
 	"Kalazanci Szent József áldozópap",
 	"ru_text",
 	"Св. Юзафа Каласанса, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_2[POCET_JAZYKOV + 1] =
@@ -10722,6 +11425,7 @@ const char *text_AUG_25_2[POCET_JAZYKOV + 1] =
 	"Szent Lajos",
 	"ru_text",
 	"Св. Людвіка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_OFM[POCET_JAZYKOV + 1] =
@@ -10735,6 +11439,7 @@ const char *text_AUG_25_OFM[POCET_JAZYKOV + 1] =
 	"Szent IX. Lajos, király a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_CZ[POCET_JAZYKOV + 1] =
@@ -10748,6 +11453,7 @@ const char *text_AUG_25_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_2_CZ[POCET_JAZYKOV + 1] =
@@ -10761,6 +11467,7 @@ const char *text_AUG_25_2_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_HU[POCET_JAZYKOV + 1] =
@@ -10774,6 +11481,7 @@ const char *text_AUG_25_HU[POCET_JAZYKOV + 1] =
 	"Kalocsa-Kecskemét: A főszékesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_SDB[POCET_JAZYKOV + 1] =
@@ -10787,6 +11495,7 @@ const char *text_AUG_25_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_25_OCD[POCET_JAZYKOV + 1] =
@@ -10800,6 +11509,7 @@ const char *text_AUG_25_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_26_BY[POCET_JAZYKOV + 1] =
@@ -10813,6 +11523,7 @@ const char *text_AUG_26_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Найсв. Панны Марыі Чанстахоўскай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_26_OCD[POCET_JAZYKOV + 1] =
@@ -10826,6 +11537,7 @@ const char *text_AUG_26_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_26_SDB[POCET_JAZYKOV + 1] =
@@ -10839,6 +11551,7 @@ const char *text_AUG_26_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_26_OP[POCET_JAZYKOV + 1] =
@@ -10852,6 +11565,7 @@ const char *text_AUG_26_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_27[POCET_JAZYKOV + 1] =
@@ -10865,6 +11579,7 @@ const char *text_AUG_27[POCET_JAZYKOV + 1] =
 	"Szent Mónika",
 	"ru_text",
 	"Св. Монікі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_27_OPRAEM[POCET_JAZYKOV + 1] =
@@ -10878,6 +11593,7 @@ const char *text_AUG_27_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_28[POCET_JAZYKOV + 1] =
@@ -10891,6 +11607,7 @@ const char *text_AUG_28[POCET_JAZYKOV + 1] =
 	"Szent Ágoston püspök és egyháztanító",
 	"ru_text",
 	"Св. Аўгустына, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_28_OPRAEM[POCET_JAZYKOV + 1] =
@@ -10904,6 +11621,7 @@ const char *text_AUG_28_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_29[POCET_JAZYKOV + 1] =
@@ -10917,6 +11635,7 @@ const char *text_AUG_29[POCET_JAZYKOV + 1] =
 	"Keresztelő Szent János vértanúsága",
 	"ru_text",
 	"Мучаніцтва Яна Хрысціцеля",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_30_SK[POCET_JAZYKOV + 1] =
@@ -10930,6 +11649,7 @@ const char *text_AUG_30_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_30_CM[POCET_JAZYKOV + 1] =
@@ -10943,6 +11663,7 @@ const char *text_AUG_30_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_31_HU[POCET_JAZYKOV + 1] =
@@ -10956,6 +11677,7 @@ const char *text_AUG_31_HU[POCET_JAZYKOV + 1] =
 	"Esztergom-Budapest: A prímási bazilika-" HTML_LINE_BREAK "főszékesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_AUG_30_OPRAEM[POCET_JAZYKOV + 1] =
@@ -10969,6 +11691,7 @@ const char *text_AUG_30_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -10985,6 +11708,7 @@ const char *text_SEP_01_OFM[POCET_JAZYKOV + 1] =
 	"Szent Beatrix de Silva, szűz",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_01_OCD[POCET_JAZYKOV + 1] =
@@ -10998,6 +11722,7 @@ const char *text_SEP_01_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_02_CM[POCET_JAZYKOV + 1] =
@@ -11011,6 +11736,7 @@ const char *text_SEP_02_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_02_1_OP[POCET_JAZYKOV + 1] =
@@ -11024,6 +11750,7 @@ const char *text_SEP_02_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_02_2_OP[POCET_JAZYKOV + 1] =
@@ -11037,6 +11764,7 @@ const char *text_SEP_02_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_02_1_OFM[POCET_JAZYKOV + 1] =
@@ -11050,6 +11778,7 @@ const char *text_SEP_02_1_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_02_2_OFM[POCET_JAZYKOV + 1] =
@@ -11063,6 +11792,7 @@ const char *text_SEP_02_2_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_03[POCET_JAZYKOV + 1] =
@@ -11076,6 +11806,7 @@ const char *text_SEP_03[POCET_JAZYKOV + 1] =
 	"Nagy Szent Gergely pápa és egyháztanító",
 	"ru_text",
 	"Св. Грыгорыя Вялікага, папы і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_04_BY[POCET_JAZYKOV + 1] =
@@ -11089,6 +11820,7 @@ const char *text_SEP_04_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Бл. Марыі Стэллы і паплечніц, паннаў і мучаніц",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_04_OP[POCET_JAZYKOV + 1] =
@@ -11102,6 +11834,7 @@ const char *text_SEP_04_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_04_OFM[POCET_JAZYKOV + 1] =
@@ -11115,6 +11848,7 @@ const char *text_SEP_04_OFM[POCET_JAZYKOV + 1] =
 	"Viterbói Szent Róza, szűz a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_05[POCET_JAZYKOV + 1] =
@@ -11128,6 +11862,7 @@ const char *text_SEP_05[POCET_JAZYKOV + 1] =
 	"Kalkuttai Szent Teréz szűz",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_05_1_OP[POCET_JAZYKOV + 1] =
@@ -11141,6 +11876,7 @@ const char *text_SEP_05_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_05_2_OP[POCET_JAZYKOV + 1] =
@@ -11154,6 +11890,7 @@ const char *text_SEP_05_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_06_SK[POCET_JAZYKOV + 1] =
@@ -11167,6 +11904,7 @@ const char *text_SEP_06_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_06_1_OP[POCET_JAZYKOV + 1] =
@@ -11180,6 +11918,7 @@ const char *text_SEP_06_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_06_2_OP[POCET_JAZYKOV + 1] =
@@ -11193,6 +11932,7 @@ const char *text_SEP_06_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_07[POCET_JAZYKOV + 1] =
@@ -11206,6 +11946,7 @@ const char *text_SEP_07[POCET_JAZYKOV + 1] =
 	"Szent Márk, István és Menyhért áldozópapok, kassai vértanúk",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_07_SJ[POCET_JAZYKOV + 1] =
@@ -11219,6 +11960,7 @@ const char *text_SEP_07_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_08[POCET_JAZYKOV + 1] =
@@ -11232,6 +11974,7 @@ const char *text_SEP_08[POCET_JAZYKOV + 1] =
 	"Szűz Mária születése (Kisboldogasszony)",
 	"ru_text",
 	"Нараджэнне Найсв. Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_08_BY[POCET_JAZYKOV + 1] =
@@ -11245,6 +11988,7 @@ const char *text_SEP_08_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Найсв. Панны Марыі Браслаўскай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_09[POCET_JAZYKOV + 1] =
@@ -11258,6 +12002,7 @@ const char *text_SEP_09[POCET_JAZYKOV + 1] =
 	"Claver Szent Péter áldozópap",
 	"ru_text",
 	"Св. Пятра Клявэра, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_09_SJ[POCET_JAZYKOV + 1] =
@@ -11271,6 +12016,7 @@ const char *text_SEP_09_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_10_SJ[POCET_JAZYKOV + 1] =
@@ -11284,6 +12030,7 @@ const char *text_SEP_10_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_10_CZ[POCET_JAZYKOV + 1] =
@@ -11297,6 +12044,7 @@ const char *text_SEP_10_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_11_CM[POCET_JAZYKOV + 1] =
@@ -11310,6 +12058,7 @@ const char *text_SEP_11_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_12[POCET_JAZYKOV + 1] =
@@ -11323,6 +12072,7 @@ const char *text_SEP_12[POCET_JAZYKOV + 1] =
 	"Szűz Mária Szent Neve",
 	"ru_text",
 	"Найсвяцейшага Імя Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_12_OCD[POCET_JAZYKOV + 1] =
@@ -11336,6 +12086,7 @@ const char *text_SEP_12_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_12_OPRAEM[POCET_JAZYKOV + 1] =
@@ -11349,6 +12100,7 @@ const char *text_SEP_12_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_13[POCET_JAZYKOV + 1] =
@@ -11362,6 +12114,7 @@ const char *text_SEP_13[POCET_JAZYKOV + 1] =
 	"Aranyszájú (Krizosztomosz) Szent János püspök és egyháztanító",
 	"ru_text",
 	"Св. Яна Златавуснага (Хрызастома), " HTML_LINE_BREAK "біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_13_HU[POCET_JAZYKOV + 1] =
@@ -11375,6 +12128,7 @@ const char *text_SEP_13_HU[POCET_JAZYKOV + 1] =
 	"Győr: A székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_14[POCET_JAZYKOV + 1] =
@@ -11388,6 +12142,7 @@ const char *text_SEP_14[POCET_JAZYKOV + 1] =
 	"A Szent Kereszt felmagasztalása",
 	"ru_text",
 	"Узвышэнне святога Крыжа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_15[POCET_JAZYKOV + 1] =
@@ -11401,6 +12156,7 @@ const char *text_SEP_15[POCET_JAZYKOV + 1] =
 	"A Fájdalmas Szűzanya",
 	"ru_text",
 	"Найсв. Панны Марыі Балеснай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_16_CZ[POCET_JAZYKOV + 1] =
@@ -11414,6 +12170,7 @@ const char *text_SEP_16_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_16[POCET_JAZYKOV + 1] =
@@ -11427,6 +12184,7 @@ const char *text_SEP_16[POCET_JAZYKOV + 1] =
 	"Szent Kornél pápa és Szent Ciprián püspök és vértanúk",
 	"ru_text",
 	"Св. Карнэлія, папы, і Кіпрыяна, біскупа, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_17[POCET_JAZYKOV + 1] =
@@ -11440,6 +12198,7 @@ const char *text_SEP_17[POCET_JAZYKOV + 1] =
 	"Bellarmin Szent Róbert püspök és egyháztanító",
 	"ru_text",
 	"Св. Робэрта Бэлярміна, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_17_SJ[POCET_JAZYKOV + 1] =
@@ -11453,6 +12212,7 @@ const char *text_SEP_17_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_17_OFM[POCET_JAZYKOV + 1] =
@@ -11466,6 +12226,7 @@ const char *text_SEP_17_OFM[POCET_JAZYKOV + 1] =
 	"Szent Ferenc atyánk stigmatizációja",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_17_OCD[POCET_JAZYKOV + 1] =
@@ -11479,6 +12240,7 @@ const char *text_SEP_17_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_18_OFM[POCET_JAZYKOV + 1] =
@@ -11492,6 +12254,7 @@ const char *text_SEP_18_OFM[POCET_JAZYKOV + 1] =
 	"Copertinói Szent József, pap az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_18_OP[POCET_JAZYKOV + 1] =
@@ -11505,6 +12268,7 @@ const char *text_SEP_18_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_18_OPRAEM[POCET_JAZYKOV + 1] =
@@ -11518,6 +12282,7 @@ const char *text_SEP_18_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_19[POCET_JAZYKOV + 1] =
@@ -11531,6 +12296,7 @@ const char *text_SEP_19[POCET_JAZYKOV + 1] =
 	"Szent Januáriusz püspök és vértanú",
 	"ru_text",
 	"Св. Януарыя, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_19_OFM[POCET_JAZYKOV + 1] =
@@ -11544,6 +12310,7 @@ const char *text_SEP_19_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_20[POCET_JAZYKOV + 1] =
@@ -11557,6 +12324,7 @@ const char *text_SEP_20[POCET_JAZYKOV + 1] =
 	"Kim Taegon Szent András áldozópap, " HTML_LINE_BREAK "Csong Haszang Szent Pál és társaik, vértanúk",
 	"ru_text",
 	"Св. Андрэя Кім Таэгона, прэзбітэра, " HTML_LINE_BREAK "і Паўла Чон Хасана, і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_20_CZ[POCET_JAZYKOV + 1] =
@@ -11570,6 +12338,7 @@ const char *text_SEP_20_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_21[POCET_JAZYKOV + 1] =
@@ -11583,6 +12352,7 @@ const char *text_SEP_21[POCET_JAZYKOV + 1] =
 	"Szent Máté apostol és evangélista",
 	"ru_text",
 	"Св. Мацвея, апостала і евангеліста",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_22_SK[POCET_JAZYKOV + 1] =
@@ -11596,6 +12366,7 @@ const char *text_SEP_22_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_22_1_OP[POCET_JAZYKOV + 1] =
@@ -11609,6 +12380,7 @@ const char *text_SEP_22_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_22_2_OP[POCET_JAZYKOV + 1] =
@@ -11622,6 +12394,7 @@ const char *text_SEP_22_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_22_OFM[POCET_JAZYKOV + 1] =
@@ -11635,6 +12408,7 @@ const char *text_SEP_22_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_22_SDB[POCET_JAZYKOV + 1] =
@@ -11648,6 +12422,7 @@ const char *text_SEP_22_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_23[POCET_JAZYKOV + 1] =
@@ -11661,6 +12436,7 @@ const char *text_SEP_23[POCET_JAZYKOV + 1] =
 	"Pietrelcinai Szent Pio áldozópap",
 	"ru_text",
 	"Св. Піо з П'етрэльчыны, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_23_OFM[POCET_JAZYKOV + 1] =
@@ -11674,6 +12450,7 @@ const char *text_SEP_23_OFM[POCET_JAZYKOV + 1] =
 	"Pietrelcinai Szent Pió szerzetes és áldozópap az I. rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_24_SK[POCET_JAZYKOV + 1] =
@@ -11687,6 +12464,7 @@ const char *text_SEP_24_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_24_OP[POCET_JAZYKOV + 1] =
@@ -11700,6 +12478,7 @@ const char *text_SEP_24_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_24_OFM[POCET_JAZYKOV + 1] =
@@ -11713,6 +12492,7 @@ const char *text_SEP_24_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_24_HU[POCET_JAZYKOV + 1] =
@@ -11726,6 +12506,7 @@ const char *text_SEP_24_HU[POCET_JAZYKOV + 1] =
 	"Szent Gellért püspök és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_25_OP[POCET_JAZYKOV + 1] =
@@ -11739,6 +12520,7 @@ const char *text_SEP_25_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_25_OFM[POCET_JAZYKOV + 1] =
@@ -11752,6 +12534,7 @@ const char *text_SEP_25_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_26[POCET_JAZYKOV + 1] =
@@ -11765,6 +12548,7 @@ const char *text_SEP_26[POCET_JAZYKOV + 1] =
 	"Szent Kozma és Damján vértanúk",
 	"ru_text",
 	"Св. Космы і Дам'яна, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_26_CSSR[POCET_JAZYKOV + 1] =
@@ -11778,6 +12562,7 @@ const char *text_SEP_26_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_26_OP[POCET_JAZYKOV + 1] =
@@ -11791,6 +12576,7 @@ const char *text_SEP_26_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_26_OFM[POCET_JAZYKOV + 1] =
@@ -11804,6 +12590,7 @@ const char *text_SEP_26_OFM[POCET_JAZYKOV + 1] =
 	"Sabrani Szent Elzeár és Boldog Delphina, házastársak a III. Rendből", // HU: different saints!
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_27[POCET_JAZYKOV + 1] =
@@ -11817,6 +12604,7 @@ const char *text_SEP_27[POCET_JAZYKOV + 1] =
 	"Páli Szent Vince áldozópap",
 	"ru_text",
 	"Св. Вінцэнта дэ Поля, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_27_CM[POCET_JAZYKOV + 1] =
@@ -11830,6 +12618,7 @@ const char *text_SEP_27_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_28[POCET_JAZYKOV + 1] =
@@ -11843,6 +12632,7 @@ const char *text_SEP_28[POCET_JAZYKOV + 1] =
 	"Szent Vencel vértanú",
 	"ru_text",
 	"Св. Вацлава, мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_28_2[POCET_JAZYKOV + 1] =
@@ -11856,6 +12646,7 @@ const char *text_SEP_28_2[POCET_JAZYKOV + 1] =
 	"Ruiz Szent Lőrinc és társai, Fülöp-szigeteki vértanúk",
 	"ru_text",
 	"Св. Лаўрэнція Руіса і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_28_OP[POCET_JAZYKOV + 1] =
@@ -11869,6 +12660,7 @@ const char *text_SEP_28_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_28_OFM[POCET_JAZYKOV + 1] =
@@ -11882,6 +12674,7 @@ const char *text_SEP_28_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_29[POCET_JAZYKOV + 1] =
@@ -11895,6 +12688,7 @@ const char *text_SEP_29[POCET_JAZYKOV + 1] =
 	"Szent Mihály, Szent Gábor és Szent Rafael főangyalok",
 	"ru_text",
 	"Св. Міхала Арханёла " HTML_LINE_BREAK "(апекуна Мінска-Магілёўскай правінцыі касцёла), " HTML_LINE_BREAK "св. Габрыэля і Рафала, арханёлаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_SEP_30[POCET_JAZYKOV + 1] =
@@ -11908,6 +12702,7 @@ const char *text_SEP_30[POCET_JAZYKOV + 1] =
 	"Szent Jeromos áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Гераніма, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -11924,6 +12719,7 @@ const char *text_OKT_01[POCET_JAZYKOV + 1] =
 	"A Gyermek Jézusról nevezett (Lisieux-i) Szent Teréz szűz",
 	"ru_text",
 	"Св. Тэрэзы ад Дзіцятка Езус, панны і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_01_OCD[POCET_JAZYKOV + 1] =
@@ -11937,6 +12733,7 @@ const char *text_OKT_01_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_02[POCET_JAZYKOV + 1] =
@@ -11950,6 +12747,7 @@ const char *text_OKT_02[POCET_JAZYKOV + 1] =
 	"Szent Őrzőangyalok",
 	"ru_text",
 	"Св. Анёлаў Ахоўнікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_03_SJ[POCET_JAZYKOV + 1] =
@@ -11963,6 +12761,7 @@ const char *text_OKT_03_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_03_OP[POCET_JAZYKOV + 1] =
@@ -11976,6 +12775,7 @@ const char *text_OKT_03_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_04[POCET_JAZYKOV + 1] =
@@ -11989,6 +12789,7 @@ const char *text_OKT_04[POCET_JAZYKOV + 1] =
 	"Assisi Szent Ferenc",
 	"ru_text",
 	"Св. Францішка Асізскага",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_04_OFM[POCET_JAZYKOV + 1] =
@@ -12002,6 +12803,7 @@ const char *text_OKT_04_OFM[POCET_JAZYKOV + 1] =
 	"Szent Ferenc atyánk, diakónus, a három rend alapítója",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_04_OP[POCET_JAZYKOV + 1] =
@@ -12015,6 +12817,7 @@ const char *text_OKT_04_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_05_SDB[POCET_JAZYKOV + 1] =
@@ -12028,6 +12831,7 @@ const char *text_OKT_05_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_05_CSSR[POCET_JAZYKOV + 1] =
@@ -12041,6 +12845,7 @@ const char *text_OKT_05_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_05_HU[POCET_JAZYKOV + 1] =
@@ -12054,6 +12859,7 @@ const char *text_OKT_05_HU[POCET_JAZYKOV + 1] =
 	"Veszprém: A bazilika-főszékesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_05_SK[POCET_JAZYKOV + 1] =
@@ -12067,6 +12873,7 @@ const char *text_OKT_05_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_05_OP[POCET_JAZYKOV + 1] =
@@ -12080,6 +12887,7 @@ const char *text_OKT_05_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_06[POCET_JAZYKOV + 1] =
@@ -12093,6 +12901,7 @@ const char *text_OKT_06[POCET_JAZYKOV + 1] =
 	"Szent Brúnó áldozópap",
 	"ru_text",
 	"Св. Бруна, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_06_SJ[POCET_JAZYKOV + 1] =
@@ -12106,6 +12915,7 @@ const char *text_OKT_06_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_06_HU_OFM[POCET_JAZYKOV + 1] =
@@ -12119,6 +12929,7 @@ const char *text_OKT_06_HU_OFM[POCET_JAZYKOV + 1] =
 	"Az Úr Jézus Öt Sebéről nevezett Szent Mária Franciska, szűz A III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_06_OP[POCET_JAZYKOV + 1] =
@@ -12132,6 +12943,7 @@ const char *text_OKT_06_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_07[POCET_JAZYKOV + 1] =
@@ -12145,6 +12957,7 @@ const char *text_OKT_07[POCET_JAZYKOV + 1] =
 	"Rózsafüzér Királynője",
 	"ru_text",
 	"Найсв. Панны Марыі Ружанцовай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_08_HU[POCET_JAZYKOV + 1] =
@@ -12158,6 +12971,7 @@ const char *text_OKT_08_HU[POCET_JAZYKOV + 1] =
 	"Szűz Mária, Magyarok Nagyasszonya, Magyarország főpátronája",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_08_1_OP[POCET_JAZYKOV + 1] =
@@ -12171,6 +12985,7 @@ const char *text_OKT_08_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_08_2_OP[POCET_JAZYKOV + 1] =
@@ -12184,6 +12999,7 @@ const char *text_OKT_08_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_09_1[POCET_JAZYKOV + 1] =
@@ -12197,6 +13013,7 @@ const char *text_OKT_09_1[POCET_JAZYKOV + 1] =
 	"Szent Dénes püspök és társai vértanúk",
 	"ru_text",
 	"Св. Дыянісія, біскупа, і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_09_2[POCET_JAZYKOV + 1] =
@@ -12210,6 +13027,7 @@ const char *text_OKT_09_2[POCET_JAZYKOV + 1] =
 	"Leonardi Szent János áldozópap",
 	"ru_text",
 	"Св. Яна Леанардзі, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_09_OP[POCET_JAZYKOV + 1] =
@@ -12223,6 +13041,7 @@ const char *text_OKT_09_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_10_OPRAEM[POCET_JAZYKOV + 1] =
@@ -12236,6 +13055,7 @@ const char *text_OKT_10_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_10_HU_OFM[POCET_JAZYKOV + 1] =
@@ -12249,6 +13069,7 @@ const char *text_OKT_10_HU_OFM[POCET_JAZYKOV + 1] =
 	"Szent Dániel és vértanú társai az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_11[POCET_JAZYKOV + 1] =
@@ -12262,6 +13083,7 @@ const char *text_OKT_11[POCET_JAZYKOV + 1] =
 	"Szent XXIII. János pápa",
 	"ru_text",
 	"Св. Яна XXIII, папы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_11_OFM[POCET_JAZYKOV + 1] =
@@ -12275,6 +13097,7 @@ const char *text_OKT_11_OFM[POCET_JAZYKOV + 1] =
 	"Szent XXIII. János, pápa a III. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_11_SK[POCET_JAZYKOV + 1] =
@@ -12288,6 +13111,7 @@ const char *text_OKT_11_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_11_OP[POCET_JAZYKOV + 1] =
@@ -12301,6 +13125,7 @@ const char *text_OKT_11_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_12_CZ[POCET_JAZYKOV + 1] =
@@ -12314,6 +13139,7 @@ const char *text_OKT_12_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_12_OFM[POCET_JAZYKOV + 1] =
@@ -12327,6 +13153,7 @@ const char *text_OKT_12_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_12_SJ[POCET_JAZYKOV + 1] =
@@ -12340,6 +13167,7 @@ const char *text_OKT_12_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_13_OFM[POCET_JAZYKOV + 1] =
@@ -12353,6 +13181,7 @@ const char *text_OKT_13_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_13_OP[POCET_JAZYKOV + 1] =
@@ -12366,6 +13195,7 @@ const char *text_OKT_13_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_13_SDB[POCET_JAZYKOV + 1] =
@@ -12379,6 +13209,7 @@ const char *text_OKT_13_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_13_OPRAEM[POCET_JAZYKOV + 1] =
@@ -12392,6 +13223,7 @@ const char *text_OKT_13_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_14[POCET_JAZYKOV + 1] =
@@ -12405,6 +13237,7 @@ const char *text_OKT_14[POCET_JAZYKOV + 1] =
 	"Szent I. Kallixtusz pápa és vértanú",
 	"ru_text",
 	"Св. Калікста I, папы і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_14_SJ[POCET_JAZYKOV + 1] =
@@ -12418,6 +13251,7 @@ const char *text_OKT_14_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_14_OP[POCET_JAZYKOV + 1] =
@@ -12431,6 +13265,7 @@ const char *text_OKT_14_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_15[POCET_JAZYKOV + 1] =
@@ -12444,6 +13279,7 @@ const char *text_OKT_15[POCET_JAZYKOV + 1] =
 	"A Jézusról nevezett (Avilai) Szent Teréz " HTML_LINE_BREAK "szűz és egyháztanító",
 	"ru_text",
 	"Св. Тэрэзы ад Езуса, " HTML_LINE_BREAK "панны і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_15_OCD[POCET_JAZYKOV + 1] =
@@ -12457,6 +13293,7 @@ const char *text_OKT_15_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_16_1[POCET_JAZYKOV + 1] =
@@ -12470,6 +13307,7 @@ const char *text_OKT_16_1[POCET_JAZYKOV + 1] =
 	"Alacoque Szent Margit Mária szűz",
 	"ru_text",
 	"Св. Маргарыты Марыі Алякок, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_16_2[POCET_JAZYKOV + 1] =
@@ -12483,6 +13321,7 @@ const char *text_OKT_16_2[POCET_JAZYKOV + 1] =
 	"Szent Hedvig szerzetesnő",
 	"ru_text",
 	"Св. Ядзвігі, законніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_16_3[POCET_JAZYKOV + 1] =
@@ -12496,6 +13335,7 @@ const char *text_OKT_16_3[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_16_CSSR[POCET_JAZYKOV + 1] =
@@ -12509,6 +13349,7 @@ const char *text_OKT_16_CSSR[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_17[POCET_JAZYKOV + 1] =
@@ -12522,6 +13363,7 @@ const char *text_OKT_17[POCET_JAZYKOV + 1] =
 	"Antiochiai Szent Ignác püspök és vértanú",
 	"ru_text",
 	"Св. Ігнацыя з Антыёхіі, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_18[POCET_JAZYKOV + 1] =
@@ -12535,6 +13377,7 @@ const char *text_OKT_18[POCET_JAZYKOV + 1] =
 	"Szent Lukács evangélista",
 	"ru_text",
 	"Св. Лукі, евангеліста",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_19_1[POCET_JAZYKOV + 1] =
@@ -12548,6 +13391,7 @@ const char *text_OKT_19_1[POCET_JAZYKOV + 1] =
 	"De Brébeuf Szent János és Jogues Szent Izsák áldozópap " HTML_LINE_BREAK "és társaik vértanúk",
 	"ru_text",
 	"Св. Жана дэ Брэбёфа і Ісаака Жога, прэзбітэраў, " HTML_LINE_BREAK "і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_19_2[POCET_JAZYKOV + 1] =
@@ -12561,6 +13405,7 @@ const char *text_OKT_19_2[POCET_JAZYKOV + 1] =
 	"Keresztes Szent Pál áldozópap",
 	"ru_text",
 	"Св. Паўла ад Крыжа, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_19_SJ[POCET_JAZYKOV + 1] =
@@ -12574,6 +13419,7 @@ const char *text_OKT_19_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_19_OP[POCET_JAZYKOV + 1] =
@@ -12587,6 +13433,7 @@ const char *text_OKT_19_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_19_OFM[POCET_JAZYKOV + 1] =
@@ -12600,6 +13447,7 @@ const char *text_OKT_19_OFM[POCET_JAZYKOV + 1] =
 	"Alkantarai Szent Péter, pap az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_20_OFM[POCET_JAZYKOV + 1] =
@@ -12613,6 +13461,7 @@ const char *text_OKT_20_OFM[POCET_JAZYKOV + 1] =
 	"Boldog Contardo Ferrini, a III. Rendből", // HU: different saint!
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_20_OPRAEM[POCET_JAZYKOV + 1] =
@@ -12626,6 +13475,7 @@ const char *text_OKT_20_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_21_CZ[POCET_JAZYKOV + 1] =
@@ -12639,6 +13489,7 @@ const char *text_OKT_21_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_21_OP[POCET_JAZYKOV + 1] =
@@ -12652,6 +13503,7 @@ const char *text_OKT_21_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_21_OPRAEM[POCET_JAZYKOV + 1] =
@@ -12665,6 +13517,7 @@ const char *text_OKT_21_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_22_OP[POCET_JAZYKOV + 1] =
@@ -12678,6 +13531,7 @@ const char *text_OKT_22_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_22_HU_OFM[POCET_JAZYKOV + 1] =
@@ -12691,6 +13545,7 @@ const char *text_OKT_22_HU_OFM[POCET_JAZYKOV + 1] =
 	"Boldog Josephina, szűz és vértanú A II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_22[POCET_JAZYKOV + 1] =
@@ -12704,6 +13559,7 @@ const char *text_OKT_22[POCET_JAZYKOV + 1] =
 	"Szent II. János Pál pápa",
 	"ru_text",
 	"Св. Яна Паўла II, папы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_23[POCET_JAZYKOV + 1] =
@@ -12717,6 +13573,7 @@ const char *text_OKT_23[POCET_JAZYKOV + 1] =
 	"Kapisztrán Szent János áldozópap",
 	"ru_text",
 	"Св. Яна Капістрана, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_23_OFM[POCET_JAZYKOV + 1] =
@@ -12730,6 +13587,7 @@ const char *text_OKT_23_OFM[POCET_JAZYKOV + 1] =
 	"Kapisztrán Szent János, pap az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_24[POCET_JAZYKOV + 1] =
@@ -12743,6 +13601,7 @@ const char *text_OKT_24[POCET_JAZYKOV + 1] =
 	"Claret Szent Antal Mária püspök",
 	"ru_text",
 	"Св. Антонія Марыі Клярэта, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_24_SDB[POCET_JAZYKOV + 1] =
@@ -12756,6 +13615,7 @@ const char *text_OKT_24_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_24_HU[POCET_JAZYKOV + 1] =
@@ -12769,6 +13629,7 @@ const char *text_OKT_24_HU[POCET_JAZYKOV + 1] =
 	"A székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_25_SK[POCET_JAZYKOV + 1] =
@@ -12782,6 +13643,7 @@ const char *text_OKT_25_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_25_SK_2[POCET_JAZYKOV + 1] =
@@ -12795,6 +13657,7 @@ const char *text_OKT_25_SK_2[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_25_CONS[POCET_JAZYKOV + 1] =
@@ -12808,6 +13671,7 @@ const char *text_OKT_25_CONS[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_25_OP[POCET_JAZYKOV + 1] =
@@ -12821,6 +13685,7 @@ const char *text_OKT_25_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_25_OFM[POCET_JAZYKOV + 1] =
@@ -12834,6 +13699,7 @@ const char *text_OKT_25_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_25_HU[POCET_JAZYKOV + 1] =
@@ -12847,6 +13713,7 @@ const char *text_OKT_25_HU[POCET_JAZYKOV + 1] =
 	"Szent Mór püspök",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_26[POCET_JAZYKOV + 1] =
@@ -12860,6 +13727,7 @@ const char *text_OKT_26[POCET_JAZYKOV + 1] =
 	"A saját templom felszentelése " HTML_LINE_BREAK "(amennyiben annak napja nem ismeretes)", // A felszentelt templomokban: A saját templom felszentelése
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_26_OP[POCET_JAZYKOV + 1] =
@@ -12873,6 +13741,7 @@ const char *text_OKT_26_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_26_OPRAEM[POCET_JAZYKOV + 1] =
@@ -12886,6 +13755,7 @@ const char *text_OKT_26_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_26_OFM[POCET_JAZYKOV + 1] =
@@ -12899,6 +13769,7 @@ const char *text_OKT_26_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_27_SK[POCET_JAZYKOV + 1] =
@@ -12912,6 +13783,7 @@ const char *text_OKT_27_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_27_OP[POCET_JAZYKOV + 1] =
@@ -12925,6 +13797,7 @@ const char *text_OKT_27_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_28[POCET_JAZYKOV + 1] =
@@ -12938,6 +13811,7 @@ const char *text_OKT_28[POCET_JAZYKOV + 1] =
 	"Szent Simon és Szent Júdás apostol",
 	"ru_text",
 	"Св. Сымона і Юды, апосталаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_29_SDB[POCET_JAZYKOV + 1] =
@@ -12951,6 +13825,7 @@ const char *text_OKT_29_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_29_CZ[POCET_JAZYKOV + 1] =
@@ -12964,6 +13839,7 @@ const char *text_OKT_29_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_30_SJ[POCET_JAZYKOV + 1] =
@@ -12977,6 +13853,7 @@ const char *text_OKT_30_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_30_1_OP[POCET_JAZYKOV + 1] =
@@ -12990,6 +13867,7 @@ const char *text_OKT_30_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_30_2_OP[POCET_JAZYKOV + 1] =
@@ -13003,6 +13881,7 @@ const char *text_OKT_30_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_30_CZ[POCET_JAZYKOV + 1] =
@@ -13016,6 +13895,7 @@ const char *text_OKT_30_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_30_HU_OFM[POCET_JAZYKOV + 1] =
@@ -13029,6 +13909,7 @@ const char *text_OKT_30_HU_OFM[POCET_JAZYKOV + 1] =
 	"A saját templom fölszentelesenek évfordulója",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_31_SJ[POCET_JAZYKOV + 1] =
@@ -13042,6 +13923,7 @@ const char *text_OKT_31_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_31_OFM[POCET_JAZYKOV + 1] =
@@ -13055,6 +13937,7 @@ const char *text_OKT_31_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_OKT_31_CZ[POCET_JAZYKOV + 1] =
@@ -13067,6 +13950,7 @@ const char *text_OKT_31_CZ[POCET_JAZYKOV + 1] =
 	"Sv. Wolfganga, biskupa",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 	"",
 };
@@ -13081,6 +13965,7 @@ const char *text_OKT_31_HU[POCET_JAZYKOV + 1] =
 	"Boldog Romzsa Tódor püspök és vértanú",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -13097,6 +13982,7 @@ const char *text_NOV_01[POCET_JAZYKOV + 1] =
 	"Mindenszentek",
 	"ru_text",
 	"Усіх Святых",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_02[POCET_JAZYKOV + 1] =
@@ -13110,6 +13996,7 @@ const char *text_NOV_02[POCET_JAZYKOV + 1] =
 	"Halottak napja",
 	"ru_text",
 	"Успамін усіх памерлых вернікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_03[POCET_JAZYKOV + 1] =
@@ -13123,6 +14010,7 @@ const char *text_NOV_03[POCET_JAZYKOV + 1] =
 	"Porres Szent Márton szerzetes",
 	"ru_text",
 	"Св. Марціна дэ Порэса, законніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_03_SJ[POCET_JAZYKOV + 1] =
@@ -13136,6 +14024,7 @@ const char *text_NOV_03_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_03_OFM[POCET_JAZYKOV + 1] =
@@ -13149,6 +14038,7 @@ const char *text_NOV_03_OFM[POCET_JAZYKOV + 1] =
 	"Megemlékezés a Szeráfi Rend elhunytjairól", // HU: 24NOV
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_04[POCET_JAZYKOV + 1] =
@@ -13162,6 +14052,7 @@ const char *text_NOV_04[POCET_JAZYKOV + 1] =
 	"Borromeo Szent Károly püspök",
 	"ru_text",
 	"Св. Караля Барамэя, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_05_SK[POCET_JAZYKOV + 1] =
@@ -13175,6 +14066,7 @@ const char *text_NOV_05_SK[POCET_JAZYKOV + 1] =
 	"Szent Imre herceg",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_05_SJ[POCET_JAZYKOV + 1] =
@@ -13188,6 +14080,7 @@ const char *text_NOV_05_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_05_SDB[POCET_JAZYKOV + 1] =
@@ -13201,6 +14094,7 @@ const char *text_NOV_05_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_05_OP[POCET_JAZYKOV + 1] =
@@ -13214,6 +14108,7 @@ const char *text_NOV_05_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_06_OP[POCET_JAZYKOV + 1] =
@@ -13227,6 +14122,7 @@ const char *text_NOV_06_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_06_OFM[POCET_JAZYKOV + 1] =
@@ -13240,6 +14136,7 @@ const char *text_NOV_06_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_06_OCD[POCET_JAZYKOV + 1] =
@@ -13253,6 +14150,7 @@ const char *text_NOV_06_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_07_OCD[POCET_JAZYKOV + 1] =
@@ -13266,6 +14164,7 @@ const char *text_NOV_07_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_07_OP[POCET_JAZYKOV + 1] =
@@ -13279,6 +14178,7 @@ const char *text_NOV_07_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_08_OCD[POCET_JAZYKOV + 1] =
@@ -13292,6 +14192,7 @@ const char *text_NOV_08_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_08_OFM[POCET_JAZYKOV + 1] =
@@ -13305,6 +14206,7 @@ const char *text_NOV_08_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_08_OP[POCET_JAZYKOV + 1] =
@@ -13318,6 +14220,7 @@ const char *text_NOV_08_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_08_OPRAEM[POCET_JAZYKOV + 1] =
@@ -13331,6 +14234,7 @@ const char *text_NOV_08_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_09[POCET_JAZYKOV + 1] =
@@ -13344,6 +14248,7 @@ const char *text_NOV_09[POCET_JAZYKOV + 1] =
 	"A lateráni-bazilika felszentelése",
 	"ru_text",
 	"Гадавіна пасвячэння Латэранскай базылікі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_10[POCET_JAZYKOV + 1] =
@@ -13357,6 +14262,7 @@ const char *text_NOV_10[POCET_JAZYKOV + 1] =
 	"Nagy Szent Leó pápa és egyháztanító",
 	"ru_text",
 	"Св. Льва Вялікага, папы і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_11[POCET_JAZYKOV + 1] =
@@ -13370,6 +14276,7 @@ const char *text_NOV_11[POCET_JAZYKOV + 1] =
 	"Tours-i Szent Márton püspök",
 	"ru_text",
 	"Св. Марціна Турскага, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_12[POCET_JAZYKOV + 1] =
@@ -13383,6 +14290,7 @@ const char *text_NOV_12[POCET_JAZYKOV + 1] =
 	"Szent Jozafát püspök és vértanú",
 	"ru_text",
 	"Св. Язафата, біскупа і мучачніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_13_SDB[POCET_JAZYKOV + 1] =
@@ -13396,6 +14304,7 @@ const char *text_NOV_13_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_13_SJ[POCET_JAZYKOV + 1] =
@@ -13409,6 +14318,7 @@ const char *text_NOV_13_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Св. Станіслава Косткі, законніка", // BY: 18SEP
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_13_OFM[POCET_JAZYKOV + 1] =
@@ -13422,6 +14332,7 @@ const char *text_NOV_13_OFM[POCET_JAZYKOV + 1] =
 	"Alcalai Szent Didák, szerzetes az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_13_CZ[POCET_JAZYKOV + 1] =
@@ -13435,6 +14346,7 @@ const char *text_NOV_13_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_13_HU[POCET_JAZYKOV + 1] =
@@ -13448,6 +14360,7 @@ const char *text_NOV_13_HU[POCET_JAZYKOV + 1] =
 	"Magyar szentek és boldogok",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_14_OCD[POCET_JAZYKOV + 1] =
@@ -13461,6 +14374,7 @@ const char *text_NOV_14_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_14_SJ[POCET_JAZYKOV + 1] =
@@ -13474,6 +14388,7 @@ const char *text_NOV_14_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_14_OPRAEM[POCET_JAZYKOV + 1] =
@@ -13487,6 +14402,7 @@ const char *text_NOV_14_OPRAEM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_14_1_OP[POCET_JAZYKOV + 1] =
@@ -13500,6 +14416,7 @@ const char *text_NOV_14_1_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_14_2_OP[POCET_JAZYKOV + 1] =
@@ -13513,6 +14430,7 @@ const char *text_NOV_14_2_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_14_OFM[POCET_JAZYKOV + 1] =
@@ -13526,6 +14444,7 @@ const char *text_NOV_14_OFM[POCET_JAZYKOV + 1] =
 	"Tavelic Szent Miklós, pap és vértanú társai az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_15[POCET_JAZYKOV + 1] =
@@ -13539,6 +14458,7 @@ const char *text_NOV_15[POCET_JAZYKOV + 1] =
 	"Nagy Szent Albert püspök és egyháztanító",
 	"ru_text",
 	"Св. Альбэрта Вялікага, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_15_OCD[POCET_JAZYKOV + 1] =
@@ -13552,6 +14472,7 @@ const char *text_NOV_15_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_15_SDB[POCET_JAZYKOV + 1] =
@@ -13565,6 +14486,7 @@ const char *text_NOV_15_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_16_1[POCET_JAZYKOV + 1] =
@@ -13578,6 +14500,7 @@ const char *text_NOV_16_1[POCET_JAZYKOV + 1] =
 	"Skóciai Szent Margit",
 	"ru_text",
 	"Св. Маргарыты Шатландскай",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_16_2[POCET_JAZYKOV + 1] =
@@ -13591,6 +14514,7 @@ const char *text_NOV_16_2[POCET_JAZYKOV + 1] =
 	"Nagy Szent Gertrúd szűz", // HU 17NOV
 	"ru_text",
 	"Св. Гертруды, панны",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_16_BY[POCET_JAZYKOV + 1] =
@@ -13604,6 +14528,7 @@ const char *text_NOV_16_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Найсв. Панны Марыі, Маці Міласэрнасці " HTML_LINE_BREAK "(Маці Божай Вострабрамскай)",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_16_SJ[POCET_JAZYKOV + 1] =
@@ -13617,6 +14542,7 @@ const char *text_NOV_16_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_17[POCET_JAZYKOV + 1] =
@@ -13630,6 +14556,7 @@ const char *text_NOV_17[POCET_JAZYKOV + 1] =
 	"Árpád-házi Szent Erzsébet", // HU 19NOV
 	"ru_text",
 	"Св. Альжбеты Венгерскай, законніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_17_OFM[POCET_JAZYKOV + 1] =
@@ -13643,6 +14570,7 @@ const char *text_NOV_17_OFM[POCET_JAZYKOV + 1] =
 	"Árpádházi Szent Erzsébet a III. Rend Pátrónája", // HU: 19NOV
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_18[POCET_JAZYKOV + 1] =
@@ -13656,6 +14584,7 @@ const char *text_NOV_18[POCET_JAZYKOV + 1] =
 	"Szent Péter- és Szent Pál-bazilikák felszentelése",
 	"ru_text",
 	"Гадавіна пасвячэння рымскіх базылік " HTML_LINE_BREAK "св. апосталаў Пятра і Паўла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_18_OFM[POCET_JAZYKOV + 1] =
@@ -13669,6 +14598,7 @@ const char *text_NOV_18_OFM[POCET_JAZYKOV + 1] =
 	"Krakkói Boldog Szalome, szűz a II. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_19_OFM[POCET_JAZYKOV + 1] =
@@ -13682,6 +14612,7 @@ const char *text_NOV_19_OFM[POCET_JAZYKOV + 1] =
 	"Assisi Szent Ágnes, szűz A II. Rendből", // HU: 16NOV
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_19_OP[POCET_JAZYKOV + 1] =
@@ -13695,6 +14626,7 @@ const char *text_NOV_19_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_19_OCD[POCET_JAZYKOV + 1] =
@@ -13708,6 +14640,7 @@ const char *text_NOV_19_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_20_SK[POCET_JAZYKOV + 1] =
@@ -13721,6 +14654,7 @@ const char *text_NOV_20_SK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_20_BY[POCET_JAZYKOV + 1] =
@@ -13734,6 +14668,7 @@ const char *text_NOV_20_BY[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Св. Рафала Каліноўскага, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_21[POCET_JAZYKOV + 1] =
@@ -13747,6 +14682,7 @@ const char *text_NOV_21[POCET_JAZYKOV + 1] =
 	"A Boldogságos Szűz Mária bemutatása a templomban",
 	"ru_text",
 	"Ахвяраванне Найсв. Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_22[POCET_JAZYKOV + 1] =
@@ -13760,6 +14696,7 @@ const char *text_NOV_22[POCET_JAZYKOV + 1] =
 	"Szent Cecília szűz és vértanú",
 	"ru_text",
 	"Св. Цэцыліі, панны і мучаніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_23_1[POCET_JAZYKOV + 1] =
@@ -13773,6 +14710,7 @@ const char *text_NOV_23_1[POCET_JAZYKOV + 1] =
 	"Szent I. Kelemen pápa és vértanú",
 	"ru_text",
 	"Св. Клімэнта I, папы і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_23_2[POCET_JAZYKOV + 1] =
@@ -13786,6 +14724,7 @@ const char *text_NOV_23_2[POCET_JAZYKOV + 1] =
 	"Szent Kolumbán apát",
 	"ru_text",
 	"Св. Калюмбана, абата",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_23_SJ[POCET_JAZYKOV + 1] =
@@ -13799,6 +14738,7 @@ const char *text_NOV_23_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_24[POCET_JAZYKOV + 1] =
@@ -13812,6 +14752,7 @@ const char *text_NOV_24[POCET_JAZYKOV + 1] =
 	"Dung-Lac Szent András áldozópap és társai vértanúk",
 	"ru_text",
 	"Св. Андрэя Зунг Лака, прэзбітэра, " HTML_LINE_BREAK "і паплечнікаў, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_24_OP[POCET_JAZYKOV + 1] =
@@ -13825,6 +14766,7 @@ const char *text_NOV_24_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_25[POCET_JAZYKOV + 1] =
@@ -13838,6 +14780,7 @@ const char *text_NOV_25[POCET_JAZYKOV + 1] =
 	"Alexandriai Szent Katalin szűz és vértanú",
 	"ru_text",
 	"Св. Кацярыны Александрыйскай, панны і мучаніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_25_HU[POCET_JAZYKOV + 1] =
@@ -13851,6 +14794,7 @@ const char *text_NOV_25_HU[POCET_JAZYKOV + 1] =
 	"A bazilika-székesegyház felszentelése",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_25_SDB[POCET_JAZYKOV + 1] =
@@ -13864,6 +14808,7 @@ const char *text_NOV_25_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_26_SJ[POCET_JAZYKOV + 1] =
@@ -13877,6 +14822,7 @@ const char *text_NOV_26_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_26_OFM[POCET_JAZYKOV + 1] =
@@ -13890,6 +14836,7 @@ const char *text_NOV_26_OFM[POCET_JAZYKOV + 1] =
 	"Portomauriziói Szent Lénárd, pap az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_27_OFM[POCET_JAZYKOV + 1] =
@@ -13903,6 +14850,7 @@ const char *text_NOV_27_OFM[POCET_JAZYKOV + 1] =
 	"Fasani Szent Ferenc Antal áldozópap az I. rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_27_OP[POCET_JAZYKOV + 1] =
@@ -13916,6 +14864,7 @@ const char *text_NOV_27_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_27_CM[POCET_JAZYKOV + 1] =
@@ -13929,6 +14878,7 @@ const char *text_NOV_27_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_28_CM[POCET_JAZYKOV + 1] =
@@ -13942,6 +14892,7 @@ const char *text_NOV_28_CM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_28_OFM[POCET_JAZYKOV + 1] =
@@ -13955,6 +14906,7 @@ const char *text_NOV_28_OFM[POCET_JAZYKOV + 1] =
 	"Marchiai Szent Jakab, pap az I. Rendből",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_28_HU[POCET_JAZYKOV + 1] =
@@ -13968,6 +14920,7 @@ const char *text_NOV_28_HU[POCET_JAZYKOV + 1] =
 	"Marchiai Szent Jakab áldozópap",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_29_OFM[POCET_JAZYKOV + 1] =
@@ -13981,6 +14934,7 @@ const char *text_NOV_29_OFM[POCET_JAZYKOV + 1] =
 	"A szeráfi rend összes szentjei",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_29_OCD[POCET_JAZYKOV + 1] =
@@ -13994,6 +14948,7 @@ const char *text_NOV_29_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_NOV_30[POCET_JAZYKOV + 1] =
@@ -14007,6 +14962,7 @@ const char *text_NOV_30[POCET_JAZYKOV + 1] =
 	"Szent András apostol",
 	"ru_text",
 	"Св. Андрэя, апостала",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -14023,6 +14979,7 @@ const char *text_DEC_01_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_01_OP[POCET_JAZYKOV + 1] =
@@ -14036,6 +14993,7 @@ const char *text_DEC_01_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_01_CZ[POCET_JAZYKOV + 1] =
@@ -14049,6 +15007,7 @@ const char *text_DEC_01_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_02_CZ[POCET_JAZYKOV + 1] =
@@ -14062,6 +15021,7 @@ const char *text_DEC_02_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_02_1_OFM[POCET_JAZYKOV + 1] =
@@ -14075,6 +15035,7 @@ const char *text_DEC_02_1_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_02_2_OFM[POCET_JAZYKOV + 1] =
@@ -14088,6 +15049,7 @@ const char *text_DEC_02_2_OFM[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_03[POCET_JAZYKOV + 1] =
@@ -14101,6 +15063,7 @@ const char *text_DEC_03[POCET_JAZYKOV + 1] =
 	"Xavéri Szent Ferenc áldozópap",
 	"ru_text",
 	"Св. Фрацішка Ксавэрыя, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_03_SJ[POCET_JAZYKOV + 1] =
@@ -14114,6 +15077,7 @@ const char *text_DEC_03_SJ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_04[POCET_JAZYKOV + 1] =
@@ -14127,6 +15091,7 @@ const char *text_DEC_04[POCET_JAZYKOV + 1] =
 	"Damaszkuszi Szent János áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Яна Дамаскіна, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_04_2[POCET_JAZYKOV + 1] =
@@ -14140,6 +15105,7 @@ const char *text_DEC_04_2[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_05_SDB[POCET_JAZYKOV + 1] =
@@ -14153,6 +15119,7 @@ const char *text_DEC_05_SDB[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_06[POCET_JAZYKOV + 1] =
@@ -14166,6 +15133,7 @@ const char *text_DEC_06[POCET_JAZYKOV + 1] =
 	"Szent Miklós püspök",
 	"ru_text",
 	"Св. Мікалая, біскупа",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_07[POCET_JAZYKOV + 1] =
@@ -14179,6 +15147,7 @@ const char *text_DEC_07[POCET_JAZYKOV + 1] =
 	"Szent Ambrus püspök és egyháztanító",
 	"ru_text",
 	"Св. Амброзія, біскупа і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_08[POCET_JAZYKOV + 1] =
@@ -14192,6 +15161,7 @@ const char *text_DEC_08[POCET_JAZYKOV + 1] =
 	"A Boldogságos Szűz Mária szeplőtelen fogantatása",
 	"ru_text",
 	"Беззаганнага зачацця Найсв. Панны Марыі",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_09[POCET_JAZYKOV + 1] =
@@ -14205,6 +15175,7 @@ const char *text_DEC_09[POCET_JAZYKOV + 1] =
 	"Szent Juan Diego Cuauhtlatoatzin, Guadalupei látnok",
 	"ru_text",
 	"Св. Яна Дзідаха Куаухтлатоацына",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_11[POCET_JAZYKOV + 1] =
@@ -14218,6 +15189,7 @@ const char *text_DEC_11[POCET_JAZYKOV + 1] =
 	"Szent I. Damazusz pápa",
 	"ru_text",
 	"Св. Дамаса I, папы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_11_OCD[POCET_JAZYKOV + 1] =
@@ -14231,6 +15203,7 @@ const char *text_DEC_11_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_12[POCET_JAZYKOV + 1] =
@@ -14244,6 +15217,7 @@ const char *text_DEC_12[POCET_JAZYKOV + 1] =
 	"A Guadalupei Boldogságos Szűz Mária",
 	"ru_text",
 	"Найсв. Панны Марыі з Гвадэлупы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_13[POCET_JAZYKOV + 1] =
@@ -14257,6 +15231,7 @@ const char *text_DEC_13[POCET_JAZYKOV + 1] =
 	"Szent Lúcia szűz és vértanú",
 	"ru_text",
 	"Св. Люцыі, панны і мучаніцы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_14[POCET_JAZYKOV + 1] =
@@ -14270,6 +15245,7 @@ const char *text_DEC_14[POCET_JAZYKOV + 1] =
 	"Keresztes Szent János áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Яна ад Крыжа, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_14_OCD[POCET_JAZYKOV + 1] =
@@ -14283,6 +15259,7 @@ const char *text_DEC_14_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_16_OP[POCET_JAZYKOV + 1] =
@@ -14296,6 +15273,7 @@ const char *text_DEC_16_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_16_OCD[POCET_JAZYKOV + 1] =
@@ -14309,6 +15287,7 @@ const char *text_DEC_16_OCD[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_21[POCET_JAZYKOV + 1] =
@@ -14322,6 +15301,7 @@ const char *text_DEC_21[POCET_JAZYKOV + 1] =
 	"Kaníziusz Szent Péter áldozópap és egyháztanító",
 	"ru_text",
 	"Св. Пятра Канізія, прэзбітэра і доктара Касцёла",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_22_CZ[POCET_JAZYKOV + 1] =
@@ -14335,6 +15315,7 @@ const char *text_DEC_22_CZ[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_22_OP[POCET_JAZYKOV + 1] =
@@ -14348,6 +15329,7 @@ const char *text_DEC_22_OP[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_23[POCET_JAZYKOV + 1] =
@@ -14361,6 +15343,7 @@ const char *text_DEC_23[POCET_JAZYKOV + 1] =
 	"K&#281;ty Szent János áldozópap",
 	"ru_text",
 	"Св. Яна Кенцкага, прэзбітэра",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_26[POCET_JAZYKOV + 1] =
@@ -14374,6 +15357,7 @@ const char *text_DEC_26[POCET_JAZYKOV + 1] =
 	"Szent István első vértanú",
 	"ru_text",
 	"Св. Стэфана, першамучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_27[POCET_JAZYKOV + 1] =
@@ -14387,6 +15371,7 @@ const char *text_DEC_27[POCET_JAZYKOV + 1] =
 	"Szent János apostol és evangélista",
 	"ru_text",
 	"Св. Яна, апостала і евангеліста",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_28[POCET_JAZYKOV + 1] =
@@ -14400,6 +15385,7 @@ const char *text_DEC_28[POCET_JAZYKOV + 1] =
 	"Aprószentek",
 	"ru_text",
 	"Св. Немаўлят, мучанікаў",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_29[POCET_JAZYKOV + 1] =
@@ -14413,6 +15399,7 @@ const char *text_DEC_29[POCET_JAZYKOV + 1] =
 	"Becket Szent Tamás püspök és vértanú",
 	"ru_text",
 	"Св. Томаса Бекета, біскупа і мучаніка",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_DEC_31[POCET_JAZYKOV + 1] =
@@ -14426,6 +15413,7 @@ const char *text_DEC_31[POCET_JAZYKOV + 1] =
 	"Szent I. Szilveszter pápa",
 	"ru_text",
 	"Св. Сільвэстра I, папы",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 
@@ -14442,6 +15430,7 @@ const char *text_VELKY_PONDELOK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Вялікі панядзелак",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_VELKY_UTOROK[POCET_JAZYKOV + 1] =
@@ -14455,6 +15444,7 @@ const char *text_VELKY_UTOROK[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Вялікі аўторак",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_VELKA_STREDA[POCET_JAZYKOV + 1] =
@@ -14468,6 +15458,7 @@ const char *text_VELKA_STREDA[POCET_JAZYKOV + 1] =
 	"",
 	"ru_text",
 	"Вялікая серада",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_ZELENY_STVRTOK[POCET_JAZYKOV + 1] =
@@ -14481,6 +15472,7 @@ const char *text_ZELENY_STVRTOK[POCET_JAZYKOV + 1] =
 	"Nagycsütörtök",
 	"ru_text",
 	"Вялікі чацвер",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_VELKY_PIATOK[POCET_JAZYKOV + 1] =
@@ -14494,6 +15486,7 @@ const char *text_VELKY_PIATOK[POCET_JAZYKOV + 1] =
 	"Nagypéntek",
 	"ru_text",
 	"Вялікая пятніца Мукі Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_BIELA_SOBOTA[POCET_JAZYKOV + 1] =
@@ -14507,6 +15500,7 @@ const char *text_BIELA_SOBOTA[POCET_JAZYKOV + 1] =
 	"Nagyszombat",
 	"ru_text",
 	"Вялікая субота",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_KVETNA_NEDELA[POCET_JAZYKOV + 1] =
@@ -14520,6 +15514,7 @@ const char *text_KVETNA_NEDELA[POCET_JAZYKOV + 1] =
 	"Virágvasárnap, vagyis az Úr szenvedésének vasárnapja",
 	"ru_text",
 	"Пальмовая нядзеля альбо нядзеля Мукі Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_PO_POPOLCOVEJ_STREDE[POCET_JAZYKOV + 1] =
@@ -14533,6 +15528,7 @@ const char *text_PO_POPOLCOVEJ_STREDE[POCET_JAZYKOV + 1] =
 	"Hamvazószerda után",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_V_OKTAVE_NARODENIA[POCET_JAZYKOV + 1] =
@@ -14546,6 +15542,7 @@ const char *text_V_OKTAVE_NARODENIA[POCET_JAZYKOV + 1] =
 	"Karácsony nyolcada",
 	"ru_text",
 	"ў актаве Нараджэння Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_KONIEC_OKTAVY_NARODENIA_PANA[POCET_JAZYKOV + 1] =
@@ -14559,6 +15556,7 @@ const char *text_KONIEC_OKTAVY_NARODENIA_PANA[POCET_JAZYKOV + 1] =
 	"Karácsony nyolcada – Kiskarácsony",
 	"ru_text",
 	"канец Актавы нараджэння Пана",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 const char *text_LEN_V_KONSEKROVANYCH_KOSTOLOCH[POCET_JAZYKOV + 1] =
@@ -14572,6 +15570,7 @@ const char *text_LEN_V_KONSEKROVANYCH_KOSTOLOCH[POCET_JAZYKOV + 1] =
 	"csak a felszentelt templomokban",
 	"ru_text",
 	"by_text",
+	"text_pl",
 	/* STRING_2_FOR_NEW_LANGUAGE */
 };
 

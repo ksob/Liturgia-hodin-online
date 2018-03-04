@@ -32,7 +32,7 @@
 
 // number of supported languages | Warning: for all string constants we use arrays [POCET_JAZYKOV + 1] => be careful when incrementing POCET_JAZYKOV!
 /* INCREMENT_FOR_NEW_LANGUAGE */
-#define	POCET_JAZYKOV	     8
+#define	POCET_JAZYKOV	     9
 
 // when adding new language, the following comments MUST BE replaced:
 // 

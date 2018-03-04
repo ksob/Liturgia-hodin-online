@@ -66,11 +66,13 @@
 #define JAZYK_HU    6
 #define JAZYK_RU    7
 #define JAZYK_BY    8
+#define JAZYK_PL_PG 9
 /* ADD_VALUE_FOR_NEW_LANGUAGE */
 
 // rite for languages
 const short int ritus_jazyka[POCET_JAZYKOV + 1] =
 {
+	RITUS_RIM_KAT,
 	RITUS_RIM_KAT,
 	RITUS_RIM_KAT,
 	RITUS_RIM_KAT,
@@ -1095,6 +1097,7 @@ const short int default_kalendar[POCET_JAZYKOV + 1] =
 	KALENDAR_VSEOBECNY_HU,
 	KALENDAR_VSEOBECNY_RU,
 	KALENDAR_VSEOBECNY_BY,
+	/* ToDo */ KALENDAR_VSEOBECNY,
 	/* ADD_VALUE_FOR_NEW_LANGUAGE */
 };
 
